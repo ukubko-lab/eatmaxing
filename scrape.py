@@ -16,7 +16,7 @@ MAX_PAGES = 10                     # kolik nalezenych odkazu na akce se projde
 FOOD_ONLY = True                   # nechat jen potraviny a napoje (False = vse)
 
 STORES = {
-    "Albert": {"origin": "https://www.albert.cz", "starts": ["https://www.albert.cz/aktualni-letaky", "https://www.albert.cz/"]},
+    "Albert": {"origin": "https://www.albert.cz", "starts": ["https://www.albert.cz/aktualni-letaky", "https://www.albert.cz/", "https://www.albert.cz/shop"]},
     "Lidl":   {"origin": "https://www.lidl.cz",   "starts": ["https://www.lidl.cz/"]},
     "Billa":  {"origin": "https://www.billa.cz",  "starts": ["https://www.billa.cz/"]},
 }
@@ -25,7 +25,7 @@ KEY = re.compile(r"akc|nab[ií]dk|slev|let[aá]k|super-cen|ceny-v-klidu|hity", r
 PRIORITY = re.compile(r"nabidka|hity|ceny-v-klidu|super-cen|potravin|slevy|akce", re.I)
 SKIP = re.compile(r"\.(pdf|jpe?g|png|zip)(\?|$)|^(mailto|tel):|login|prihlas|kosik|obchodni-podm|cookie|"
                   r"moda|query|magazin|whatsapp|kuchyn|bydlen|sport|detsk|dilna|zahrada|nabytek|vanocni-svet", re.I)
-BAD_NAME = re.compile(r"hvězdič|hodnocení|sleva|ušetř|Lidl Plus|Cenový hit|%|Kč|CZK|do vyprodání|novinka|zobrazit|"
+BAD_NAME = re.compile(r"chevron|favorite|^[a-z]+(_[a-z]+)+$|hvězdič|hodnocení|sleva|ušetř|Lidl Plus|Cenový hit|%|Kč|CZK|do vyprodání|novinka|zobrazit|"
                       r"přidat|košík|zdarma|^\(?\d|^-", re.I)
 FOOD = re.compile(
     r"maso|kuř|vepř|hověz|krůt|šunk|salám|klobás|párek|párk|uzen|slanin|kost|řízek|mlet|ryb|losos|tuňák|krevet|"
@@ -144,20 +144,24 @@ def num(s):
     return float(s.replace(",", "."))
 
 
+UNIT = re.compile(r"^\s*\d+(?:[.,]\d+)?\s*(?:kg|g|l|ml|ks)\b", re.I)
+
+
 def parse_card(text):
+    """Z bloku textu vezme PRVNI produkt (blok muze obsahovat i dalsi) a vrati nazev, cenu a puvodni cenu."""
     lines = [l.strip() for l in text.splitlines() if l.strip()]
-    # cena v "pristupnem" nazvu: "... pro 999 CZK"
     m = re.search(r"\bpro\s+(\d{1,4}(?:[.,]\d{1,2})?)\s*(?:CZK|Kč)", text)
     cur = num(m.group(1)) if m else None
-    name = None
+    name, prices = None, []
     for l in lines:
         l2 = PRO.sub("", l).strip()
         if len(re.findall(r"[A-Za-zÀ-ž]", l2)) >= 5 and not BAD_NAME.search(l2):
-            name = l2
-            break
-    prices = []
-    for l in lines:
-        if re.search(r"sleva|ušetř", l, re.I):      # "600 Kč sleva" je vyse slevy, ne cena
+            if name is None:
+                name = l2
+            elif l2 != name and len(set(prices)) >= 2:
+                break                                   # zacina dalsi produkt
+            continue
+        if re.search(r"sleva|ušetř", l, re.I) or UNIT.search(l):   # vyse slevy / cena za kg nejsou cena
             continue
         prices += [num(x.group(1)) for x in CUR.finditer(l)]
     prices = [p for p in prices if 1 <= p < 5000]
@@ -312,6 +316,9 @@ def scrape(page, name, cfg):
     print(f"   vyrazeno jako nepotraviny (celkem do ted): {dropped['nepotravina']}")
     for r in rej:
         print("   zamitnuto ->", r)
+    if len(deals) < 20:                      # ukazka JSON odpovedi, aby sel zjistit format dat
+        for url, got, found, size, body in sorted(log, key=lambda x: -x[3])[:3]:
+            print(f"   JSON {size} B {url}\n      {json.dumps(body, ensure_ascii=False)[:900]}")
     pathlib.Path("debug").mkdir(exist_ok=True)
     with open(f"debug/json_{name}.txt", "w", encoding="utf-8") as f:
         for url, got, found, size, body in sorted(log, key=lambda x: -x[3]):
