@@ -5,7 +5,7 @@ starsi nez ~2 dny (nebo kdyz se pusti s --force). Kdyz jeden obchod selze, zusta
 
 Skript zacne na uvodni strance obchodu, najde odkazy na akce/letaky/nabidky, projde je
 a z kazde stranky vytahne potraviny s cenou a puvodni cenou. Do logu vypisuje, co nasel.
-Pri selhani ulozi do slozky debug/ screenshot a HTML (v Actions ke stazeni jako Artifact)."""
+Pri selhani ulozi do slozky debug/ screenshot, HTML a prehled JSON odpovedi (Artifact v Actions)."""
 import json, re, sys, pathlib, datetime as dt
 from urllib.parse import urljoin
 from playwright.sync_api import sync_playwright
@@ -69,6 +69,77 @@ LINKS_JS = r"""() => [...document.querySelectorAll('a[href]')].map(a => ({h: a.h
 dropped = {"nepotravina": 0}
 
 
+# --- cteni produktu primo z JSON odpovedi, ktere stranka stahuje na pozadi ---
+NAMEK = ("fullTitle", "title", "name", "productName", "label")
+CURK = {"price", "saleprice", "discountprice", "currentprice", "discountedprice", "specialprice", "pricenow"}
+OLDK = {"oldprice", "regularprice", "originalprice", "beforeprice", "strikeprice", "listprice", "normalprice",
+        "previousprice", "pricebefore", "strikethroughprice"}
+rej = []
+
+
+def reject(reason, text):
+    if len(rej) < 14:
+        rej.append(reason + ": " + " | ".join(text.split("\n"))[:150])
+
+
+def nk(k):
+    return re.sub(r"[^a-z]", "", k.lower())
+
+
+def find_price(d, depth=0):
+    cur = old = None
+    for k, v in d.items():
+        n = nk(k)
+        if isinstance(v, (int, float)) and not isinstance(v, bool):
+            if n in CURK and cur is None:
+                cur = float(v)
+            elif n in OLDK and old is None:
+                old = float(v)
+        elif isinstance(v, dict) and depth < 3:
+            c, o = find_price(v, depth + 1)
+            cur = cur if cur is not None else c
+            old = old if old is not None else o
+    return cur, old
+
+
+def img_of(d):
+    for k, v in d.items():
+        if "image" in k.lower():
+            if isinstance(v, str) and v.startswith("http"):
+                return v
+            if isinstance(v, list) and v and isinstance(v[0], str) and v[0].startswith("http"):
+                return v[0]
+    return None
+
+
+def walk(node, out, depth=0):
+    if depth > 12:
+        return
+    if isinstance(node, dict):
+        name = next((node[k] for k in NAMEK if isinstance(node.get(k), str) and 3 < len(node[k]) < 120), None)
+        if name:
+            c, o = find_price(node)
+            if c and o and o > c and o / c <= 6:
+                out.append({"n": name.strip(), "p": c, "o": o, "img": img_of(node)})
+        for v in node.values():
+            walk(v, out, depth + 1)
+    elif isinstance(node, list):
+        for v in node[:600]:
+            walk(v, out, depth + 1)
+
+
+def attach(page, store):
+    def on(resp):
+        try:
+            if resp.request.resource_type in ("xhr", "fetch") and "json" in (resp.headers.get("content-type") or ""):
+                if len(store) < 120:
+                    store.append((resp.url, resp.json()))
+        except Exception:
+            pass
+    page.on("response", on)
+    return on
+
+
 def num(s):
     return float(s.replace(",", "."))
 
@@ -115,18 +186,32 @@ def accept_cookies(page):
         pass
 
 
-def add(deals, seen, text, img, base):
-    d = parse_card(text)
-    if not d or d["n"] in seen:
+def add_item(deals, seen, it, base):
+    name = PRO.sub("", it["n"]).strip()
+    if not name or name in seen:
         return 0
-    if FOOD_ONLY and not FOOD.search(d["n"]):
+    if FOOD_ONLY and not FOOD.search(name):
         dropped["nepotravina"] += 1
+        reject("nepotravina", f"{name} {it['p']}/{it['o']}")
         return 0
-    if img and not img.startswith("data:"):
-        d["img"] = urljoin(base, img)
-    seen.add(d["n"])
+    d = {"n": name[:70], "e": next((e for k, e in EMOJI.items() if k in name.lower()), "🛒"), "p": it["p"], "o": it["o"]}
+    if it.get("v"):
+        d["v"] = it["v"]
+    if it.get("img") and not it["img"].startswith("data:"):
+        d["img"] = urljoin(base, it["img"])
+    seen.add(name)
     deals.append(d)
     return 1
+
+
+def add(deals, seen, text, img, base):
+    d = parse_card(text)
+    if not d:
+        if CUR.search(text):
+            reject("parse", text)
+        return 0
+    d["img"] = img
+    return add_item(deals, seen, d, base)
 
 
 def extract(page, deals, seen):
@@ -176,30 +261,63 @@ def debug(page, name):
         print("   debug se nepodarilo ulozit:", e)
 
 
-def scrape(page, name, cfg):
-    deals, seen, cand = [], set(), []
-    for i, start in enumerate(cfg["starts"]):
-        page.goto(start, wait_until="domcontentloaded", timeout=60000)
-        n = extract(page, deals, seen)
-        print(f"   start {start}: {n} potravin")
-        if n < 5 and i == 0:
-            debug(page, name)
-        for u in promo_links(page, cfg["origin"]):
-            if u not in cand:
-                cand.append(u)
-    cand.sort(key=lambda u: 0 if PRIORITY.search(u) else 1)
-    print(f"   nalezene odkazy na akce ({len(cand)}):")
-    for u in cand[:20]:
-        print("     ", u)
-    for u in cand[:MAX_PAGES]:
-        if len(deals) >= 120:
-            break
+def drain(js, deals, seen, base, log):
+    n = 0
+    for url, body in js:
+        found = []
+        walk(body, found)
+        got = sum(add_item(deals, seen, it, base) for it in found)
         try:
-            page.goto(u, wait_until="domcontentloaded", timeout=60000)
-            print(f"   {u} -> {extract(page, deals, seen)} potravin")
-        except Exception as e:
-            print(f"   {u} chyba: {str(e)[:80]}")
+            size = len(json.dumps(body))
+        except Exception:
+            size = 0
+        log.append((url, got, len(found), size, body))
+        n += got
+    js.clear()
+    return n
+
+
+def scrape(page, name, cfg):
+    deals, seen, cand, js, log = [], set(), [], [], []
+    rej.clear()
+    on = attach(page, js)
+    try:
+        for i, start in enumerate(cfg["starts"]):
+            page.goto(start, wait_until="domcontentloaded", timeout=60000)
+            n = extract(page, deals, seen)
+            m = drain(js, deals, seen, page.url, log)
+            print(f"   start {start}: {n} z DOM, {m} z JSON")
+            if n + m < 5 and i == 0:
+                debug(page, name)
+            for u in promo_links(page, cfg["origin"]):
+                if u not in cand:
+                    cand.append(u)
+        cand.sort(key=lambda u: 0 if PRIORITY.search(u) else 1)
+        print(f"   nalezene odkazy na akce ({len(cand)}):")
+        for u in cand[:20]:
+            print("     ", u)
+        for u in cand[:MAX_PAGES]:
+            if len(deals) >= 120:
+                break
+            try:
+                page.goto(u, wait_until="domcontentloaded", timeout=60000)
+                n = extract(page, deals, seen)
+                m = drain(js, deals, seen, page.url, log)
+                print(f"   {u} -> {n} z DOM, {m} z JSON")
+            except Exception as e:
+                print(f"   {u} chyba: {str(e)[:80]}")
+    finally:
+        page.remove_listener("response", on)
+    print(f"   JSON odpovedi: {len(log)}, z nich s produkty: {sum(1 for x in log if x[2])}")
     print(f"   vyrazeno jako nepotraviny (celkem do ted): {dropped['nepotravina']}")
+    for r in rej:
+        print("   zamitnuto ->", r)
+    pathlib.Path("debug").mkdir(exist_ok=True)
+    with open(f"debug/json_{name}.txt", "w", encoding="utf-8") as f:
+        for url, got, found, size, body in sorted(log, key=lambda x: -x[3]):
+            f.write(f"{size:>8} B  produktu:{found} pridano:{got}  {url}\n")
+        for url, got, found, size, body in sorted(log, key=lambda x: -x[3])[:4]:
+            f.write(f"\n=== {url}\n{json.dumps(body, ensure_ascii=False)[:3000]}\n")
     return deals[:150]
 
 
