@@ -1,8 +1,8 @@
 name: Update leaflets
 on:
   schedule:
-    - cron: "0 5 * * *"
-  workflow_dispatch: {}
+    - cron: "0 5 * * *"        # kazdy den o 5:00 UTC; skript sam obnovi data jen kazdy 2. den
+  workflow_dispatch: {}         # rucni spusteni tlacitkem (vynuti aktualizaci)
 permissions:
   contents: write
 jobs:
@@ -14,6 +14,12 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install playwright && playwright install --with-deps chromium
       - run: python scrape.py ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: debug
+          path: debug/
+          if-no-files-found: ignore
       - run: |
           git config user.name "leaflet-bot"
           git config user.email "bot@users.noreply.github.com"
