@@ -4,10 +4,990 @@
    "status": "error"
   },
   "Lidl": {
-   "status": "error"
+   "updated": "2026-11-14T13:49:26.957557+00:00",
+   "valid": "aktuální",
+   "status": "ok",
+   "deals": [
+    {
+     "n": "Elektrická řetězová pila PEKS 2200 C2 pro 999 CZK",
+     "e": "🛒",
+     "p": 600.0,
+     "o": 1599.0,
+     "img": "https://www.lidl.cz/assets/gcpbf51788ea02d437798314d5ad3a32282.jpg"
+    },
+    {
+     "n": "(147)",
+     "e": "🛒",
+     "p": 600.0,
+     "o": 1599.0
+    },
+    {
+     "n": "600 Kč sleva",
+     "e": "🛒",
+     "p": 600.0,
+     "o": 1599.0
+    },
+    {
+     "n": "Dózy na těsto na pizzu, 4 kusy pro 129.9 CZK",
+     "e": "🍝",
+     "p": 129.9,
+     "o": 229.9,
+     "img": "https://www.lidl.cz/assets/gcpaf228ff8b27b4dbd87274bdb12e90300.jpg"
+    },
+    {
+     "n": "(33)",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 229.9
+    },
+    {
+     "n": "Dětské body s dlouhými rukávy, 5 kusů pro 149.9 CZK",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 229.9,
+     "img": "https://www.lidl.cz/assets/gcp6932ab8144cd49b19289cde71b60d552.jpg"
+    },
+    {
+     "n": "4.3 z 5 hvězdiček (6 celkové hodnocení)",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 229.9
+    },
+    {
+     "n": "Dámské funkční triko pro 79.9 CZK",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 129.9,
+     "img": "https://www.lidl.cz/assets/gcp2bc118a66203429b861c179de7bc0919.jpg"
+    },
+    {
+     "n": "(14)",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 129.9
+    },
+    {
+     "n": "Hebká deka, 130 x 170 cm pro 129.9 CZK",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 229.9,
+     "img": "https://www.lidl.cz/assets/gcp782c23ccb490442eaf362f80f3aea8b4.jpg"
+    },
+    {
+     "n": "(13)",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 229.9
+    },
+    {
+     "n": "Dámský prošívaný termo kabát Premium pro 479.9 CZK",
+     "e": "🛒",
+     "p": 479.9,
+     "o": 579.9,
+     "img": "https://www.lidl.cz/assets/gcpf7d5e8d78d34406481103ae594a7da28.png"
+    },
+    {
+     "n": "(100)",
+     "e": "🛒",
+     "p": 479.9,
+     "o": 579.9
+    },
+    {
+     "n": "Dámské punčochové kalhoty s vnitřní stranou v tělové barvě 7",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 179.9,
+     "img": "https://www.lidl.cz/assets/gcpa4466e65e60e4588886572210a377aeb.png"
+    },
+    {
+     "n": "(43)",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 179.9
+    },
+    {
+     "n": "Dámské termo triko s dlouhými rukávy pro 99.9 CZK",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9,
+     "img": "https://www.lidl.cz/assets/gcp681137762c904432988d88a7d890376a.jpg"
+    },
+    {
+     "n": "(46)",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "Dámské vánoční úpletové šaty pro 109.9 CZK",
+     "e": "🛒",
+     "p": 109.9,
+     "o": 299.9,
+     "img": "https://www.lidl.cz/assets/gcpb7a941f146da4b12bf8e1f9c3a8c7f30.jpg"
+    },
+    {
+     "n": "(30)",
+     "e": "🛒",
+     "p": 109.9,
+     "o": 299.9
+    },
+    {
+     "n": "Pánské ponožky s BIO bavlnou, 7 párů pro 149.9 CZK",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 169.9,
+     "img": "https://www.lidl.cz/assets/gcpab14501ff8d6441ab93cde1beb98789f.jpg"
+    },
+    {
+     "n": "(27)",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 169.9
+    },
+    {
+     "n": "Startovací zdroj s powerbankou a kompresorem UPK 10 H5 pro 9",
+     "e": "🛒",
+     "p": 800.0,
+     "o": 1799.0,
+     "img": "https://www.lidl.cz/assets/gcp147fe75ac3e740b09c824e7243f55630.jpg"
+    },
+    {
+     "n": "800 Kč sleva",
+     "e": "🛒",
+     "p": 800.0,
+     "o": 1799.0
+    },
+    {
+     "n": "Gumové těsnění pro 49.9 CZK",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 69.9,
+     "img": "https://www.lidl.cz/assets/gcp9ca01ee21437438d874eb6f1f8d64816.jpg"
+    },
+    {
+     "n": "(10)",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 69.9
+    },
+    {
+     "n": "Sada rázových nástrčných klíčů / Adaptér pro rázový utahovák",
+     "e": "🛒",
+     "p": 199.9,
+     "o": 249.9,
+     "img": "https://www.lidl.cz/assets/gcp7646dea85d7e409dbc62da40e15a6edb.jpg"
+    },
+    {
+     "n": "(109)",
+     "e": "🛒",
+     "p": 199.9,
+     "o": 249.9
+    },
+    {
+     "n": "Ochranná plachta na auto pro 329.9 CZK",
+     "e": "🛒",
+     "p": 329.9,
+     "o": 349.9,
+     "img": "https://www.lidl.cz/assets/gcp78107267435c420099556ae6bdd11f3f.jpg"
+    },
+    {
+     "n": "(300)",
+     "e": "🛒",
+     "p": 329.9,
+     "o": 349.9
+    },
+    {
+     "n": "Ultrazvukový aroma difuzér LADGZ 12 A1, LADGB 12 A1 pro 149.",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 169.9,
+     "img": "https://www.lidl.cz/assets/gcp71c1cfb21f624499b2047a9ff29ec38b.jpg"
+    },
+    {
+     "n": "Odvlhčovač vzduchu 10L TLE 200 B3 KAT pro 2049 CZK",
+     "e": "🛒",
+     "p": 50.0,
+     "o": 2099.0,
+     "img": "https://www.lidl.cz/assets/gcpff96acc8955349009bc4f1d6bbac4bf4.png"
+    },
+    {
+     "n": "(35)",
+     "e": "🛒",
+     "p": 50.0,
+     "o": 2099.0
+    },
+    {
+     "n": "50 Kč sleva",
+     "e": "🛒",
+     "p": 50.0,
+     "o": 2099.0
+    },
+    {
+     "n": "Dětské pyžamo pro 99.9 CZK",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 1890.0,
+     "img": "https://www.lidl.cz/assets/gcp62c77ac51a7d49e3b3ca1381bd42e29e.jpg"
+    },
+    {
+     "n": "(61)",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "Dětské softshellové kalhoty s podšívkou pro 229.9 CZK",
+     "e": "🛒",
+     "p": 229.9,
+     "o": 249.9,
+     "img": "https://www.lidl.cz/assets/gcpfb5476de785840faa320a33341e4bea8.jpg"
+    },
+    {
+     "n": "(15)",
+     "e": "🛒",
+     "p": 229.9,
+     "o": 249.9
+    },
+    {
+     "n": "Sada sponek / hřebíků PHETZ 3 B2 pro 19.9 CZK",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 79.9,
+     "img": "https://www.lidl.cz/assets/gcp29f70554cb444416ae97bd987fc7b1bb.jpg"
+    },
+    {
+     "n": "(93)",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 79.9
+    },
+    {
+     "n": "Sada dřevěných potravin pro 129.9 CZK",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9,
+     "img": "https://www.lidl.cz/assets/gcpca94ead2322945818f69834a508346eb.jpg"
+    },
+    {
+     "n": "(1482)",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9
+    },
+    {
+     "n": "Výrobník sody Gaia Black pro 1290 CZK",
+     "e": "🛒",
+     "p": 600.0,
+     "o": 1890.0,
+     "img": "https://www.lidl.cz/assets/gcp79a28390757c4f7f82aa39cbe139945b.jpg"
+    },
+    {
+     "n": "DMOC: 1890 Kč *",
+     "e": "🛒",
+     "p": 600.0,
+     "o": 1890.0
+    },
+    {
+     "n": "Dětské termo triko s dlouhými rukávy, 2 kusy pro 179.9 CZK",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9,
+     "img": "https://www.lidl.cz/assets/gcp9dc395af985e4ed28b0c8d40dc721d70.jpg"
+    },
+    {
+     "n": "(18)",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "Chlapecké funkční termo prádlo, 2dílná souprava pro 199.9 CZ",
+     "e": "🛒",
+     "p": 199.9,
+     "o": 249.9,
+     "img": "https://www.lidl.cz/assets/gcp812f89656a2340d6b6efc67a93111ec1.jpg"
+    },
+    {
+     "n": "4.3 z 5 hvězdiček (3 celkové hodnocení)",
+     "e": "🛒",
+     "p": 199.9,
+     "o": 249.9
+    },
+    {
+     "n": "Dětské tepláky pro 79.9 CZK",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 99.9,
+     "img": "https://www.lidl.cz/assets/gcpc9d3a085e6734ac694d9cafa88ea2f36.jpg"
+    },
+    {
+     "n": "(17)",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 99.9
+    },
+    {
+     "n": "Dětská čepice pro 79.9 CZK",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 99.9,
+     "img": "https://www.lidl.cz/assets/gcp73d619f74c414cbe8d2e4969393252eb.png"
+    },
+    {
+     "n": "5 z 5 hvězdiček (9 celkové hodnocení)",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 99.9
+    },
+    {
+     "n": "Elektrický mlýnek na sůl nebo pepř EDS SME 6 A1 pro 129.9 CZ",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9,
+     "img": "https://www.lidl.cz/assets/gcpa0856bb2346442d694435dce31524b10.png"
+    },
+    {
+     "n": "(74)",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9
+    },
+    {
+     "n": "Sušička potravin SDAG 250 A1 pro 479.9 CZK",
+     "e": "🛒",
+     "p": 479.9,
+     "o": 499.9,
+     "img": "https://www.lidl.cz/assets/gcpeb61ace086f24380a64644bba6e1ca24.jpg"
+    },
+    {
+     "n": "(32)",
+     "e": "🛒",
+     "p": 479.9,
+     "o": 499.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy pro 179",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9,
+     "img": "https://www.lidl.cz/assets/gcpd2e2964b2ba84fb691d506ceaaf0cb7a.png"
+    },
+    {
+     "n": "Chlapecké teplákové termo kalhoty pro 199.9 CZK",
+     "e": "🛒",
+     "p": 199.9,
+     "o": 229.9,
+     "img": "https://www.lidl.cz/assets/gcpd91ff9fd412e450bb0b3694b03e4dcbe.jpg"
+    },
+    {
+     "n": "(20)",
+     "e": "🛒",
+     "p": 199.9,
+     "o": 229.9
+    },
+    {
+     "n": "Dámské pletené šaty pro 209.9 CZK",
+     "e": "🛒",
+     "p": 209.9,
+     "o": 349.9,
+     "img": "https://www.lidl.cz/assets/gcp644944704ef7488abf547f29a6e3f5b5.jpg"
+    },
+    {
+     "n": "(53)",
+     "e": "🛒",
+     "p": 209.9,
+     "o": 349.9
+    },
+    {
+     "n": "Herní sada veterinář / Herní sada stavitel pro 349.9 CZK",
+     "e": "🛒",
+     "p": 349.9,
+     "o": 449.9,
+     "img": "https://www.lidl.cz/assets/gcpbc77b1a837ce49ac9c57983dd3ecb57e.jpg"
+    },
+    {
+     "n": "5 z 5 hvězdiček (1 celkové hodnocení)",
+     "e": "🛒",
+     "p": 349.9,
+     "o": 449.9
+    },
+    {
+     "n": "Regál na palivové dřevo, 164 x 84 x 157 cm (zelená) pro 1199",
+     "e": "🛒",
+     "p": 400.0,
+     "o": 1599.0,
+     "img": "https://www.lidl.cz/assets/gcp2a28a90fd3274f62ae5ea2ea6e3f6b2a.png"
+    },
+    {
+     "n": "2.8 z 5 hvězdiček (6 celkové hodnocení)",
+     "e": "🛒",
+     "p": 400.0,
+     "o": 1599.0
+    },
+    {
+     "n": "400 Kč sleva",
+     "e": "🛒",
+     "p": 400.0,
+     "o": 1599.0
+    },
+    {
+     "n": "Pánský nátělník, 3 kusy pro 109.9 CZK",
+     "e": "🛒",
+     "p": 109.9,
+     "o": 199.9,
+     "img": "https://www.lidl.cz/assets/gcpa458c51a2e4d42408cd81a6d65e766b8.jpg"
+    },
+    {
+     "n": "(165)",
+     "e": "🛒",
+     "p": 109.9,
+     "o": 199.9
+    },
+    {
+     "n": "Pastelky XXL, 80 kusů pro 199.9 CZK",
+     "e": "🛒",
+     "p": 199.9,
+     "o": 229.9,
+     "img": "https://www.lidl.cz/assets/gcpcc5ecf57b2d3442daf15f4f1d59abccf.jpg"
+    },
+    {
+     "n": "Dětské tepláky pro 149.9 CZK",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 159.9,
+     "img": "https://www.lidl.cz/assets/gcp27a6d9a30f834ec598f6096a1d44b38c.jpg"
+    },
+    {
+     "n": "(19)",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 159.9
+    },
+    {
+     "n": "Dětské zimní rukavice pro 149.9 CZK",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 199.9,
+     "img": "https://www.lidl.cz/assets/gcp7385c11e8f004279b363459b2c2d7e55.jpg"
+    },
+    {
+     "n": "(29)",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 199.9
+    }
+   ]
   },
   "Billa": {
-   "status": "error"
+   "updated": "2026-11-14T13:49:26.957557+00:00",
+   "valid": "aktuální",
+   "status": "ok",
+   "deals": [
+    {
+     "n": "chevron_left",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 399.0,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-327709-1017905486-9zx9DCf--medium.jpg"
+    },
+    {
+     "n": "Vepřová pečeně bez kosti cca 1kg",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 209.0,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-327709-1017905486-9zx9DCf--medium.jpg"
+    },
+    {
+     "n": "za 1 kg",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 209.0
+    },
+    {
+     "n": "Bon Via Rajče cherry oválné 250g, vanička",
+     "e": "🍅",
+     "p": 1.0,
+     "o": 99.6,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-324163-298002139-A8WXNYvy-medium.jpg"
+    },
+    {
+     "n": "1 kg 99,60 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 99.6
+    },
+    {
+     "n": "Pejskar Vysočina 700g",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 128.43,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-364597-700227886-14Tr4nmY-medium.jpg"
+    },
+    {
+     "n": "1 kg 128,43 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 128.43
+    },
+    {
+     "n": "Jihlavanka Standard original pražená mletá káva 1000g",
+     "e": "🥩",
+     "p": 1.0,
+     "o": 399.0,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-240116-0110516944-FSxoueUg-medium.jpg"
+    },
+    {
+     "n": "Běžná cena",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 399.0,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/7112d43e-03a1-430d-b174-0769351b66a0/loyalty_price_badge.png?fm=webp&lossless=0&q=80"
+    },
+    {
+     "n": "S BILLA klub účtem",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 179.9
+    },
+    {
+     "n": "Šunka dušená v páře nejvyšší jakosti 95% krájená",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 32.9,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-237233-111721374-mENJj7mF-medium.jpg"
+    },
+    {
+     "n": "za 100 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 32.9
+    },
+    {
+     "n": "Hellmann's Majonéza originál 405ml",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 246.67
+    },
+    {
+     "n": "Eduscho Espresso Intenso pražená zrnková káva 1000g",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 269.9
+    },
+    {
+     "n": "1 kg 269,90 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 269.9
+    },
+    {
+     "n": "Milka Oreo mléčná čokoláda z alpského mléka s kakaovými suše",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 399.0
+    },
+    {
+     "n": "1 kg 399,00 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 399.0,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/553b54cd-c6e4-4276-9b6a-2e2e098a0b57/BADGES_90x40_MULTIPACK_03_rev-03-2025.svg"
+    },
+    {
+     "n": "1 kg 249,00 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 249.0
+    },
+    {
+     "n": "Kobliha Berliner s meruňkovou náplní a práškovým posypem 65g",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 152.31,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-343377-0182547845-x7rJM8Vj-medium.jpg"
+    },
+    {
+     "n": "Kvasko Kmínový chléb",
+     "e": "🍞",
+     "p": 1.0,
+     "o": 118.61,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-354288-1262837129-rUD2Z5cP-medium.jpg"
+    },
+    {
+     "n": "Máslový croissant",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 224.53,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-234796-0351011954-K-twgsMa-medium.jpg"
+    },
+    {
+     "n": "Kvasko škvarkový chléb 505g",
+     "e": "🍞",
+     "p": 1.0,
+     "o": 118.61,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-373839-0277691989-zRbdJ-jr-medium.jpg"
+    },
+    {
+     "n": "Oskar Kvasko ořechový chléb 508g",
+     "e": "🍞",
+     "p": 1.0,
+     "o": 119.8,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-367583-1067709658-Y4WBHWoZ-medium.jpg"
+    },
+    {
+     "n": "Česneková bageta 165g",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 120.61
+    },
+    {
+     "n": "Bageta malá světlá",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 78.0
+    },
+    {
+     "n": "Raženka cereální tmavá",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 141.43
+    },
+    {
+     "n": "Rohlík Vita selský 60g",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 115.0
+    },
+    {
+     "n": "Vepřová pečeně bez kosti cca 1kgVepřová pečeně bez kosti cca",
+     "e": "🥩",
+     "p": 1.0,
+     "o": 1000.0
+    },
+    {
+     "n": "209,00 Kčza 1 kg 69,90 Kčza 1 kg",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 209.0
+    },
+    {
+     "n": "209,00 Kčza 1 kg",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 209.0
+    },
+    {
+     "n": "69,90 Kčza 1 kg",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 69.9
+    },
+    {
+     "n": "Bon Via Rajče cherry oválné 250g, vaničkaBon Via Rajče cherr",
+     "e": "🍅",
+     "p": 1.0,
+     "o": 250.0
+    },
+    {
+     "n": "24,90 Kč1 kg 99,60 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 99.6
+    },
+    {
+     "n": "Pejskar Vysočina 700gPejskar Vysočina 700g700 g89,90 Kč1 kg ",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 700.0
+    },
+    {
+     "n": "89,90 Kč1 kg 128,43 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 128.43
+    },
+    {
+     "n": "Jihlavanka Standard original pražená mletá káva 1000gJihlava",
+     "e": "🥩",
+     "p": 1.0,
+     "o": 1000.0
+    },
+    {
+     "n": "Běžná cena399,00 Kč1 kg 399,00 KčS BILLA klub účtem179,90 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 399.0,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/7112d43e-03a1-430d-b174-0769351b66a0/loyalty_price_badge.png?fm=webp&lossless=0&q=80"
+    },
+    {
+     "n": "Běžná cena399,00 Kč1 kg 399,00 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 399.0
+    },
+    {
+     "n": "S BILLA klub účtem179,90 Kč1 kg 179,90 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 179.9
+    },
+    {
+     "n": "Šunka dušená v páře nejvyšší jakosti 95% krájenáŠunka dušená",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 100.0
+    },
+    {
+     "n": "32,90 Kčza 100 g 19,90 Kčza 100 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 100.0
+    },
+    {
+     "n": "32,90 Kčza 100 g",
+     "e": "🛒",
+     "p": 32.9,
+     "o": 100.0
+    },
+    {
+     "n": "19,90 Kčza 100 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 100.0
+    },
+    {
+     "n": "Hellmann's Majonéza originál 405mlHellmann's Majonéza origin",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 405.0
+    },
+    {
+     "n": "Běžná cena99,90 Kč1 l 246,67 KčS BILLA klub účtem89,90 Kč1 l",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 246.67,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/7112d43e-03a1-430d-b174-0769351b66a0/loyalty_price_badge.png?fm=webp&lossless=0&q=80"
+    },
+    {
+     "n": "Běžná cena99,90 Kč1 l 246,67 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 246.67
+    },
+    {
+     "n": "S BILLA klub účtem89,90 Kč1 l 221,98 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 221.98
+    },
+    {
+     "n": "Eduscho Espresso Intenso pražená zrnková káva 1000gEduscho E",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 1000.0
+    },
+    {
+     "n": "269,90 Kč1 kg 269,90 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 269.9
+    },
+    {
+     "n": "39,90 Kč1 kg 399,00 Kčod 2 ks24,90 Kč1 kg 249,00 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 399.0,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/553b54cd-c6e4-4276-9b6a-2e2e098a0b57/BADGES_90x40_MULTIPACK_03_rev-03-2025.svg"
+    },
+    {
+     "n": "39,90 Kč1 kg 399,00 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 399.0
+    },
+    {
+     "n": "24,90 Kč1 kg 249,00 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 249.0
+    },
+    {
+     "n": "Běžná cena9,90 Kč1 kg 152,31 KčS BILLA klub účtem8,90 Kč1 kg",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 152.31,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/7112d43e-03a1-430d-b174-0769351b66a0/loyalty_price_badge.png?fm=webp&lossless=0&q=80"
+    },
+    {
+     "n": "Běžná cena9,90 Kč1 kg 152,31 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 152.31
+    },
+    {
+     "n": "S BILLA klub účtem8,90 Kč1 kg 136,92 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 136.92
+    },
+    {
+     "n": "Kvasko Kmínový chlébKvasko Kmínový chléb • Minit505 gBěžná c",
+     "e": "🍞",
+     "p": 1.0,
+     "o": 505.0
+    },
+    {
+     "n": "Běžná cena59,90 Kč1 kg 118,61 KčS BILLA klub účtem49,90 Kč1 ",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 118.61,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/7112d43e-03a1-430d-b174-0769351b66a0/loyalty_price_badge.png?fm=webp&lossless=0&q=80"
+    },
+    {
+     "n": "Běžná cena59,90 Kč1 kg 118,61 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 118.61
+    },
+    {
+     "n": "S BILLA klub účtem49,90 Kč1 kg 98,81 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 98.81
+    },
+    {
+     "n": "Máslový croissantMáslový croissant53 gBěžná cena11,90 Kč1 kg",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 224.53
+    },
+    {
+     "n": "Běžná cena11,90 Kč1 kg 224,53 KčS BILLA klub účtem9,90 Kč1 k",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 224.53,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/7112d43e-03a1-430d-b174-0769351b66a0/loyalty_price_badge.png?fm=webp&lossless=0&q=80"
+    },
+    {
+     "n": "Běžná cena11,90 Kč1 kg 224,53 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 224.53
+    },
+    {
+     "n": "S BILLA klub účtem9,90 Kč1 kg 186,79 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 186.79
+    },
+    {
+     "n": "Kvasko škvarkový chléb 505gKvasko škvarkový chléb 505g • Min",
+     "e": "🍞",
+     "p": 1.0,
+     "o": 505.0
+    },
+    {
+     "n": "Oskar Kvasko ořechový chléb 508gOskar Kvasko ořechový chléb ",
+     "e": "🍞",
+     "p": 1.0,
+     "o": 508.0
+    },
+    {
+     "n": "Běžná cena59,90 Kč1 kg 119,80 KčS BILLA klub účtem49,90 Kč1 ",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 119.8,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/7112d43e-03a1-430d-b174-0769351b66a0/loyalty_price_badge.png?fm=webp&lossless=0&q=80"
+    },
+    {
+     "n": "Běžná cena59,90 Kč1 kg 119,80 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 119.8
+    },
+    {
+     "n": "S BILLA klub účtem49,90 Kč1 kg 99,80 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 99.8
+    },
+    {
+     "n": "Česneková bageta 165gČesneková bageta 165g • La Lorraine165 ",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 165.0
+    },
+    {
+     "n": "Běžná cena19,90 Kč1 kg 120,61 KčS BILLA klub účtem17,90 Kč1 ",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 120.61,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/7112d43e-03a1-430d-b174-0769351b66a0/loyalty_price_badge.png?fm=webp&lossless=0&q=80"
+    },
+    {
+     "n": "Běžná cena19,90 Kč1 kg 120,61 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 120.61
+    },
+    {
+     "n": "S BILLA klub účtem17,90 Kč1 kg 108,49 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 108.49
+    },
+    {
+     "n": "Bageta malá světláBageta malá světlá50 gBěžná cena3,90 Kč1 k",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 78.0
+    },
+    {
+     "n": "Běžná cena3,90 Kč1 kg 78,00 KčS BILLA klub účtem3,50 Kč1 kg ",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 78.0,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/7112d43e-03a1-430d-b174-0769351b66a0/loyalty_price_badge.png?fm=webp&lossless=0&q=80"
+    },
+    {
+     "n": "Běžná cena3,90 Kč1 kg 78,00 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 78.0
+    },
+    {
+     "n": "S BILLA klub účtem3,50 Kč1 kg 70,00 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 70.0
+    },
+    {
+     "n": "Raženka cereální tmaváRaženka cereální tmavá70 gBěžná cena9,",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 141.43
+    },
+    {
+     "n": "Běžná cena9,90 Kč1 kg 141,43 KčS BILLA klub účtem8,90 Kč1 kg",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 141.43,
+     "img": "https://assets-eu-01.kc-usercontent.com:443/0463a531-feb4-01ea-1c62-2927429dcf8a/7112d43e-03a1-430d-b174-0769351b66a0/loyalty_price_badge.png?fm=webp&lossless=0&q=80"
+    },
+    {
+     "n": "Běžná cena9,90 Kč1 kg 141,43 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 141.43
+    },
+    {
+     "n": "S BILLA klub účtem8,90 Kč1 kg 127,14 Kč",
+     "e": "🛒",
+     "p": 1.0,
+     "o": 127.14
+    }
+   ]
   }
- }
+ },
+ "run": "2026-11-14T13:49:26.957557+00:00"
 }
