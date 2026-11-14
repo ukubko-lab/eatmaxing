@@ -16,7 +16,7 @@ MAX_PAGES = 10                     # kolik nalezenych odkazu na akce se projde
 FOOD_ONLY = True                   # nechat jen potraviny a napoje (False = vse)
 
 STORES = {
-    "Albert": {"origin": "https://www.albert.cz", "starts": ["https://www.albert.cz/aktualni-letaky", "https://www.albert.cz/", "https://www.albert.cz/shop"]},
+    "Albert": {"origin": "https://www.albert.cz", "pdf": True, "starts": ["https://www.albert.cz/aktualni-letaky", "https://www.albert.cz/", "https://www.albert.cz/shop"]},
     "Lidl":   {"origin": "https://www.lidl.cz",   "starts": ["https://www.lidl.cz/"]},
     "Billa":  {"origin": "https://www.billa.cz",  "starts": ["https://www.billa.cz/"]},
 }
@@ -38,6 +38,18 @@ FOOD = re.compile(
     r"hummus|oliv|sardink|chips|brambůrk|tyčink|dýn|celer|kukuřic|fazol|čočk|cizrn|kapust|ředkv|pórek|petrželk|"
     r"žervé|tavený|nugget|hranolk|lasagne|těsto|pomeranč|mandarink|kiwi|avokád|ananas|meloun|mango|hotov|jídlo",
     re.I)
+# U letaku Albertu (z PDF) opacna logika: vyradi se jen zjevne nepotraviny, vse ostatni zustane.
+NONFOOD = re.compile(
+    r"\bpsy\b|\bpsů\b|kočk|pochoutky|granule|krmiv|stelivo|zubní|šampon|kondicion|sprchov|deodorant|aviváž|\bprací|"
+    r"myčk|čistič|\bwc\b|osvěžovač|plenk|přebalov|ubrousk|toaletní|utěrk|kapesník|svíčka|holicí|baterie|\blego|"
+    r"pěna na mytí|mýdlo|pleťov|vložky|tampon|strojek|vysavač|kitchisimo|kompatibiln|sendvičovač|kuchyňský robot|předplacenka|"
+    r"prodlužovač|ostřikovač|povlečení|hrnek|\bled\b|polštář|bob sulov|kartáček|vonné|perličky|vlasy|sérum|"
+    r"fixační|elmex|odol|sensodyne|parodontax|lacalut|houbové|spontex|sanytol|domestos|\bbref\b|cillit|vanish|"
+    r"woolite|persil|perwoll|\bsilan\b|\blenor\b|\bariel\b|\bjar\b|somat|\bfinish\b|\bclin\b|\bpur\b|lovela|k2r|"
+    r"air wick|glade|ambipur|dr\. devil|\bfa\b|\bdove\b|\baxe\b|old spice|gliss|elseve|nivea|astrid|palmolive|"
+    r"\btepe\b|pantene|head & shoulders|\balways\b|alpa francovka|papír na pečení|colour catcher|rex prací|"
+    r"kojenecká výživa|dětské plenky|pěna|krém\*|zubní|kuchyňské|aviváž|detergent|pletivo|žárovk|nářadí", re.I)
+
 EMOJI = {"kuř": "🍗", "maso": "🥩", "mlet": "🥩", "sýr": "🧀", "eidam": "🧀", "mléko": "🥛", "smetan": "🥛",
          "rajč": "🍅", "brambor": "🥔", "cibul": "🧅", "mrkv": "🥕", "vejce": "🥚", "rýž": "🍚",
          "těst": "🍝", "špaget": "🍝", "žampion": "🍄", "chléb": "🍞", "jabl": "🍎", "ryb": "🐟",
@@ -192,9 +204,10 @@ def accept_cookies(page):
 
 def add_item(deals, seen, it, base):
     name = PRO.sub("", it["n"]).strip()
-    if not name or name in seen:
+    if not name or name in seen or not it.get("o"):
         return 0
-    if FOOD_ONLY and not FOOD.search(name):
+    is_food = (not NONFOOD.search(name)) if it.get("src") == "pdf" else bool(FOOD.search(name))
+    if FOOD_ONLY and not is_food:
         dropped["nepotravina"] += 1
         reject("nepotravina", f"{name} {it['p']}/{it['o']}")
         return 0
@@ -281,6 +294,55 @@ def drain(js, deals, seen, base, log):
     return n
 
 
+def pdf_urls(log):
+    """Z JSON odpovedi (napr. Albert GetLeaflets) vybere odkazy na PDF aktualnich letaku."""
+    found, today = [], dt.date.today()
+
+    def rec(n):
+        if isinstance(n, dict):
+            u = n.get("downloadUrl")
+            if isinstance(u, str) and ".pdf" in u and n.get("documentType", "LEAFLET") == "LEAFLET":
+                end = n.get("validityEndDateFormatted", "")
+                try:
+                    ok = dt.datetime.strptime(end, "%d.%m.%Y").date() >= today
+                except ValueError:
+                    ok = True
+                if ok and u not in found:
+                    found.append(u)
+            for v in n.values():
+                rec(v)
+        elif isinstance(n, list):
+            for v in n:
+                rec(v)
+    for _, _, _, _, body in log:
+        rec(body)
+    return found[:3]
+
+
+def from_pdf(url, deals, seen):
+    """Stahne PDF letaku a precte z nej produkty (modul albert_pdf.py)."""
+    import tempfile, urllib.request
+    try:
+        import albert_pdf
+    except Exception as e:
+        print("   albert_pdf.py nejde nacist:", e)
+        return 0
+    if not url.startswith("http"):                       # mistni soubor (zaloha: leaflets/albert.pdf)
+        items = albert_pdf.parse_pdf(url)
+    else:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (EatMaxing leaflet bot)"})
+        with tempfile.NamedTemporaryFile(suffix=".pdf") as f:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                f.write(r.read())
+            f.flush()
+            items = albert_pdf.parse_pdf(f.name)
+    n = 0
+    for it in items:
+        n += add_item(deals, seen, {"n": it["n"], "p": it["p"], "o": it["o"], "v": it.get("v"), "src": "pdf"}, url)
+    print(f"   PDF: precteno {len(items)} cenovek, pridano {n} potravin")
+    return n
+
+
 def scrape(page, name, cfg):
     deals, seen, cand, js, log = [], set(), [], [], []
     rej.clear()
@@ -301,7 +363,7 @@ def scrape(page, name, cfg):
         for u in cand[:20]:
             print("     ", u)
         for u in cand[:MAX_PAGES]:
-            if len(deals) >= 120:
+            if len(deals) >= 400:
                 break
             try:
                 page.goto(u, wait_until="domcontentloaded", timeout=60000)
@@ -312,6 +374,18 @@ def scrape(page, name, cfg):
                 print(f"   {u} chyba: {str(e)[:80]}")
     finally:
         page.remove_listener("response", on)
+    if cfg.get("pdf"):
+        got = 0
+        for u in pdf_urls(log):
+            try:
+                print(f"   leták PDF: {u[:90]}")
+                got += from_pdf(u, deals, seen)
+            except Exception as e:
+                print(f"   PDF chyba: {str(e)[:100]}")
+        local = pathlib.Path("leaflets") / f"{name.lower()}.pdf"
+        if not got and local.exists():                   # zaloha: PDF nahrane rucne do repozitare
+            print(f"   pouzivam ulozeny PDF {local}")
+            from_pdf(str(local), deals, seen)
     print(f"   JSON odpovedi: {len(log)}, z nich s produkty: {sum(1 for x in log if x[2])}")
     print(f"   vyrazeno jako nepotraviny (celkem do ted): {dropped['nepotravina']}")
     for r in rej:
@@ -325,7 +399,7 @@ def scrape(page, name, cfg):
             f.write(f"{size:>8} B  produktu:{found} pridano:{got}  {url}\n")
         for url, got, found, size, body in sorted(log, key=lambda x: -x[3])[:4]:
             f.write(f"\n=== {url}\n{json.dumps(body, ensure_ascii=False)[:3000]}\n")
-    return deals[:150]
+    return deals[:600]
 
 
 def main():
