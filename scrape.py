@@ -2,28 +2,33 @@
 
 Spousti se kazdy den v GitHub Actions, ale data skutecne obnovi jen tehdy, kdyz jsou
 starsi nez ~2 dny (nebo kdyz se pusti s --force). Kdyz jeden obchod selze, zustanou jeho stara data.
-Pri selhani ulozi do slozky debug/ screenshot a HTML stranky (stahnes v Actions jako Artifact)."""
+
+Skript zacne na uvodni strance obchodu, najde odkazy na akce/letaky/nabidky, projde je
+a z kazde stranky vytahne produkty s cenou a puvodni cenou. Do logu vypisuje, co nasel.
+Pri selhani ulozi do slozky debug/ screenshot a HTML (v Actions ke stazeni jako Artifact)."""
 import json, re, sys, pathlib, datetime as dt
 from urllib.parse import urljoin
 from playwright.sync_api import sync_playwright
 
 OUT = pathlib.Path("deals.json")
 MAX_AGE = dt.timedelta(hours=40)   # denni cron + prah 40 h = beh kazdy 2. den
+MAX_PAGES = 8                      # kolik nalezenych odkazu na akce se projde
 
-# URL si over v prohlizeci: otevri stranku s akcemi obchodu a zkopiruj adresu.
 STORES = {
-    "Albert": {"url": "https://www.albert.cz/akce", "card": "article, [class*='product'], [class*='Product']"},
-    "Lidl":   {"url": "https://www.lidl.cz/c/nabidky/s10008433", "card": "article, [class*='product'], [class*='Product']"},
-    "Billa":  {"url": "https://www.billa.cz/akce", "card": "article, [class*='product'], [class*='Product']"},
+    "Albert": {"origin": "https://www.albert.cz", "url": "https://www.albert.cz/aktualni-letaky"},
+    "Lidl":   {"origin": "https://www.lidl.cz",   "url": "https://www.lidl.cz/"},
+    "Billa":  {"origin": "https://www.billa.cz",  "url": "https://www.billa.cz/"},
 }
+CARD = "article, [class*='product'], [class*='Product'], [class*='offer'], [class*='Offer']"
+KEY = re.compile(r"akc|nab[ií]dk|slev|let[aá]k|super-cen|ceny-v-klidu", re.I)
+SKIP = re.compile(r"\.(pdf|jpe?g|png|zip)(\?|$)|^(mailto|tel):|login|prihlas|kosik|obchodni-podm|cookie", re.I)
 EMOJI = {"kuř": "🍗", "maso": "🥩", "mlet": "🥩", "sýr": "🧀", "eidam": "🧀", "mléko": "🥛", "smetan": "🥛",
          "rajč": "🍅", "brambor": "🥔", "cibul": "🧅", "mrkv": "🥕", "vejce": "🥚", "rýž": "🍚",
          "těst": "🍝", "špaget": "🍝", "žampion": "🍄", "chléb": "🍞", "jablk": "🍎", "ryb": "🐟"}
 PRICE = re.compile(r"(\d{1,4}(?:[.,]\d{1,2})?)\s*(?:Kč|,-)?")
 VALID = re.compile(r"do\s+(\d{1,2})\.\s?(\d{1,2})\.")
 
-# Vseobecny hledac: najde nejvetsi blok textu (15-350 znaku), ve kterem jsou 2-4 ruzne ceny.
-# To je typicky karta produktu, bez ohledu na nazvy CSS trid.
+# Najde nejvetsi blok textu (15-350 znaku), ve kterem jsou 2-4 ruzne ceny = typicka karta produktu.
 GENERIC_JS = r"""() => {
   const P = /\d{1,4}(?:[,.]\d{1,2})?\s*(?:Kč|,-)/g;
   const ok = el => {
@@ -42,6 +47,7 @@ GENERIC_JS = r"""() => {
   }
   return out;
 }"""
+LINKS_JS = r"""() => [...document.querySelectorAll('a[href]')].map(a => ({h: a.href, t: (a.innerText || '').trim().slice(0, 60)}))"""
 
 
 def num(s):
@@ -74,34 +80,44 @@ def accept_cookies(page):
 def add(deals, seen, text, img, base):
     d = parse_card(text)
     if not d or d["n"] in seen:
-        return
+        return 0
     if img and not img.startswith("data:"):
         d["img"] = urljoin(base, img)
     seen.add(d["n"])
     deals.append(d)
+    return 1
 
 
-def scrape(page, cfg):
-    page.goto(cfg["url"], wait_until="domcontentloaded", timeout=60000)
-    page.wait_for_timeout(3000)
+def extract(page, deals, seen):
+    """Vytahne produkty z aktualni stranky, vrati pocet novych."""
+    page.wait_for_timeout(2500)
     accept_cookies(page)
     for _ in range(8):                      # dociteni lazy-load produktu
         page.mouse.wheel(0, 3000)
-        page.wait_for_timeout(600)
-    deals, seen = [], set()
-    for el in page.query_selector_all(cfg["card"]):
+        page.wait_for_timeout(500)
+    n = 0
+    for el in page.query_selector_all(CARD):
         try:
             img = el.query_selector("img")
             src = img and (img.get_attribute("src") or img.get_attribute("data-src"))
-            add(deals, seen, el.inner_text(), src, page.url)
+            n += add(deals, seen, el.inner_text(), src, page.url)
         except Exception:
             pass
-    n1 = len(deals)
-    if n1 < 5:                              # nahradni vseobecne hledani
-        for it in page.evaluate(GENERIC_JS):
-            add(deals, seen, it["text"], it["img"], page.url)
-    print(f"   selektor: {n1} akci, po vseobecnem hledani: {len(deals)}")
-    return deals[:80]
+    for it in page.evaluate(GENERIC_JS):
+        n += add(deals, seen, it["text"], it["img"], page.url)
+    return n
+
+
+def promo_links(page, origin):
+    out, seen = [], {page.url.split("#")[0]}
+    for l in page.evaluate(LINKS_JS):
+        h = l["h"].split("#")[0]
+        if not h.startswith(origin) or h in seen or SKIP.search(h):
+            continue
+        if KEY.search(h) or KEY.search(l["t"]):
+            seen.add(h)
+            out.append(h)
+    return out
 
 
 def debug(page, name):
@@ -111,12 +127,34 @@ def debug(page, name):
     except Exception:
         body = ""
     print(f"   [{name}] title={page.title()!r} url={page.url}")
-    print(f"   [{name}] znaku 'Kč' v textu: {body.count('Kč')}; zacatek stranky: {body[:300]!r}")
+    print(f"   [{name}] znaku 'Kč' v textu: {body.count('Kč')}; zacatek: {body[:200]!r}")
     try:
         page.screenshot(path=f"debug/{name}.png")
         pathlib.Path(f"debug/{name}.html").write_text(page.content()[:600000], "utf-8")
     except Exception as e:
         print("   debug se nepodarilo ulozit:", e)
+
+
+def scrape(page, name, cfg):
+    deals, seen = [], set()
+    page.goto(cfg["url"], wait_until="domcontentloaded", timeout=60000)
+    n = extract(page, deals, seen)
+    print(f"   start {page.url}: {n} akci")
+    if n < 5:
+        debug(page, name)
+    cand = promo_links(page, cfg["origin"])
+    print(f"   nalezene odkazy na akce ({len(cand)}):")
+    for u in cand[:20]:
+        print("     ", u)
+    for u in cand[:MAX_PAGES]:
+        if len(deals) >= 60:
+            break
+        try:
+            page.goto(u, wait_until="domcontentloaded", timeout=60000)
+            print(f"   {u} -> {extract(page, deals, seen)} akci")
+        except Exception as e:
+            print(f"   {u} chyba: {str(e)[:80]}")
+    return deals[:80]
 
 
 def main():
@@ -137,16 +175,13 @@ def main():
             old = data["stores"].get(name, {})
             print(name, cfg["url"])
             try:
-                deals = scrape(page, cfg)
+                deals = scrape(page, name, cfg)
                 if len(deals) < 5:
-                    debug(page, name)
-                    raise RuntimeError(f"nasel jen {len(deals)} akci, selektory asi nesedi")
+                    raise RuntimeError(f"nasel jen {len(deals)} akci")
                 data["stores"][name] = {"updated": now.isoformat(), "valid": "aktuální", "status": "ok", "deals": deals}
                 print(name, "OK", len(deals))
             except Exception as e:
                 print(name, "CHYBA:", e)
-                if not pathlib.Path(f"debug/{name}.png").exists():
-                    debug(page, name)
                 old["status"] = "error"
                 data["stores"][name] = old or {"status": "error", "deals": []}
         browser.close()
