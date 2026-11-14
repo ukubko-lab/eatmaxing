@@ -4,7 +4,7 @@
    "status": "error"
   },
   "Lidl": {
-   "updated": "2026-11-14T14:07:03.358191+00:00",
+   "updated": "2026-11-14T14:16:11.994275+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -30,6 +30,142 @@
      "img": "https://www.lidl.cz/assets/gcp681137762c904432988d88a7d890376a.jpg"
     },
     {
+     "n": "TRONIC® Olejový radiátor TOR 1500 A1",
+     "e": "🛒",
+     "p": 499.9,
+     "o": 799.9,
+     "img": "https://www.lidl.cz/assets/gcp13993e9fdad34b35b1a172c977f530d3.png"
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9,
+     "img": "https://www.lidl.cz/assets/gcp0575df3e51d541e3afc3006b8e95a106.jpg"
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9,
+     "img": "https://www.lidl.cz/assets/gcpbb3375c288c34a10983fca5d57f6598f.jpg"
+    },
+    {
+     "n": "ESMARA MEN Pánské termo triko s dlouhými rukávy",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 149.9,
+     "img": "https://www.lidl.cz/assets/gcp1d2aa2196ba04777900238bf89938a9e.jpg"
+    },
+    {
+     "n": "LUPILU® Dětské body s dlouhými rukávy, 5 kusů (bílá / růžová / lila fi",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 229.9
+    },
+    {
+     "n": "LUPILU® Dětské body s dlouhými rukávy, 5 kusů (bílá / růžová / lila fi",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 229.9
+    },
+    {
+     "n": "LUPILU® Dětské body s dlouhými rukávy, 5 kusů (bílá/zelená/žlutá, 74/8",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 229.9
+    },
+    {
+     "n": "LUPILU® Dětské body s dlouhými rukávy, 5 kusů (bílá/zelená/žlutá, 62/6",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 229.9
+    },
+    {
+     "n": "LUPILU® Dětské body s dlouhými rukávy, 5 kusů (bílá/zelená/žlutá, 86/9",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 229.9
+    },
+    {
+     "n": "LUPILU® Dětské body s dlouhými rukávy, 5 kusů (bílá / růžová / lila fi",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 229.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (černá, S(36/38))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (černá, XS(32/34))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (růžová, L(44/46))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (růžová, M(40/42))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (růžová, S(36/38))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (šedá, S(36/38))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (šedá, XS(32/34))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (černá, L(44/46))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (černá, M(40/42))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (růžová, XS(32/34))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (šedá, L(44/46))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy (šedá, M(40/42))",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9
+    },
+    {
      "n": "Dětské termo triko s dlouhými rukávy, 2 kusy",
      "e": "🛒",
      "p": 179.9,
@@ -44,17 +180,220 @@
      "img": "https://www.lidl.cz/assets/gcpa0856bb2346442d694435dce31524b10.png"
     },
     {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle růžová / ",
      "e": "🛒",
      "p": 179.9,
-     "o": 199.9,
-     "img": "https://www.lidl.cz/assets/gcpd2e2964b2ba84fb691d506ceaaf0cb7a.png"
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle růžová / ",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (zelená/světle še",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (zelená/světle še",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle růžová / ",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (zelená/světle še",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle modrá / n",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle modrá / n",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (béžová / tmavě š",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle modrá / n",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (béžová / tmavě š",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (béžová / tmavě š",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® Sada dřevěných potravin (koláč)",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9
+    },
+    {
+     "n": "LUPILU® Sada dřevěných potravin (zmrzlina)",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9
+    },
+    {
+     "n": "LUPILU® Sada dřevěných potravin (Pizza)",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (modrá / ",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (modrá / ",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (modrá / ",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (růžová/v",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (růžová/v",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (růžová/v",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "SILVERCREST® Elektrický mlýnek na sůl nebo pepř EDS SME 6 A1 (černá)",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9
+    },
+    {
+     "n": "SILVERCREST® Elektrický mlýnek na sůl nebo pepř EDS SME 6 A1 (bílá)",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9
     },
     {
      "n": "S.OLIVER",
      "e": "🛒",
      "p": 399.9,
      "o": 599.9
+    },
+    {
+     "n": "LIVARNO® Ložní povlečení z jemného flanelu, 200 x 220 cm, 70 x 90 cm (",
+     "e": "🛒",
+     "p": 349.9,
+     "o": 499.9
+    },
+    {
+     "n": "S.OLIVER Saténové ložní povlečení, 140 x 200 cm, 70 x 90 cm (tyrkysová",
+     "e": "🛒",
+     "p": 399.9,
+     "o": 599.9
+    },
+    {
+     "n": "S.OLIVER Saténové ložní povlečení, 140 x 200 cm, 70 x 90 cm (bílá/šedá",
+     "e": "🛒",
+     "p": 399.9,
+     "o": 599.9
+    },
+    {
+     "n": "S.OLIVER Saténové ložní povlečení, 140 x 200 cm, 70 x 90 cm (světle rů",
+     "e": "🛒",
+     "p": 399.9,
+     "o": 599.9
+    },
+    {
+     "n": "LIVARNO® Světelný LED závěs, 40 LED (sněhová vločka)",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9
+    },
+    {
+     "n": "LIVARNO® Světelný LED závěs (sněhová vločka / studená bílá)",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 199.9
     },
     {
      "n": "Kapsle do myčky Platinum All in 1 Citron",
@@ -192,7 +531,7 @@
    ]
   },
   "Billa": {
-   "updated": "2026-11-14T14:07:03.358191+00:00",
+   "updated": "2026-11-14T14:16:11.994275+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -247,5 +586,5 @@
    ]
   }
  },
- "run": "2026-11-14T14:07:03.358191+00:00"
+ "run": "2026-11-14T14:16:11.994275+00:00"
 }
