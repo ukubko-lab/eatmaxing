@@ -1,1 +1,13 @@
-{"stores":{}}
+{
+ "stores": {
+  "Albert": {
+   "status": "error"
+  },
+  "Lidl": {
+   "status": "error"
+  },
+  "Billa": {
+   "status": "error"
+  }
+ }
+}
