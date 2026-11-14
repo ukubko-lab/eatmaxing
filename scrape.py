@@ -18,7 +18,7 @@ FOOD_ONLY = True                   # nechat jen potraviny a napoje (False = vse)
 STORES = {
     "Albert": {"origin": "https://www.albert.cz", "pdf": True, "starts": ["https://www.albert.cz/aktualni-letaky", "https://www.albert.cz/", "https://www.albert.cz/shop"]},
     "Lidl":   {"origin": "https://www.lidl.cz",   "starts": ["https://www.lidl.cz/"]},
-    "Billa":  {"origin": "https://www.billa.cz",  "starts": ["https://www.billa.cz/"]},
+    "Billa":  {"origin": "https://www.billa.cz",  "viewer": True, "starts": ["https://www.billa.cz/"]},
 }
 CARD = "article, [class*='product'], [class*='Product'], [class*='offer'], [class*='Offer']"
 KEY = re.compile(r"akc|nab[ií]dk|slev|let[aá]k|super-cen|ceny-v-klidu|hity", re.I)
@@ -386,6 +386,29 @@ def scrape(page, name, cfg):
         if not got and local.exists():                   # zaloha: PDF nahrane rucne do repozitare
             print(f"   pouzivam ulozeny PDF {local}")
             from_pdf(str(local), deals, seen)
+    if cfg.get("viewer"):                                # hledani odkazu na PDF v prohlizeci letaku (Publitas)
+        viewers = sorted({u.split("/spreads.json")[0] for u, *_ in log if "publitas.com" in u and "spreads.json" in u})
+        for v in viewers[:3]:
+            found = []
+
+            def on_pdf(resp, found=found):
+                if "pdf" in (resp.headers.get("content-type") or "").lower():
+                    found.append(resp.url)
+            try:
+                page.on("response", on_pdf)
+                page.goto(v + "/", wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(3000)
+                hrefs = [h for h in page.evaluate("() => [...document.querySelectorAll('a[href]')].map(a => a.href)") if ".pdf" in h]
+                try:
+                    page.get_by_role("button", name=re.compile("Stáhnout|Download|PDF", re.I)).first.click(timeout=3000)
+                    page.wait_for_timeout(3000)
+                except Exception:
+                    pass
+                print(f"   prohlizec {v}\n      pdf odkazy: {hrefs[:3]}\n      pdf v siti: {found[:3]}")
+            except Exception as e:
+                print(f"   prohlizec {v} chyba: {str(e)[:80]}")
+            finally:
+                page.remove_listener("response", on_pdf)
     print(f"   JSON odpovedi: {len(log)}, z nich s produkty: {sum(1 for x in log if x[2])}")
     print(f"   vyrazeno jako nepotraviny (celkem do ted): {dropped['nepotravina']}")
     for r in rej:
@@ -399,7 +422,7 @@ def scrape(page, name, cfg):
             f.write(f"{size:>8} B  produktu:{found} pridano:{got}  {url}\n")
         for url, got, found, size, body in sorted(log, key=lambda x: -x[3])[:4]:
             f.write(f"\n=== {url}\n{json.dumps(body, ensure_ascii=False)[:3000]}\n")
-    return deals[:600]
+    return deals[:1000]
 
 
 def main():
