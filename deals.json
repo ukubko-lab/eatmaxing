@@ -4,7 +4,7 @@
    "status": "error"
   },
   "Lidl": {
-   "updated": "2026-11-14T14:16:11.994275+00:00",
+   "updated": "2026-11-14T14:28:46.098143+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -37,11 +37,11 @@
      "img": "https://www.lidl.cz/assets/gcp13993e9fdad34b35b1a172c977f530d3.png"
     },
     {
-     "n": "ESMARA® Dámské termo triko s dlouhými rukávy",
+     "n": "ESMARA MEN Pánské termo triko s dlouhými rukávy",
      "e": "🛒",
      "p": 99.9,
-     "o": 129.9,
-     "img": "https://www.lidl.cz/assets/gcp0575df3e51d541e3afc3006b8e95a106.jpg"
+     "o": 149.9,
+     "img": "https://www.lidl.cz/assets/gcp1d2aa2196ba04777900238bf89938a9e.jpg"
     },
     {
      "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy",
@@ -51,11 +51,11 @@
      "img": "https://www.lidl.cz/assets/gcpbb3375c288c34a10983fca5d57f6598f.jpg"
     },
     {
-     "n": "ESMARA MEN Pánské termo triko s dlouhými rukávy",
+     "n": "ESMARA® Dámské termo triko s dlouhými rukávy",
      "e": "🛒",
      "p": 99.9,
-     "o": 149.9,
-     "img": "https://www.lidl.cz/assets/gcp1d2aa2196ba04777900238bf89938a9e.jpg"
+     "o": 129.9,
+     "img": "https://www.lidl.cz/assets/gcp0575df3e51d541e3afc3006b8e95a106.jpg"
     },
     {
      "n": "LUPILU® Dětské body s dlouhými rukávy, 5 kusů (bílá / růžová / lila fi",
@@ -180,78 +180,6 @@
      "img": "https://www.lidl.cz/assets/gcpa0856bb2346442d694435dce31524b10.png"
     },
     {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle růžová / ",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle růžová / ",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (zelená/světle še",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (zelená/světle še",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle růžová / ",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (zelená/světle še",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle modrá / n",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle modrá / n",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (béžová / tmavě š",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle modrá / n",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (béžová / tmavě š",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
-     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (béžová / tmavě š",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9
-    },
-    {
      "n": "LUPILU® Sada dřevěných potravin (koláč)",
      "e": "🛒",
      "p": 129.9,
@@ -270,73 +198,73 @@
      "o": 149.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (modrá / ",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle růžová / ",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle růžová / ",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (zelená/světle še",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (zelená/světle še",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (modrá / ",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle růžová / ",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (modrá / ",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (zelená/světle še",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle modrá / n",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (růžová/v",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle modrá / n",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (růžová/v",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (béžová / tmavě š",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (růžová/v",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (světle modrá / n",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (béžová / tmavě š",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
     },
     {
-     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "n": "LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (béžová / tmavě š",
      "e": "🛒",
      "p": 179.9,
      "o": 199.9
@@ -354,16 +282,82 @@
      "o": 149.9
     },
     {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (modrá / ",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (modrá / ",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (modrá / ",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (růžová/v",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (růžová/v",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (růžová/v",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
+     "n": "LUPILU® LUPILU® Dětské termo triko s dlouhými rukávy, 2 kusy (navy mod",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9
+    },
+    {
      "n": "S.OLIVER",
      "e": "🛒",
      "p": 399.9,
      "o": 599.9
-    },
-    {
-     "n": "LIVARNO® Ložní povlečení z jemného flanelu, 200 x 220 cm, 70 x 90 cm (",
-     "e": "🛒",
-     "p": 349.9,
-     "o": 499.9
     },
     {
      "n": "S.OLIVER Saténové ložní povlečení, 140 x 200 cm, 70 x 90 cm (tyrkysová",
@@ -384,16 +378,22 @@
      "o": 599.9
     },
     {
-     "n": "LIVARNO® Světelný LED závěs, 40 LED (sněhová vločka)",
+     "n": "LIVARNO® Ložní povlečení z jemného flanelu, 200 x 220 cm, 70 x 90 cm (",
      "e": "🛒",
-     "p": 129.9,
-     "o": 149.9
+     "p": 349.9,
+     "o": 499.9
     },
     {
      "n": "LIVARNO® Světelný LED závěs (sněhová vločka / studená bílá)",
      "e": "🛒",
      "p": 149.9,
      "o": 199.9
+    },
+    {
+     "n": "LIVARNO® Světelný LED závěs, 40 LED (sněhová vločka)",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9
     },
     {
      "n": "Kapsle do myčky Platinum All in 1 Citron",
@@ -410,97 +410,6 @@
      "img": "https://imgproxy-retcat.assets.schwarz/gOlbSj8yurnS32N8ceW2kGNDdBlN2xe1A6HXWZ74frE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0E4RjZEMzMyM0VCQTU5RTYzNjkzODNEQz/QxNDkwRUIxODVBRUNERDc2RDhCRjgwMTJCMDIwQkNCMTBERDlFNjYucG5n.png"
     },
     {
-     "n": "Bio vejce M-L 6 ks.",
-     "e": "🥚",
-     "p": 10.82,
-     "o": 64.9,
-     "img": "https://imgproxy-retcat.assets.schwarz/53SWXedzcLUqmtP88sPeK6eg6y0YIE3iJDP8LqMa7nw/sm:0/w:140/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY3ovMi85RjM1N0JERDhERTU3OUVBNERFOTBGMzY/3MDA0RENENjY2MUVGOEEzMTlGRTFFNjc4NUM2MjhFMDFCREFCOTgxLnBuZw.png"
-    },
-    {
-     "n": "Coca - Cola",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 69.8,
-     "img": "https://imgproxy-retcat.assets.schwarz/53SWXedzcLUqmtP88sPeK6eg6y0YIE3iJDP8LqMa7nw/sm:0/w:140/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY3ovMi85RjM1N0JERDhERTU3OUVBNERFOTBGMzY/3MDA0RENENjY2MUVGOEEzMTlGRTFFNjc4NUM2MjhFMDFCREFCOTgxLnBuZw.png"
-    },
-    {
-     "n": "Monster Energy Drink Mango Loco",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 69.8,
-     "img": "https://imgproxy-retcat.assets.schwarz/9qvwSrJazQmUxdLMURc9gh3EonY7-J9yYpLG_W0a1OE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0FCRTE4RkJCRkExOTQ0NTA3MjM4QThBRT/RCREJDQjQ4MDA5MkE4ODE1MDI2RjI3OUU2RjI4QTI3QzE1Mzk1RDkucG5n.png"
-    },
-    {
-     "n": "Jupí Sirup pomeranč",
-     "e": "🍊",
-     "p": 34.9,
-     "o": 49.86,
-     "img": "https://imgproxy-retcat.assets.schwarz/AZrSZ4bfITwj6qAqIbofbHLITcz_huWERze_z6hYjiU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY3ovMS8xMjAyODZFRDkyMDk4NEYyQTkzQzgyQkR/DQzI2MTcwNkU1ODk0Qjk1QzI0MzZDRTg2N0Q4QzM5MjRBODlBRjM4LnBuZw.png"
-    },
-    {
-     "n": "Konzerva pro kočky",
-     "e": "🛒",
-     "p": 2.87,
-     "o": 11.9,
-     "img": "https://imgproxy-retcat.assets.schwarz/53SWXedzcLUqmtP88sPeK6eg6y0YIE3iJDP8LqMa7nw/sm:0/w:140/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY3ovMi85RjM1N0JERDhERTU3OUVBNERFOTBGMzY/3MDA0RENENjY2MUVGOEEzMTlGRTFFNjc4NUM2MjhFMDFCREFCOTgxLnBuZw.png"
-    },
-    {
-     "n": "Konzerva pro psy",
-     "e": "🛒",
-     "p": 2.87,
-     "o": 11.9,
-     "img": "https://imgproxy-retcat.assets.schwarz/53SWXedzcLUqmtP88sPeK6eg6y0YIE3iJDP8LqMa7nw/sm:0/w:140/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY3ovMi85RjM1N0JERDhERTU3OUVBNERFOTBGMzY/3MDA0RENENjY2MUVGOEEzMTlGRTFFNjc4NUM2MjhFMDFCREFCOTgxLnBuZw.png"
-    },
-    {
-     "n": "Konzerva pro psy s hovězím",
-     "e": "🛒",
-     "p": 22.23,
-     "o": 27.9,
-     "img": "https://imgproxy-retcat.assets.schwarz/53SWXedzcLUqmtP88sPeK6eg6y0YIE3iJDP8LqMa7nw/sm:0/w:140/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY3ovMi85RjM1N0JERDhERTU3OUVBNERFOTBGMzY/3MDA0RENENjY2MUVGOEEzMTlGRTFFNjc4NUM2MjhFMDFCREFCOTgxLnBuZw.png"
-    },
-    {
-     "n": "Konzerva pro psy s drubezim",
-     "e": "🛒",
-     "p": 22.23,
-     "o": 27.9,
-     "img": "https://imgproxy-retcat.assets.schwarz/53SWXedzcLUqmtP88sPeK6eg6y0YIE3iJDP8LqMa7nw/sm:0/w:140/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY3ovMi85RjM1N0JERDhERTU3OUVBNERFOTBGMzY/3MDA0RENENjY2MUVGOEEzMTlGRTFFNjc4NUM2MjhFMDFCREFCOTgxLnBuZw.png"
-    },
-    {
-     "n": "Parboiled rýže v varných sáčcích",
-     "e": "🍚",
-     "p": 19.9,
-     "o": 49.75,
-     "img": "https://imgproxy-retcat.assets.schwarz/Etvq-iF_zWm_yVPaT5NKdjB-dbEGEN00RSpNaVfLo0c/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzBBNDBFOTEyMjhDMUU2OERGNERENjkzND/A1QzlCMzgyMkREM0MwNTNBMzRFMjg1MDQ4MjAwNTQxODJGNUQ4RjYucG5n.png"
-    },
-    {
-     "n": "Dlouhozrnná rýže v varných sáčcích",
-     "e": "🍚",
-     "p": 19.9,
-     "o": 49.75,
-     "img": "https://imgproxy-retcat.assets.schwarz/Ee3vV3cvxPR7NUZzow_RUXph75CH0fHhqpexQfYVCec/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0IyOURGMTA1RDlGQjU3RTMyNTg5MjhBRj/MyNzkyQjBGREU5MUFEOTQyQjRERjQxMjc3NTVBRDBENDhFNEI2OEMucG5n.png"
-    },
-    {
-     "n": "Rýže v varných sáčcích",
-     "e": "🍚",
-     "p": 29.9,
-     "o": 74.75,
-     "img": "https://imgproxy-retcat.assets.schwarz/uHT0NoaVPbltyOITcrnu18iZ-Q-vSiJ1GN4lXb0sPNc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY3ovMS9FMkFCOUQ4MzJDNEM5ODJDRDI2REI4RDI/3MDc2MzRCMUJBMDZCRTBCQkVCNjgzRDc0MjI3MUUyRUMwNDQ4RUMxLnBuZw.png"
-    },
-    {
-     "n": "Špagety 2-minutové",
-     "e": "🍝",
-     "p": 17.9,
-     "o": 35.8,
-     "img": "https://imgproxy-retcat.assets.schwarz/DN7PGLko4wYnLc4YhgEbVo69OxQ0grATk7iVaWlkErw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzA4ODIyMzJFNDNCQTA2NTY0RUVBMTZGMz/ZFNTBBRjVBMkJGNDM4QTIzNEFERkQ1MkQ5MUI4QkRENkJDNTM1MEMucG5n.png"
-    },
-    {
-     "n": "Panzani Špagety",
-     "e": "🍝",
-     "p": 34.9,
-     "o": 69.8,
-     "img": "https://imgproxy-retcat.assets.schwarz/3RDBtCTrQODv8glOKwym1jwqUfrTUZ4CluqohAkyRyI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzlCRUEwNDc1NTVGREY4QzZFNjlBQjhCQj/FCMjI5MTU3ODc3RjhBOEEyMTFEOEFCNTY5MTU4MjBEMTIxNTUwMTIucG5n.png"
-    },
-    {
      "n": "Dušená šunka nejvyšší jakosti",
      "e": "🛒",
      "p": 19.9,
@@ -515,13 +424,6 @@
      "img": "https://www.lidl.cz/assets/gcp254fd0fdaa494a0682a42c4f20e5bf57.png"
     },
     {
-     "n": "Prosecco Frizzante",
-     "e": "🛒",
-     "p": 59.9,
-     "o": 79.87,
-     "img": "https://www.lidl.cz/assets/gcpee6250bb05154338a520f45cae36861b.png"
-    },
-    {
      "n": "Mango",
      "e": "🛒",
      "p": 19.9,
@@ -531,7 +433,7 @@
    ]
   },
   "Billa": {
-   "updated": "2026-11-14T14:16:11.994275+00:00",
+   "updated": "2026-11-14T14:28:46.098143+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -541,13 +443,6 @@
      "p": 69.9,
      "o": 209.0,
      "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-327709-1017905486-9zx9DCf--medium.jpg"
-    },
-    {
-     "n": "Bon Via Rajče cherry oválné 250g, vanička",
-     "e": "🍅",
-     "p": 24.9,
-     "o": 99.6,
-     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-324163-298002139-A8WXNYvy-medium.jpg"
     },
     {
      "n": "Jihlavanka Standard original pražená mletá káva 1000g",
@@ -560,31 +455,75 @@
      "n": "Hellmann's Majonéza originál 405ml",
      "e": "🛒",
      "p": 89.9,
-     "o": 246.67
+     "o": 99.9
+    },
+    {
+     "n": "Milka Oreo mléčná čokoláda z alpského mléka s kakaovými sušenkami a va",
+     "e": "🍫",
+     "p": 24.9,
+     "o": 39.9
+    },
+    {
+     "n": "Kobliha Berliner s meruňkovou náplní a práškovým posypem 65g",
+     "e": "🛒",
+     "p": 8.9,
+     "o": 9.9,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-343377-0182547845-x7rJM8Vj-medium.jpg"
     },
     {
      "n": "Kvasko Kmínový chléb",
      "e": "🍞",
      "p": 49.9,
-     "o": 118.61,
+     "o": 59.9,
      "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-354288-1262837129-rUD2Z5cP-medium.jpg"
+    },
+    {
+     "n": "Máslový croissant",
+     "e": "🛒",
+     "p": 9.9,
+     "o": 11.9,
+     "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-234796-0351011954-K-twgsMa-medium.jpg"
     },
     {
      "n": "Kvasko škvarkový chléb 505g",
      "e": "🍞",
      "p": 49.9,
-     "o": 118.61,
+     "o": 59.9,
      "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-373839-0277691989-zRbdJ-jr-medium.jpg"
     },
     {
      "n": "Oskar Kvasko ořechový chléb 508g",
      "e": "🍞",
      "p": 49.9,
-     "o": 119.8,
+     "o": 59.9,
      "img": "https://images.cdn.europe-west1.gcp.commercetools.com/1df039f1-4705-4f79-aa90-cf907a6ec063/82-367583-1067709658-Y4WBHWoZ-medium.jpg"
+    },
+    {
+     "n": "Česneková bageta 165g",
+     "e": "🛒",
+     "p": 17.9,
+     "o": 19.9
+    },
+    {
+     "n": "Bageta malá světlá",
+     "e": "🛒",
+     "p": 3.5,
+     "o": 3.9
+    },
+    {
+     "n": "Raženka cereální tmavá",
+     "e": "🛒",
+     "p": 8.9,
+     "o": 9.9
+    },
+    {
+     "n": "Rohlík Vita selský 60g",
+     "e": "🛒",
+     "p": 5.9,
+     "o": 6.9
     }
    ]
   }
  },
- "run": "2026-11-14T14:16:11.994275+00:00"
+ "run": "2026-11-14T14:28:46.098143+00:00"
 }
