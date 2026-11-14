@@ -4,7 +4,7 @@ Spousti se kazdy den v GitHub Actions, ale data skutecne obnovi jen tehdy, kdyz 
 starsi nez ~2 dny (nebo kdyz se pusti s --force). Kdyz jeden obchod selze, zustanou jeho stara data.
 
 Skript zacne na uvodni strance obchodu, najde odkazy na akce/letaky/nabidky, projde je
-a z kazde stranky vytahne produkty s cenou a puvodni cenou. Do logu vypisuje, co nasel.
+a z kazde stranky vytahne potraviny s cenou a puvodni cenou. Do logu vypisuje, co nasel.
 Pri selhani ulozi do slozky debug/ screenshot a HTML (v Actions ke stazeni jako Artifact)."""
 import json, re, sys, pathlib, datetime as dt
 from urllib.parse import urljoin
@@ -12,31 +12,49 @@ from playwright.sync_api import sync_playwright
 
 OUT = pathlib.Path("deals.json")
 MAX_AGE = dt.timedelta(hours=40)   # denni cron + prah 40 h = beh kazdy 2. den
-MAX_PAGES = 8                      # kolik nalezenych odkazu na akce se projde
+MAX_PAGES = 10                     # kolik nalezenych odkazu na akce se projde
+FOOD_ONLY = True                   # nechat jen potraviny a napoje (False = vse)
 
 STORES = {
-    "Albert": {"origin": "https://www.albert.cz", "url": "https://www.albert.cz/aktualni-letaky"},
-    "Lidl":   {"origin": "https://www.lidl.cz",   "url": "https://www.lidl.cz/"},
-    "Billa":  {"origin": "https://www.billa.cz",  "url": "https://www.billa.cz/"},
+    "Albert": {"origin": "https://www.albert.cz", "starts": ["https://www.albert.cz/aktualni-letaky", "https://www.albert.cz/"]},
+    "Lidl":   {"origin": "https://www.lidl.cz",   "starts": ["https://www.lidl.cz/"]},
+    "Billa":  {"origin": "https://www.billa.cz",  "starts": ["https://www.billa.cz/"]},
 }
 CARD = "article, [class*='product'], [class*='Product'], [class*='offer'], [class*='Offer']"
-KEY = re.compile(r"akc|nab[ií]dk|slev|let[aá]k|super-cen|ceny-v-klidu", re.I)
-SKIP = re.compile(r"\.(pdf|jpe?g|png|zip)(\?|$)|^(mailto|tel):|login|prihlas|kosik|obchodni-podm|cookie", re.I)
+KEY = re.compile(r"akc|nab[ií]dk|slev|let[aá]k|super-cen|ceny-v-klidu|hity", re.I)
+PRIORITY = re.compile(r"nabidka|hity|ceny-v-klidu|super-cen|potravin|slevy|akce", re.I)
+SKIP = re.compile(r"\.(pdf|jpe?g|png|zip)(\?|$)|^(mailto|tel):|login|prihlas|kosik|obchodni-podm|cookie|"
+                  r"moda|query|magazin|whatsapp|kuchyn|bydlen|sport|detsk|dilna|zahrada|nabytek|vanocni-svet", re.I)
+BAD_NAME = re.compile(r"hvězdič|hodnocení|sleva|ušetř|Lidl Plus|Cenový hit|%|Kč|CZK|do vyprodání|novinka|zobrazit|"
+                      r"přidat|košík|zdarma|^\(?\d|^-", re.I)
+FOOD = re.compile(
+    r"maso|kuř|vepř|hověz|krůt|šunk|salám|klobás|párek|párk|uzen|slanin|kost|řízek|mlet|ryb|losos|tuňák|krevet|"
+    r"sýr|eidam|gouda|mozzarell|camembert|tvaroh|jogurt|mléko|mléč|smetan|máslo|margarín|vejce|kefír|pudink|šlehačk|"
+    r"chléb|rohlík|houska|pečiv|bageta|croissant|koláč|buchta|dort|knedlík|těstovin|špaget|nudle|rýž|mouka|mouky|"
+    r"cukr|sůl|olej|ocet|kečup|hořčic|majonéz|omáčk|polévk|konzerv|zelenin|ovoc|jabl|hrušk|banán|pomeranč|citron|"
+    r"hrozn|jahod|borůvk|broskv|meruň|švestk|rajč|okurk|paprik|cibul|česnek|brambor|mrkev|zelí|salát|špenát|brokolic|"
+    r"květák|hub[ay]|žampion|ořech|mandl|arašíd|pistác|čokolád|sušenk|bonbon|oplatk|zmrzlin|nanuk|pizza|müsli|vločk|"
+    r"cereál|káva|kávy|čaj|voda|džus|limonád|cola|pivo|víno|prosecco|med\b|džem|marmelád|nutella|pomazánk|tofu|"
+    r"hummus|oliv|sardink|chips|brambůrk|tyčink|dýn|celer|kukuřic|fazol|čočk|cizrn|kapust|ředkv|pórek|petrželk|"
+    r"žervé|tavený|nugget|hranolk|lasagne|těsto|pomeranč|mandarink|kiwi|avokád|ananas|meloun|mango|hotov|jídlo",
+    re.I)
 EMOJI = {"kuř": "🍗", "maso": "🥩", "mlet": "🥩", "sýr": "🧀", "eidam": "🧀", "mléko": "🥛", "smetan": "🥛",
          "rajč": "🍅", "brambor": "🥔", "cibul": "🧅", "mrkv": "🥕", "vejce": "🥚", "rýž": "🍚",
-         "těst": "🍝", "špaget": "🍝", "žampion": "🍄", "chléb": "🍞", "jablk": "🍎", "ryb": "🐟"}
-PRICE = re.compile(r"(\d{1,4}(?:[.,]\d{1,2})?)\s*(?:Kč|,-)?")
+         "těst": "🍝", "špaget": "🍝", "žampion": "🍄", "chléb": "🍞", "jabl": "🍎", "ryb": "🐟",
+         "jogurt": "🥛", "banán": "🍌", "hrozn": "🍇", "pomeranč": "🍊", "čokolád": "🍫", "káva": "☕", "pivo": "🍺"}
+CUR = re.compile(r"(\d{1,4}(?:[.,]\d{1,2})?)\s*(?:Kč|CZK|,-)")
+PRO = re.compile(r"\s+pro\s+\d+(?:[.,]\d+)?\s*(?:CZK|Kč)\s*$", re.I)
 VALID = re.compile(r"do\s+(\d{1,2})\.\s?(\d{1,2})\.")
 
 # Najde nejvetsi blok textu (15-350 znaku), ve kterem jsou 2-4 ruzne ceny = typicka karta produktu.
 GENERIC_JS = r"""() => {
-  const P = /\d{1,4}(?:[,.]\d{1,2})?\s*(?:Kč|,-)/g;
+  const P = /\d{1,4}(?:[,.]\d{1,2})?\s*(?:Kč|CZK|,-)/g;
   const ok = el => {
     if (!el || el === document.body) return false;
     const t = el.innerText || '';
-    if (t.length < 15 || t.length > 350) return false;
+    if (t.length < 15 || t.length > 400) return false;
     const u = new Set((t.match(P) || []).map(x => x.replace(/\s/g, '')));
-    return u.size >= 2 && u.size <= 4;
+    return u.size >= 2 && u.size <= 5;
   };
   const out = [];
   for (const el of document.body.querySelectorAll('*')) {
@@ -48,6 +66,7 @@ GENERIC_JS = r"""() => {
   return out;
 }"""
 LINKS_JS = r"""() => [...document.querySelectorAll('a[href]')].map(a => ({h: a.href, t: (a.innerText || '').trim().slice(0, 60)}))"""
+dropped = {"nepotravina": 0}
 
 
 def num(s):
@@ -56,16 +75,35 @@ def num(s):
 
 def parse_card(text):
     lines = [l.strip() for l in text.splitlines() if l.strip()]
-    name = next((l for l in lines if len(l) > 3 and not re.fullmatch(r"[\d\s.,%Kč−-]+", l)), None)
-    prices = [num(m.group(1)) for l in lines if re.search(r"Kč|,-", l) for m in PRICE.finditer(l)]
+    # cena v "pristupnem" nazvu: "... pro 999 CZK"
+    m = re.search(r"\bpro\s+(\d{1,4}(?:[.,]\d{1,2})?)\s*(?:CZK|Kč)", text)
+    cur = num(m.group(1)) if m else None
+    name = None
+    for l in lines:
+        l2 = PRO.sub("", l).strip()
+        if len(re.findall(r"[A-Za-zÀ-ž]", l2)) >= 5 and not BAD_NAME.search(l2):
+            name = l2
+            break
+    prices = []
+    for l in lines:
+        if re.search(r"sleva|ušetř", l, re.I):      # "600 Kč sleva" je vyse slevy, ne cena
+            continue
+        prices += [num(x.group(1)) for x in CUR.finditer(l)]
     prices = [p for p in prices if 1 <= p < 5000]
-    if not name or len(set(prices)) < 2:
+    if not name or not prices:
+        return None
+    p = cur if cur else min(prices)
+    higher = [x for x in prices if x > p]
+    if not higher:
+        return None
+    o = max(higher)
+    if o / p > 6:
         return None
     emoji = next((e for k, e in EMOJI.items() if k in name.lower()), "🛒")
-    deal = {"n": name[:60], "e": emoji, "p": min(prices), "o": max(prices)}
-    m = VALID.search(text)
-    if m:
-        deal["v"] = f"do {int(m.group(1))}.{int(m.group(2))}."
+    deal = {"n": name[:70], "e": emoji, "p": p, "o": o}
+    v = VALID.search(text)
+    if v:
+        deal["v"] = f"do {int(v.group(1))}.{int(v.group(2))}."
     return deal
 
 
@@ -80,6 +118,9 @@ def accept_cookies(page):
 def add(deals, seen, text, img, base):
     d = parse_card(text)
     if not d or d["n"] in seen:
+        return 0
+    if FOOD_ONLY and not FOOD.search(d["n"]):
+        dropped["nepotravina"] += 1
         return 0
     if img and not img.startswith("data:"):
         d["img"] = urljoin(base, img)
@@ -136,25 +177,30 @@ def debug(page, name):
 
 
 def scrape(page, name, cfg):
-    deals, seen = [], set()
-    page.goto(cfg["url"], wait_until="domcontentloaded", timeout=60000)
-    n = extract(page, deals, seen)
-    print(f"   start {page.url}: {n} akci")
-    if n < 5:
-        debug(page, name)
-    cand = promo_links(page, cfg["origin"])
+    deals, seen, cand = [], set(), []
+    for i, start in enumerate(cfg["starts"]):
+        page.goto(start, wait_until="domcontentloaded", timeout=60000)
+        n = extract(page, deals, seen)
+        print(f"   start {start}: {n} potravin")
+        if n < 5 and i == 0:
+            debug(page, name)
+        for u in promo_links(page, cfg["origin"]):
+            if u not in cand:
+                cand.append(u)
+    cand.sort(key=lambda u: 0 if PRIORITY.search(u) else 1)
     print(f"   nalezene odkazy na akce ({len(cand)}):")
     for u in cand[:20]:
         print("     ", u)
     for u in cand[:MAX_PAGES]:
-        if len(deals) >= 60:
+        if len(deals) >= 120:
             break
         try:
             page.goto(u, wait_until="domcontentloaded", timeout=60000)
-            print(f"   {u} -> {extract(page, deals, seen)} akci")
+            print(f"   {u} -> {extract(page, deals, seen)} potravin")
         except Exception as e:
             print(f"   {u} chyba: {str(e)[:80]}")
-    return deals[:80]
+    print(f"   vyrazeno jako nepotraviny (celkem do ted): {dropped['nepotravina']}")
+    return deals[:150]
 
 
 def main():
@@ -173,11 +219,11 @@ def main():
         page = ctx.new_page()
         for name, cfg in STORES.items():
             old = data["stores"].get(name, {})
-            print(name, cfg["url"])
+            print(name, cfg["starts"][0])
             try:
                 deals = scrape(page, name, cfg)
                 if len(deals) < 5:
-                    raise RuntimeError(f"nasel jen {len(deals)} akci")
+                    raise RuntimeError(f"nasel jen {len(deals)} potravin")
                 data["stores"][name] = {"updated": now.isoformat(), "valid": "aktuální", "status": "ok", "deals": deals}
                 print(name, "OK", len(deals))
             except Exception as e:
