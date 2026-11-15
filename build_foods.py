@@ -22,7 +22,7 @@ def fetch(page, retries=4):
             with urllib.request.urlopen(req, timeout=60) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
-            wait = 40 * (i + 1) if e.code in (429, 503) else 10
+            wait = 45 * (i + 1) if e.code in (429, 503) else 20
             print(f"  strana {page}: HTTP {e.code}, cekam {wait} s")
             time.sleep(wait)
         except Exception as e:
@@ -56,9 +56,29 @@ def convert(p):
 def main():
     pages = int(sys.argv[1]) if len(sys.argv) > 1 else 60
     out, seen = [], set()
+    if OUT.exists():                                      # pridava se k tomu, co uz v databazi je
+        try:
+            for item in json.loads(OUT.read_text("utf-8")):
+                key = (item["n"].lower(), item.get("b", "").lower())
+                if key not in seen:
+                    seen.add(key)
+                    out.append(item)
+        except Exception:
+            pass
+    print("na zacatku v databazi:", len(out))
+    fails = 0
     for page in range(1, pages + 1):
         data = fetch(page)
-        if not data or not data.get("products"):
+        if data is None:                                  # OFF docasne odmita, zkusime dalsi stranu
+            fails += 1
+            print(f"strana {page}: preskakuji (selhani po sobe: {fails})")
+            if fails >= 3:
+                print("OFF ted odmita dotazy, koncim. Spust znovu pozdeji, databaze se doplni.")
+                break
+            time.sleep(60)
+            continue
+        fails = 0
+        if not data.get("products"):
             print(f"strana {page}: konec dat")
             break
         added = 0
@@ -70,8 +90,8 @@ def main():
                 out.append(item)
                 added += 1
         print(f"strana {page}: +{added} (celkem {len(out)})")
-        time.sleep(7)
-    if len(out) >= 200:                                   # pri selhani nepreps stary soubor malou databazi
+        time.sleep(12)
+    if len(out) >= 200:
         OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), "utf-8")
         print("ulozeno", len(out), "produktu do", OUT)
     else:
