@@ -1,7 +1,7 @@
 {
  "stores": {
   "Albert": {
-   "updated": "2026-11-20T13:56:05.243488+00:00",
+   "updated": "2026-11-22T13:12:11.479195+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -5251,7 +5251,7 @@
    ]
   },
   "Lidl": {
-   "updated": "2026-11-20T13:56:05.243488+00:00",
+   "updated": "2026-11-22T13:12:11.479195+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -5270,13 +5270,6 @@
      "img": "https://www.lidl.cz/assets/gcp0d162e92ddee4090870b0b63e69907b0.png"
     },
     {
-     "n": "Sada rozprašovačů na ocet a olej Premium",
-     "e": "🛒",
-     "p": 99.9,
-     "o": 119.9,
-     "img": "https://www.lidl.cz/assets/gcp4b7d29bcde6e43b48fd36b38787bccbd.jpg"
-    },
-    {
      "n": "Dámské triko s 3/4 rukávy, 2 kusy",
      "e": "🛒",
      "p": 179.9,
@@ -5284,18 +5277,25 @@
      "img": "https://www.lidl.cz/assets/gcpfcaea0c3a9644cdbb00ed70e1a1727b3.jpg"
     },
     {
-     "n": "Kapsle do myčky Platinum All in 1 Citron",
+     "n": "Sada rozprašovačů na ocet a olej Premium",
      "e": "🛒",
-     "p": 299.9,
-     "o": 399.9,
-     "img": "https://imgproxy-retcat.assets.schwarz/LtyNj585Vd1sWLAH2ISeYh6cU93prF6dsO7aqLCH_44/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY3ovMS84OTlFQkM2OUE0QTc5QjI2M0NCQzZCQjg/zRTdDQUNDMzZCMkM2ODNCQThDQUE1RTBGMDQ3REJBMzY5Q0Q0NTBGLnBuZw.png"
+     "p": 99.9,
+     "o": 119.9,
+     "img": "https://www.lidl.cz/assets/gcp4b7d29bcde6e43b48fd36b38787bccbd.jpg"
     },
     {
-     "n": "Sůl do myčky",
+     "n": "Dušená šunka nejvyšší jakosti",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 34.9,
+     "img": "https://www.lidl.cz/assets/gcp424e07b3bd9e41dc8d5ba7058e3f9cbe.png"
+    },
+    {
+     "n": "Mandarinky",
      "e": "🛒",
      "p": 24.9,
-     "o": 27.9,
-     "img": "https://imgproxy-retcat.assets.schwarz/gOlbSj8yurnS32N8ceW2kGNDdBlN2xe1A6HXWZ74frE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0E4RjZEMzMyM0VCQTU5RTYzNjkzODNEQz/QxNDkwRUIxODVBRUNERDc2RDhCRjgwMTJCMDIwQkNCMTBERDlFNjYucG5n.png"
+     "o": 49.9,
+     "img": "https://www.lidl.cz/assets/gcp6f9bfc27abfe49db9e029bbe5c2d807d.png"
     },
     {
      "n": "Nízkoteplotní tavné tyčinky",
@@ -5307,7 +5307,7 @@
    ]
   },
   "Billa": {
-   "updated": "2026-11-20T13:56:05.243488+00:00",
+   "updated": "2026-11-22T13:12:11.479195+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -5389,5 +5389,5 @@
    ]
   }
  },
- "run": "2026-11-20T13:56:05.243488+00:00"
+ "run": "2026-11-22T13:12:11.479195+00:00"
 }
