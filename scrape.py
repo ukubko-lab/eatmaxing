@@ -446,6 +446,9 @@ def main():
                 deals = scrape(page, name, cfg)
                 if len(deals) < 5:
                     raise RuntimeError(f"nasel jen {len(deals)} potravin")
+                old_n = len(old.get("deals") or [])
+                if old_n >= 20 and len(deals) < old_n * 0.5:      # podezrele maly vysledek -> nechame stara data
+                    raise RuntimeError(f"nasel {len(deals)} potravin misto drivejsich {old_n}, ponechavam stara data")
                 data["stores"][name] = {"updated": now.isoformat(), "valid": "aktuální", "status": "ok", "deals": deals}
                 print(name, "OK", len(deals))
             except Exception as e:
