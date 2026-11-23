@@ -29,6 +29,7 @@ h2{font-size:22px;margin:28px 0 6px}.sub{color:var(--mu);margin:0 0 14px;font-si
 .em{font-size:34px}.st{font-size:12px;color:var(--mu);text-transform:uppercase;letter-spacing:.5px}
 .pr{font-size:22px;font-weight:800}.old{color:var(--mu);text-decoration:line-through;font-size:14px;margin-left:6px}
 .card button{margin-top:8px;width:100%}
+.mpl{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:8px 0}.mpt{flex:1;min-width:0}.mpa{display:flex;align-items:center;gap:6px;flex:none}.mpp{font-weight:600;min-width:58px;text-align:right;font-size:14px}.ib{width:34px;height:34px;padding:0;border-radius:50%;border:1px solid var(--bd);background:var(--card);color:var(--tx);font:inherit;font-size:15px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.ib:hover{background:var(--ac2)}.mpx{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.mpx .btn.sm{padding:9px 14px}
 .btn.sm{padding:8px;font-size:14px}.btn.ghost{background:var(--ac2);color:var(--ac)}
 .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 select,input{font:inherit;padding:10px 12px;border-radius:10px;border:1px solid var(--bd);background:var(--card);color:var(--tx)}
@@ -67,9 +68,10 @@ footer{color:var(--mu);font-size:12px;margin-top:40px}
 <div class="card">
 <div class="row"><span>Rozpočet (Kč):</span> <input id="mpb" type="number" value="500" min="50" step="50" style="width:100px"></div>
 <div class="row" style="margin-top:8px"><span>Počet dní:</span> <select id="mpd"></select></div>
+<div class="row" style="margin-top:8px"><span>Kolikrát budu vařit:</span> <select id="mpc"></select></div>
 <div class="row" style="margin-top:8px"><span>Jídel za den:</span> <select id="mpn"><option value="2">2 (oběd, večeře)</option><option value="3" selected>3 (snídaně, oběd, večeře)</option><option value="4">4 (+ svačina)</option><option value="5">5 (+ 2 svačiny)</option></select></div>
-<label class="row" style="margin-top:8px;gap:8px"><input type="checkbox" id="mpk" checked> <span>Hlídat kalorie podle profilu (<b id="mpg"></b> kcal/den)</span></label>
-<button class="btn" style="margin-top:12px" onclick="mpGen()">Navrhnout jídelníček</button></div>
+<label style="display:flex;margin-top:10px;gap:8px;align-items:flex-start"><input type="checkbox" id="mpk" checked style="margin-top:3px;flex:none"> <span style="flex:1">Hlídat kalorie podle profilu (<b id="mpg"></b> kcal/den, mění se v profilu)</span></label>
+<button class="btn" style="margin-top:14px;width:100%" onclick="mpGen()">Navrhnout jídelníček</button></div>
 <div id="mpo" style="margin-top:14px"></div>
 <details class="acc" style="margin-top:14px"><summary>Rychlý nákup podle částky</summary><div class="in"><div class="row"><span>Rozpočet (Kč):</span> <input id="bk" type="number" value="300" min="50" step="10" style="width:110px"> <button class="btn" onclick="plan()">Navrhnout nákup</button></div><div id="bo" style="margin-top:14px"></div></div></details>
 </section>
@@ -227,9 +229,9 @@ function fv(t,k){var n=t=="f"?D[k].n:R[k].n,a=P.fv[t],i=a.indexOf(n);if(i>-1)a.s
 function heart(t,k){var n=t=="f"?D[k].n:R[k].n;return '<button class="heart" onclick="fv(\''+t+'\','+k+')" aria-label="Oblíbené">'+(P.fv[t].indexOf(n)>-1?'♥':'♡')+'</button>'}
 function fr(t,i){P.fv[t].splice(i,1);sp();draw()}
 function ta(a){var i=P.al.indexOf(a);if(i>-1)P.al.splice(i,1);else P.al.push(a);sp();draw()}
-function wd(x){P.w=Math.round((P.w+x)*10)/10;var l=P.wh[P.wh.length-1];if(l&&l.d==TD)l.w=P.w;else P.wh.push({d:TD,w:P.w});G=cg().g;sp();kd();rp()}
+function wd(x){P.w=Math.round((P.w+x)*10)/10;var l=P.wh[P.wh.length-1];if(l&&l.d==TD)l.w=P.w;else P.wh.push({d:TD,w:P.w});G=cg().g;sp();kd();rp();mpSync()}
 function bought(){var ids=Object.keys(cart);if(!ids.length)return;var s=0;ids.forEach(function(i){var d=D[i];if(d&&d.o>d.p)s+=d.o-d.p});P.sv.tot+=s;P.sv.h.push({d:TD,s:s,n:ids.length});cart={};sp();draw()}
-function up(){P.sex=$("psx").value;P.age=+$("pag").value||P.age;P.h=+$("phh").value||P.h;P.act=+$("pac").value;P.goal=+$("pgo").value;P.bud=+$("pbu").value||0;G=cg().g;$("bk").value=P.bud;sp();kd();rp()}
+function up(){P.sex=$("psx").value;P.age=+$("pag").value||P.age;P.h=+$("phh").value||P.h;P.act=+$("pac").value;P.goal=+$("pgo").value;P.bud=+$("pbu").value||0;G=cg().g;$("bk").value=P.bud;sp();kd();rp();mpSync()}
 function fillP(){$("psx").value=P.sex;$("pag").value=P.age;$("phh").value=P.h;$("pac").value=P.act;$("pgo").value=P.goal;$("pbu").value=P.bud}
 var AC={url:"",key:""},SB=null,US=null,TM="system",ST=0;
 function ath(){var r=document.documentElement;if(TM=="system")r.removeAttribute("data-theme");else r.setAttribute("data-theme",TM)}
@@ -238,7 +240,7 @@ function aum(t){$("aum").textContent=t}
 function lo(p){if(!SB){aum("Přihlášení ještě není připojené (viz README).");return}SB.auth.signInWithOAuth({provider:p,options:{redirectTo:location.href.split("#")[0]}})}
 async function le(m){if(!SB){aum("Přihlášení ještě není připojené (viz README).");return}var e=$("aue").value.trim(),p=$("aup").value;if(!e||p.length<6){aum("Zadej e-mail a heslo (min. 6 znaků).");return}var r=m=="up"?await SB.auth.signUp({email:e,password:p}):await SB.auth.signInWithPassword({email:e,password:p});aum(r.error?r.error.message:(m=="up"?"Účet vytvořen. Zkontroluj e-mail a potvrď registraci.":"Přihlášeno."))}
 function lg(){if(SB)SB.auth.signOut()}
-function au(s){US=s?s.user:null;var m=US&&US.user_metadata&&US.user_metadata.profile;if(m){for(var k in m)P[k]=m[k];G=cg().g;fillP();kd()}rp()}
+function au(s){US=s?s.user:null;var m=US&&US.user_metadata&&US.user_metadata.profile;if(m){for(var k in m)P[k]=m[k];G=cg().g;fillP();kd()}rp();mpSync()}
 async function auInit(){if(!AC.url||!AC.key||!window.supabase)return;SB=window.supabase.createClient(AC.url,AC.key);var r=await SB.auth.getSession();au(r.data.session);SB.auth.onAuthStateChange(function(e,s){au(s)})}
 function acr(){$("aout").style.display=US?"none":"block";$("ain").style.display=US?"block":"none";$("aus").style.display=SB?"none":"block";if(US)$("aun").innerHTML="<b>Přihlášen jako</b> "+US.email;
  $("pt").innerHTML=[["system","Systém"],["light","Světlý"],["dark","Tmavý"]].map(function(x){return '<button class="chip '+(TM==x[0]?'on':'')+'" onclick="st(\''+x[0]+'\')">'+x[1]+'</button>'}).join("")}
@@ -286,7 +288,7 @@ return '<div class="card fc"><button class="heart hc'+(fa?' on':'')+'" onclick="
 function tg(i){if(cart[i])delete cart[i];else cart[i]=1;draw()}
 function go(s){cur=s;draw();window.scrollTo(0,0)}
 function draw(){
- if($('mpg'))$('mpg').textContent=cg().g;
+ if($('mpg'))$('mpg').textContent=G;
  var T=[["home","Domů"],["deals","Potraviny"],["recipes","Recepty"],["budget","Rozpočet"],["kcal","Kalorie"],["leaflets","Letáky"],["cart","Seznam ("+Object.keys(cart).length+")"]];
  $("nav").innerHTML=T.map(function(t){return '<button class="'+(t[0]==cur?'on':'')+'" onclick="go(\''+t[0]+'\')">'+t[1]+'</button>'}).join("");
  document.querySelectorAll(".sec").forEach(function(e){e.classList.toggle("on",e.id==cur)});
@@ -314,34 +316,43 @@ function plan(){var lim=+$("bk").value,tot=0,pk=[];
 /* ===== Jidelnicek ===== */
 var MPS={2:[1,2],3:[0,1,2],4:[0,1,2,3],5:[0,3,1,3,2]},MPH={0:.25,1:.35,2:.30,3:.10},MPX=[.75,1,1.25,1.5],MP=null;
 function mpNum(x){return String(Math.round(x*10)/10).replace(".",",")}
-function mpOpt(m,pc){var o=[];R.forEach(function(r,k){if(r.m!=m||!rok(k))return;var c=pc[k];if(!c||c.m<r.i.length)return;var po=r.p.match(/(\d+) porc/);po=po?+po[1]:1;var kc0=rn(r).kcal;MPX.forEach(function(x){o.push({k:k,x:x,c:c.c/po*x,kc:kc0*x})})});return o}
+function mpDays(n){return n==1?"den":n<5?"dny":"dní"}
+function mpOpt(m,pc){var o=[];R.forEach(function(r,k){if(r.m!=m||!rok(k))return;var c=pc[k];if(!c||c.m<r.i.length)return;var po=r.p.match(/(\d+) porc/);po=po?+po[1]:1;var k0=rn(r).kcal;MPX.forEach(function(x){o.push({k:k,x:x,c:c.c/po*x,kc:k0*x})})});return o}
+function mpCooks(){var dn=+$("mpd").value||1,s=$("mpc"),v=+s.value||dn,h="";for(var i=1;i<=dn;i++)h+='<option value="'+i+'">'+i+'× '+(i==dn?'(každý den něco jiného)':i==1?'(vše naráz)':'')+'</option>';s.innerHTML=h;s.value=Math.min(v,dn)}
 function mpGen(){
- var bu=Math.max(1,+$("mpb").value||0),dn=+$("mpd").value||1,n=+$("mpn").value,km=$("mpk").checked,sl=MPS[n],goal=cg().g,pc={};
+ var bu=Math.max(1,+$("mpb").value||0),dn=+$("mpd").value||1,cn=Math.min(dn,+$("mpc").value||dn),n=+$("mpn").value,km=$("mpk").checked,sl=MPS[n],goal=G,pc={};
  R.forEach(function(r,k){pc[k]=rc(r)});
- var tot=sl.reduce(function(a,m){return a+MPH[m]},0),tg=sl.map(function(m){return goal*MPH[m]/tot}),ns=dn*sl.length,avg=bu/ns,used={},days=[],cell=[];
+ var tot=sl.reduce(function(a,m){return a+MPH[m]},0),tg=sl.map(function(m){return goal*MPH[m]/tot}),avg=bu/(dn*sl.length),used={},bl=[],cell=[],bs=Math.floor(dn/cn),rm=dn%cn;
  function sc(o,t,dk){var v=0;if(km)v+=Math.abs(o.kc-t)/t*40;v+=Math.max(0,o.c-avg)/avg*20;v+=(used[o.k]||0)*12+(dk[o.k]?60:0);return v}
- for(var d=0;d<dn;d++){var dk={},row=[];sl.forEach(function(m,j){var op=mpOpt(m,pc);if(!op.length){row.push(null);return}var b=null,bs=1e9;op.forEach(function(o){var q=sc(o,tg[j],dk);if(q<bs){bs=q;b=o}});used[b.k]=(used[b.k]||0)+1;dk[b.k]=1;row.push({k:b.k,x:b.x});cell.push({d:d,j:j})});days.push(row)}
- function total(){var t=0;days.forEach(function(r){r.forEach(function(e){if(e)t+=mpOpt(R[e.k].m,pc).filter(function(o){return o.k==e.k&&o.x==e.x})[0].c})});return t}
- var guard=300,T=total();
+ for(var b=0;b<cn;b++){var len=bs+(b<rm?1:0),dk={},row=[];sl.forEach(function(m,j){var op=mpOpt(m,pc);if(!op.length){row.push(null);return}var z=null,zs=1e9;op.forEach(function(o){var q=sc(o,tg[j],dk);if(q<zs){zs=q;z=o}});used[z.k]=(used[z.k]||0)+1;dk[z.k]=1;row.push({k:z.k,x:z.x});cell.push({b:b,j:j})});bl.push({len:len,row:row})}
+ function find(m,e){return mpOpt(m,pc).filter(function(o){return o.k==e.k&&o.x==e.x})[0]}
+ function total(){var t=0;bl.forEach(function(B){B.row.forEach(function(e,j){if(e)t+=find(sl[j],e).c*B.len})});return t}
+ var guard=400,T=total();
  while(T>bu&&guard-->0){var best=null,bq=1e9;
-  cell.forEach(function(ce){var e=days[ce.d][ce.j];if(!e)return;var m=sl[ce.j],cur=mpOpt(m,pc).filter(function(o){return o.k==e.k&&o.x==e.x})[0],dk={};days[ce.d].forEach(function(z,jj){if(z&&jj!=ce.j)dk[z.k]=1});
-   mpOpt(m,pc).forEach(function(o){var sv=cur.c-o.c;if(sv<=.01)return;var q=(sc(o,tg[ce.j],dk)-sc(cur,tg[ce.j],dk)+1)/sv;if(q<bq){bq=q;best={ce:ce,o:o}}})});
-  if(!best)break;days[best.ce.d][best.ce.j]={k:best.o.k,x:best.o.x};T=total()}
- MP={bu:bu,dn:dn,n:n,km:km,days:days};P.mp={bu:bu,dn:dn,n:n,km:km};P.mpl=MP;sp();mpDraw()}
+  cell.forEach(function(ce){var B=bl[ce.b],e=B.row[ce.j];if(!e)return;var m=sl[ce.j],cur=find(m,e),dk={};B.row.forEach(function(z,jj){if(z&&jj!=ce.j)dk[z.k]=1});
+   mpOpt(m,pc).forEach(function(o){var sv=(cur.c-o.c)*B.len;if(sv<=.01)return;var q=(sc(o,tg[ce.j],dk)-sc(cur,tg[ce.j],dk)+1)/sv;if(q<bq){bq=q;best={ce:ce,o:o}}})});
+  if(!best)break;bl[best.ce.b].row[best.ce.j]={k:best.o.k,x:best.o.x};T=total()}
+ MP={bu:bu,dn:dn,n:n,km:km,cooks:cn,goal:goal,dirty:0,blocks:bl};mpSave();mpDraw()}
+function mpSave(){P.mp={bu:MP.bu,dn:MP.dn,n:MP.n,km:MP.km,cooks:MP.cooks};P.mpl=MP;sp()}
 function mpInfo(e){var r=R[e.k],c=rc(r),po=r.p.match(/(\d+) porc/);po=po?+po[1]:1;var q=rn(r);return{cost:c.c/po*e.x,kcal:q.kcal*e.x,b:q.b*e.x,t:q.t*e.x,s:q.s*e.x}}
-function mpDraw(){var o=$("mpo");if(!MP){o.innerHTML="";return}var sl=MPS[MP.n],goal=cg().g,all=0,h="";
- MP.days.forEach(function(row,d){var dc=0,dk=0;h+='<div class="card" style="margin-bottom:10px"><div class="st">Den '+(d+1)+'</div><ul class="list">';
-  row.forEach(function(e,j){var m=sl[j];if(!e){h+='<li><span class="sub">'+MS[m][1]+' '+MS[m][0]+': vynecháno</span><span><button class="chip" onclick="mpRs('+d+','+j+')">↩</button></span></li>';return}
-   var r=R[e.k],i=mpInfo(e);dc+=i.cost;dk+=i.kcal;h+='<li><span>'+MS[m][1]+' '+r.e+' '+r.n+(e.x!=1?' <span class="sub">('+mpNum(e.x)+'× porce)</span>':'')+'<br><span class="sub">'+Math.round(i.kcal)+' kcal · B '+Math.round(i.b)+' · T '+Math.round(i.t)+' · S '+Math.round(i.s)+'</span></span><span style="white-space:nowrap">'+kc(i.cost)+' <button class="chip" aria-label="Jiné jídlo" onclick="mpSw('+d+','+j+')">↻</button> <button class="chip" aria-label="Odebrat jídlo" onclick="mpRm('+d+','+j+')">✕</button></span></li>'});
-  all+=dc;h+='</ul><div class="sub">Den celkem: <b>'+kc(dc)+'</b>'+(MP.km?' · <b>'+Math.round(dk)+'</b> z '+goal+' kcal':'')+'</div></div>'});
+function mpSync(){var g=$("mpg");if(g)g.textContent=G;if(MP&&MP.km&&MP.goal!=G){if(MP.dirty)mpDraw();else{$("mpb").value=MP.bu;$("mpd").value=MP.dn;mpCooks();$("mpc").value=MP.cooks;$("mpn").value=MP.n;mpGen()}}}
+function mpDraw(){var o=$("mpo");if(!MP||!MP.blocks){o.innerHTML="";return}var sl=MPS[MP.n],all=0,h="",d0=1,stale=MP.km&&MP.goal!=G;
+ MP.blocks.forEach(function(B,b){var dc=0,dk=0,a=d0,z=d0+B.len-1;d0=z+1;
+  h+='<div class="card" style="margin-bottom:10px"><div class="st">'+(MP.cooks<MP.dn?'Vaření '+(b+1)+' · ':'')+(a==z?'Den '+a:'Dny '+a+'–'+z)+'</div>'+(B.len>1?'<div class="sub" style="margin-bottom:6px">Uvaříš jednou a jí se '+B.len+' '+mpDays(B.len)+'.</div>':'')+'<ul class="list">';
+  B.row.forEach(function(e,j){var m=sl[j];if(!e){h+='<li class="mpl"><span class="sub">'+MS[m][1]+' '+MS[m][0]+': vynecháno</span><span class="mpa"><button class="ib" title="Vrátit" onclick="mpRs('+b+','+j+')">↩</button></span></li>';return}
+   var r=R[e.k],i=mpInfo(e);dc+=i.cost;dk+=i.kcal;
+   h+='<li class="mpl"><span class="mpt"><b>'+MS[m][1]+' '+r.e+' '+r.n+'</b>'+(e.x!=1?' <span class="sub">('+mpNum(e.x)+'× porce)</span>':'')+'<br><span class="sub">'+Math.round(i.kcal)+' kcal · B '+Math.round(i.b)+' · T '+Math.round(i.t)+' · S '+Math.round(i.s)+'</span></span><span class="mpa"><span class="mpp">'+kc(i.cost)+'</span><button class="ib" title="Jiné jídlo" aria-label="Jiné jídlo" onclick="mpSw('+b+','+j+')">↻</button><button class="ib" title="Odebrat" aria-label="Odebrat jídlo" onclick="mpRm('+b+','+j+')">✕</button></span></li>'});
+  all+=dc*B.len;h+='</ul><div class="sub">Za den: <b>'+kc(dc)+'</b>'+(MP.km?' · <b>'+Math.round(dk)+'</b> z '+G+' kcal':'')+(B.len>1?' · celé vaření '+kc(dc*B.len):'')+'</div></div>'});
  var ok=all<=MP.bu+.5;
- o.innerHTML='<div class="card"><b>'+MP.dn+' '+(MP.dn==1?'den':MP.dn<5?'dny':'dní')+' · celkem '+kc(all)+' z '+kc(MP.bu)+'</b><div class="sub">'+(ok?'Zbývá '+kc(MP.bu-all)+'. Cena je odhad podle ceny za porci z nejlevnějších akcí.':'⚠ Za tuto částku to nevychází, nejlevnější sestava stojí '+kc(all)+'. Zvyš rozpočet nebo uber dny či jídla.')+'</div><div class="row" style="margin-top:8px;gap:8px"><button class="btn sm" onclick="mpCart()">+ Suroviny na seznam</button>'+(MP.km?'<button class="btn sm" onclick="mpLog()">Zapsat první den do kalorií</button>':'')+'</div></div>'+h}
-function mpRm(d,j){MP.days[d][j]=null;P.mpl=MP;sp();mpDraw()}
-function mpRs(d,j){var m=MPS[MP.n][j],pc={},c=[];R.forEach(function(r,k){if(r.m==m&&rok(k)){pc[k]=rc(r);if(pc[k].m==r.i.length)c.push(k)}});if(c.length)MP.days[d][j]={k:c[0],x:1};P.mpl=MP;sp();mpDraw()}
-function mpSw(d,j){var m=MPS[MP.n][j],e=MP.days[d][j],c=[];R.forEach(function(r,k){if(r.m==m&&rok(k)&&rc(r).m==r.i.length)c.push(k)});if(c.length<2)return;MP.days[d][j]={k:c[(c.indexOf(e.k)+1)%c.length],x:e.x};P.mpl=MP;sp();mpDraw()}
-function mpCart(){var s={};MP.days.forEach(function(r){r.forEach(function(e){if(e)s[e.k]=1})});Object.keys(s).forEach(function(k){ar(+k)})}
-function mpLog(){var pf=DY;DY=TD;MP.days[0].forEach(function(e,j){if(e){var o=rn(R[e.k]);for(var q in o)o[q]*=e.x;o.n=R[e.k].n+(e.x!=1?" ("+mpNum(e.x)+"×)":"");o.g=0;o.m=MPS[MP.n][j]==3?3:MPS[MP.n][j];day().push(o)}});sv();DY=pf;kd();go("kcal")}
-function mpInit(){var s=$("mpd"),h="";for(var i=1;i<=14;i++)h+='<option value="'+i+'">'+i+'</option>';s.innerHTML=h;var m=P.mp||{};s.value=m.dn||3;$("mpb").value=m.bu||500;$("mpn").value=m.n||3;$("mpk").checked=m.km!==false;$("mpg").textContent=cg().g;if(P.mpl&&P.mpl.days){MP=P.mpl;mpDraw()}}
+ o.innerHTML=(stale?'<div class="card" style="border-color:#e6a23c"><b>Cíl kalorií se změnil na '+G+' kcal</b> (jídelníček je počítaný na '+MP.goal+').<div style="margin-top:8px"><button class="btn sm" onclick="mpGen()">Přepočítat jídelníček</button></div></div>':'')+
+ '<div class="card"><b>'+MP.dn+' '+mpDays(MP.dn)+' · '+MP.cooks+'× vaření · celkem '+kc(all)+' z '+kc(MP.bu)+'</b><div class="sub">'+(ok?'Zbývá '+kc(MP.bu-all)+'. Cena je odhad podle ceny za porci z nejlevnějších akcí.':'⚠ Za tuto částku to nevychází, nejlevnější sestava stojí '+kc(all)+'. Zvyš rozpočet nebo uber dny či jídla.')+'</div><div class="mpx"><button class="btn sm" onclick="mpCart()">+ Suroviny na seznam</button>'+(MP.km?'<button class="btn sm ghost" onclick="mpLog()">Zapsat první den do kalorií</button>':'')+'</div></div>'+h}
+function mpRm(b,j){MP.blocks[b].row[j]=null;MP.dirty=1;mpSave();mpDraw()}
+function mpOk(m){var c=[];R.forEach(function(r,k){if(r.m==m&&rok(k)&&rc(r).m==r.i.length)c.push(k)});return c}
+function mpRs(b,j){var c=mpOk(MPS[MP.n][j]);if(c.length)MP.blocks[b].row[j]={k:c[0],x:1};MP.dirty=1;mpSave();mpDraw()}
+function mpSw(b,j){var e=MP.blocks[b].row[j],c=mpOk(MPS[MP.n][j]);if(c.length<2)return;MP.blocks[b].row[j]={k:c[(c.indexOf(e.k)+1)%c.length],x:e.x};MP.dirty=1;mpSave();mpDraw()}
+function mpCart(){var s={};MP.blocks.forEach(function(B){B.row.forEach(function(e){if(e)s[e.k]=1})});Object.keys(s).forEach(function(k){ar(+k)})}
+function mpLog(){var pf=DY;DY=TD;MP.blocks[0].row.forEach(function(e,j){if(e){var o=rn(R[e.k]);for(var q in o)o[q]*=e.x;o.n=R[e.k].n+(e.x!=1?" ("+mpNum(e.x)+"×)":"");o.g=0;o.m=MPS[MP.n][j];day().push(o)}});sv();DY=pf;kd();go("kcal")}
+function mpInit(){var s=$("mpd"),h="";for(var i=1;i<=14;i++)h+='<option value="'+i+'">'+i+'</option>';s.innerHTML=h;var m=P.mp||{};s.value=m.dn||3;s.onchange=mpCooks;$("mpc").value=m.cooks||m.dn||3;mpCooks();$("mpc").value=Math.min(m.cooks||(+s.value),+s.value);$("mpb").value=m.bu||500;$("mpn").value=m.n||3;$("mpk").checked=m.km!==false;$("mpg").textContent=G;if(P.mpl&&P.mpl.blocks){MP=P.mpl;mpSync();mpDraw()}else P.mpl=null}
 $("sort").onchange=$("q").oninput=draw;
 function stat(){var ts=Object.keys(L).map(function(s){return L[s].t}),e=$("stl");if(ts.some(function(t){return!t})){e.textContent="Ukázková data. Skutečné akce se načtou z letáků po prvním běhu aktualizace (potom každé 2 dny).";return}var o=new Date(ts.sort()[0]);e.textContent=(Date.now()-o>2*864e5+36e5?"⚠ Data jsou starší než 2 dny. ":"")+"Poslední aktualizace letáků: "+o.toLocaleString("cs-CZ")+" · další přibližně "+new Date(+o+2*864e5).toLocaleDateString("cs-CZ")}
 var EV=2*864e5,L={Albert:{u:"https://www.albert.cz"},Lidl:{u:"https://www.lidl.cz"},Billa:{u:"https://www.billa.cz"}};
