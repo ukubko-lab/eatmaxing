@@ -357,9 +357,12 @@ function mpDraw(){var o=$("mpo");if(!MP||!MP.blocks){o.innerHTML="";return}MP.sk
    B.row.forEach(function(e,j){var m=sl[j],nm=MS[m][0];
     if(!e)return;
     var K=d+"_"+j;
-    if(MP.skip[K]){var cu=(MP.cus||{})[K];
-     if(cu){dk+=cu.kcal;h+='<li class="mpl"><span class="mpt"><span class="sub"><b>'+MS[m][1]+' '+nm+'</b> · vlastní výběr</span><br><b>🍽️ '+cu.n+'</b> <span class="sub">('+Math.round(cu.g)+' g)</span><br><span class="sub">'+Math.round(cu.kcal)+' kcal · B '+Math.round(cu.b)+' · T '+Math.round(cu.t)+' · S '+Math.round(cu.s)+'</span></span><span class="mpa"><button class="ib" title="Odebrat tuto potravinu" aria-label="Odebrat potravinu" onclick="mpDelC(\''+K+'\')">✕</button><button class="ib" title="Vrátit původní jídlo" aria-label="Vrátit původní jídlo" onclick="mpRs('+d+','+j+')">↩</button></span></li>';return}
-     h+='<li class="mpl"><span class="mpt"><span class="sub">'+MS[m][1]+' '+nm+'</span><br><b>Vynecháno</b></span><span class="mpa"><button class="btn sm ghost" onclick="mpOpen(\''+K+'\')">＋ Přidat kalorie</button><button class="ib" title="Vrátit do jídelníčku" aria-label="Vrátit jídlo" onclick="mpRs('+d+','+j+')">↩</button></span></li>';
+    if(MP.skip[K]){var cu=(MP.cus||{})[K];if(cu&&!Array.isArray(cu))cu=[cu];cu=cu||[];
+     if(cu.length){var tk=0;cu.forEach(function(x){tk+=x.kcal});dk+=tk;
+      h+='<li class="mpl"><span class="mpt"><span class="sub"><b>'+MS[m][1]+' '+nm+'</b> · vlastní výběr · '+Math.round(tk)+' kcal</span></span></li>';
+      cu.forEach(function(x,n){h+='<li class="mpl"><span class="mpt"><b>🍽️ '+x.n+'</b> <span class="sub">('+Math.round(x.g)+' g)</span><br><span class="sub">'+Math.round(x.kcal)+' kcal · B '+Math.round(x.b)+' · T '+Math.round(x.t)+' · S '+Math.round(x.s)+'</span></span><span class="mpa"><button class="ib" title="Odebrat tuto potravinu" aria-label="Odebrat potravinu" onclick="mpDelC(\''+K+'\','+n+')">✕</button></span></li>'});
+      h+='<li class="mpl"><span class="mpa"><button class="btn sm ghost" onclick="mpOpen(\''+K+'\')">＋ Přidat další potravinu</button><button class="ib" title="Vrátit původní jídlo" aria-label="Vrátit původní jídlo" onclick="mpRs('+d+','+j+')">↩</button></span></li>'}
+     else h+='<li class="mpl"><span class="mpt"><span class="sub">'+MS[m][1]+' '+nm+'</span><br><b>Vynecháno</b></span><span class="mpa"><button class="btn sm ghost" onclick="mpOpen(\''+K+'\')">＋ Přidat kalorie</button><button class="ib" title="Vrátit do jídelníčku" aria-label="Vrátit jídlo" onclick="mpRs('+d+','+j+')">↩</button></span></li>';
      if(MPQ&&MPQ.k==K)h+='<li class="mpq"><div class="row"><input id="mpqs" placeholder="Hledat potravinu…" oninput="mpFind()" style="flex:1;min-width:130px"><input id="mpqg" type="number" value="100" min="1" style="width:74px" aria-label="Gramy"> <span class="sub">g</span> <button class="ib" aria-label="Zavřít hledání" onclick="mpClose()">✕</button></div><ul class="list" id="mpqr"></ul></li>';
      return}
     var r=R[e.k],i=mpInfo(e);dc+=i.cost;dk+=i.kcal;
@@ -377,8 +380,8 @@ function mpClose(){MPQ=null;mpDraw()}
 function mpFind(){var el=$("mpqs");if(!el||!MPQ)return;MPQ.q=el.value;MPQ.g=+$("mpqg").value||100;var q=nm(el.value.trim()),ul=$("mpqr");if(q.length<2){MPR=[];ul.innerHTML='<li class="sub">Začni psát název potraviny.</li>';return}
  MPR=foods().filter(function(f){return fk(f).indexOf(q)>-1}).sort(function(a,b){return(fk(a).indexOf(q)==0?0:1)-(fk(b).indexOf(q)==0?0:1)||a.n.length-b.n.length}).slice(0,8);
  ul.innerHTML=MPR.length?MPR.map(function(f,i){return '<li class="mpl"><span class="mpt">'+f.n+'<br><span class="sub">'+Math.round(f.v[0])+' kcal / 100 g · B '+Math.round(f.v[1])+' · T '+Math.round(f.v[2])+' · S '+Math.round(f.v[3])+'</span></span><span class="mpa"><button class="btn sm" onclick="mpPick('+i+')">Přidat</button></span></li>'}).join(""):'<li class="sub">Nic nenalezeno.</li>'}
-function mpPick(i){var f=MPR[i];if(!f||!MPQ)return;var g=Math.max(1,+$("mpqg").value||100),K=MPQ.k;(MP.cus=MP.cus||{})[K]={n:f.n,g:g,kcal:f.v[0]*g/100,b:f.v[1]*g/100,t:f.v[2]*g/100,s:f.v[3]*g/100,f:(f.v[4]||0)*g/100};MPQ=null;MP.dirty=1;mpSave();mpDraw()}
-function mpDelC(K){if(MP.cus)delete MP.cus[K];mpSave();mpDraw()}
+function mpPick(i){var f=MPR[i];if(!f||!MPQ)return;var g=Math.max(1,+$("mpqg").value||100),K=MPQ.k;MP.cus=MP.cus||{};var a=MP.cus[K];a=Array.isArray(a)?a:(a?[a]:[]);a.push({n:f.n,g:g,kcal:f.v[0]*g/100,b:f.v[1]*g/100,t:f.v[2]*g/100,s:f.v[3]*g/100,f:(f.v[4]||0)*g/100});MP.cus[K]=a;MPQ={k:K,q:"",g:100,focus:1};MP.dirty=1;mpSave();mpDraw()}
+function mpDelC(K,n){var a=(MP.cus||{})[K];if(Array.isArray(a)){a.splice(n,1);if(!a.length)delete MP.cus[K]}else if(MP.cus)delete MP.cus[K];mpSave();mpDraw()}
 function mpOk(m){var pc={},c=[];R.forEach(function(r,k){pc[k]=rc(r)});mpOpt(m,pc).forEach(function(o){if(!c.some(function(z){return z.k==o.k}))c.push(o)});return c}
 function mpSw(b,j){var e=MP.blocks[b].row[j],c=mpOk(MPS[MP.n][j]);if(c.length<2)return;var ix=0;c.forEach(function(z,i){if(z.k==e.k)ix=i});var o=c[(ix+1)%c.length];MP.blocks[b].row[j]={k:o.k,x:o.x,pw:o.pw};MP.dirty=1;mpSave();mpDraw()}
 function mpCart(){var s={};MP.blocks.forEach(function(B){B.row.forEach(function(e){if(e)s[e.k]=1})});Object.keys(s).forEach(function(k){ar(+k)})}
