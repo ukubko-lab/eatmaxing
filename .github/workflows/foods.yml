@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: python build_foods.py 60
+      - run: python build_foods_dump.py
       - run: |
           git config user.name "leaflet-bot"
           git config user.email "bot@users.noreply.github.com"
