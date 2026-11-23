@@ -13,7 +13,7 @@ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:en
 body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 .w{max-width:980px;margin:0 auto;padding:0 16px 80px}
 header{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
-.logo{font-weight:800;font-size:20px;letter-spacing:-.5px}.logo b{color:var(--ac)}
+.logo{font-weight:800;font-size:20px;letter-spacing:-.5px}.logo b{color:var(--ac)}.ver{font-size:11px;font-weight:600;letter-spacing:0;color:var(--mu,#777);border:1px solid var(--bd);border-radius:99px;padding:1px 7px;vertical-align:middle;margin-left:4px}.mpn{color:inherit;text-decoration:none;cursor:pointer}.mpn:hover{text-decoration:underline}.mpd{font-size:14px;line-height:1.45}.mpd ol{margin:6px 0 0 18px;padding:0}.mpd .ig{margin:6px 0 0;padding:0;list-style:none}.mpd .ig li{padding:3px 0;border-bottom:1px dashed var(--bd)}
 nav{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px}
 nav button,.chip{border:1px solid var(--bd);background:var(--card);color:var(--tx);padding:8px 14px;border-radius:99px;font:inherit;font-size:14px;cursor:pointer;white-space:nowrap}
 nav button.on,.chip.on{background:var(--ac);color:#fff;border-color:var(--ac)}
@@ -42,7 +42,7 @@ footer{color:var(--mu);font-size:12px;margin-top:40px}
 </head>
 <body>
 <div class="w">
-<header><div class="logo">Eat<b>Maxing</b></div><div class="row" style="gap:8px"><button class="chip" id="pb" onclick="go('profile')">👤 Můj profil</button></div></header>
+<header><div class="logo">Eat<b>Maxing</b> <span class="ver" id="ver"></span></div><div class="row" style="gap:8px"><button class="chip" id="pb" onclick="go('profile')">👤 Můj profil</button></div></header>
 <nav id="nav"></nav>
 
 <section class="sec on" id="home">
@@ -315,6 +315,7 @@ function plan(){var lim=+$("bk").value,tot=0,pk=[];
  $("bo").innerHTML=pk.length?'<div class="card"><b>Vejde se '+pk.length+' recept'+(pk.length>1?(pk.length<5?'y':'ů'):'')+' za '+kc(tot)+' z '+kc(lim)+'</b><ul class="list">'+pk.map(function(k){return '<li><span>'+R[k].e+' '+R[k].n+'</span></li>'}).join("")+'</ul><button class="btn sm" onclick="pk.forEach(ar)">+ Vše na seznam</button></div>':'<p class="sub">Za tuto částku se nic nevejde, zkus víc.</p>';
  window.pk=pk}
 
+var APPV="2.2";
 /* ===== Jidelnicek ===== */
 var MPS={2:[1,2],3:[0,1,2],4:[0,1,2,3],5:[0,3,1,3,2]},MPH={0:.25,1:.35,2:.30,3:.10},MP=null;
 function mpGoal(){return G+Math.round(bn(DL[TD]||[]))}
@@ -348,6 +349,12 @@ function mpGen(){
 function mpSave(){P.mp={bu:MP.bu,dn:MP.dn,n:MP.n,km:MP.km,cooks:MP.cooks};P.mpl=MP;sp()}
 function mpInfo(e){var r=R[e.k],c=rc(r),po=r.p.match(/(\d+) porc/);po=po?+po[1]:1;var q=rn(r);return{cost:c.c/po*e.x,kcal:q.kcal*e.x,b:q.b*e.x,t:q.t*e.x,s:q.s*e.x}}
 function mpSync(){var g=$("mpg");if(g)g.textContent=mpLbl();if(MP&&MP.km&&MP.goal!=mpGoal()){if(MP.dirty)mpDraw();else{$("mpb").value=MP.bu;$("mpd").value=MP.dn;mpCooks();$("mpc").value=MP.cooks;$("mpn").value=MP.n;mpGen()}}}
+var MPD={};
+function mpTg(K){MPD[K]=!MPD[K];mpDraw()}
+function mpScale(t,f){return t.replace(/^(\d+(?:[.,]\d+)?)/,function(x){var v=parseFloat(x.replace(",","."))*f;v=v>=10?Math.round(v):Math.round(v*10)/10;return String(v).replace(".",",")})}
+function mpDet(e,n){var r=R[e.k],c=rc(r),po=r.p.match(/(\d+) porc/);po=po?+po[1]:1;var f=e.x*n/po,tp=Math.round(e.x*n*10)/10;
+ var ig=r.i.map(function(g,gi){var l=c.ls[gi];return '<li>'+mpScale(g.t,f)+(l?'<br><span class="sub">'+(l.d.fb?'🏷️ běžná cena: ':l.d.s+': ')+l.d.n+' · '+kc(l.d.p)+'</span>':'')+'</li>'}).join("");
+ return '<li class="mpq"><div class="mpd"><b>Suroviny na '+(tp==1?'1 porci':tp<5?tp+' porce':tp+' porcí')+'</b><ul class="ig">'+ig+'</ul>'+(r.s&&r.s.length?'<b style="display:block;margin-top:8px">Postup</b><ol>'+r.s.map(function(x){return '<li>'+x+'</li>'}).join("")+'</ol>':'<div class="sub" style="margin-top:6px">Bez vaření, stačí sníst.</div>')+'</div></li>'}
 function mpQty(e){var r=R[e.k];if(e.pw)return'celé balení · '+e.pw+' g';if(r.f)return Math.round(r.i[0].a*e.x)+' g';return e.x==1?'1 porce':e.x+' porce'}
 function mpDate(d){var x=new Date(TD+"T12:00");x.setDate(x.getDate()+d);return x.toLocaleDateString("cs-CZ",{weekday:"short",day:"numeric",month:"numeric"})}
 function mpDraw(){var o=$("mpo");if(!MP||!MP.blocks){o.innerHTML="";return}MP.skip=MP.skip||{};var sl=MPS[MP.n],h="",GG=mpGoal(),stale=MP.km&&MP.goal!=GG,pkk=mpPack(MP),all=pkk.total,d=0;
@@ -366,7 +373,7 @@ function mpDraw(){var o=$("mpo");if(!MP||!MP.blocks){o.innerHTML="";return}MP.sk
      if(MPQ&&MPQ.k==K)h+='<li class="mpq"><div class="row"><input id="mpqs" placeholder="Hledat potravinu…" oninput="mpFind()" style="flex:1;min-width:130px"><input id="mpqg" type="number" value="100" min="1" style="width:74px" aria-label="Gramy"> <span class="sub">g</span> <button class="ib" aria-label="Zavřít hledání" onclick="mpClose()">✕</button></div><ul class="list" id="mpqr"></ul></li>';
      return}
     var r=R[e.k],i=mpInfo(e);dc+=i.cost;dk+=i.kcal;
-    h+='<li class="mpl"><span class="mpt"><span class="sub"><b>'+MS[m][1]+' '+nm+'</b></span><br><b>'+r.e+' '+r.n+'</b> <span class="sub">('+mpQty(e)+')</span><br><span class="sub">'+Math.round(i.kcal)+' kcal · B '+Math.round(i.b)+' · T '+Math.round(i.t)+' · S '+Math.round(i.s)+'</span></span><span class="mpa"><span class="mpp">'+kc(i.cost)+'</span><button class="ib" title="'+(B.len>1?'Jiné jídlo (pro celé vaření)':'Jiné jídlo')+'" aria-label="Jiné jídlo" onclick="mpSw('+b+','+j+')">↻</button><button class="ib" title="Odebrat z tohoto dne" aria-label="Odebrat jídlo" onclick="mpRm('+d+','+j+')">✕</button></span></li>'});
+    h+='<li class="mpl"><span class="mpt"><span class="sub"><b>'+MS[m][1]+' '+nm+'</b></span><br><a href="#" class="mpn" onclick="mpTg(\''+K+'\');return false"><b>'+r.e+' '+r.n+'</b> <span class="sub">'+(MPD[K]?'▴':'▾')+'</span></a> <span class="sub">('+mpQty(e)+')</span><br><span class="sub">'+Math.round(i.kcal)+' kcal · B '+Math.round(i.b)+' · T '+Math.round(i.t)+' · S '+Math.round(i.s)+'</span></span><span class="mpa"><span class="mpp">'+kc(i.cost)+'</span><button class="ib" title="'+(B.len>1?'Jiné jídlo (pro celé vaření)':'Jiné jídlo')+'" aria-label="Jiné jídlo" onclick="mpSw('+b+','+j+')">↻</button><button class="ib" title="Odebrat z tohoto dne" aria-label="Odebrat jídlo" onclick="mpRm('+d+','+j+')">✕</button></span></li>';if(MPD[K]){var nn=0;for(var q2=a;q2<=z;q2++)if(!MP.skip[q2+"_"+j])nn++;h+=mpDet(e,nn||1)}});
    h+='</ul><div class="sub">Za den: <b>'+Math.round(dk)+'</b>'+(MP.km?' z '+GG:'')+' kcal · '+kc(dc)+'</div></div>'}});
  var ok=all<=MP.bu+.5,pl=pkk.list.map(function(x){var u=x.ks?' ks':' g',lf=x.left>=1?' <span class="sub">(zbude '+Math.round(x.left)+u+')</span>':'';return '<li class="mpl"><span class="mpt">'+x.d.e+' '+x.d.n+' <span class="sub">· '+x.d.s+'</span>'+lf+'</span><span class="mpa"><span class="mpp">'+x.n+'× '+kc(x.d.p)+'</span></span></li>'}).join("");
  o.innerHTML=(stale?'<div class="card" style="border-color:#e6a23c"><b>Cíl kalorií se změnil na '+GG+' kcal</b> (jídelníček je počítaný na '+MP.goal+').<div style="margin-top:8px"><button class="btn sm" onclick="mpGen()">Přepočítat jídelníček</button></div></div>':'')+
@@ -386,7 +393,7 @@ function mpOk(m){var pc={},c=[];R.forEach(function(r,k){pc[k]=rc(r)});mpOpt(m,pc
 function mpSw(b,j){var e=MP.blocks[b].row[j],c=mpOk(MPS[MP.n][j]);if(c.length<2)return;var ix=0;c.forEach(function(z,i){if(z.k==e.k)ix=i});var o=c[(ix+1)%c.length];MP.blocks[b].row[j]={k:o.k,x:o.x,pw:o.pw};MP.dirty=1;mpSave();mpDraw()}
 function mpCart(){var s={};MP.blocks.forEach(function(B){B.row.forEach(function(e){if(e)s[e.k]=1})});Object.keys(s).forEach(function(k){ar(+k)})}
 function mpLog(){var pf=DY;DY=TD;MP.blocks[0].row.forEach(function(e,j){if(e&&!(MP.skip&&MP.skip["0_"+j])){var o=rn(R[e.k]);for(var q in o)o[q]*=e.x;o.n=R[e.k].n+(e.x!=1?" ("+mpNum(e.x)+"×)":"");o.g=0;o.m=MPS[MP.n][j];day().push(o)}});sv();DY=pf;kd();go("kcal")}
-function mpInit(){var s=$("mpd"),h="";for(var i=1;i<=14;i++)h+='<option value="'+i+'">'+i+'</option>';s.innerHTML=h;var m=P.mp||{};s.value=m.dn||3;s.onchange=mpCooks;$("mpc").value=m.cooks||m.dn||3;mpCooks();$("mpc").value=Math.min(m.cooks||(+s.value),+s.value);$("mpb").value=m.bu||500;$("mpn").value=m.n||3;$("mpk").checked=m.km!==false;$("mpg").textContent=mpLbl();if(P.mpl&&P.mpl.blocks){MP=P.mpl;mpSync();mpDraw()}else P.mpl=null}
+function mpInit(){var ve=$("ver");if(ve)ve.textContent="v"+APPV;var s=$("mpd"),h="";for(var i=1;i<=14;i++)h+='<option value="'+i+'">'+i+'</option>';s.innerHTML=h;var m=P.mp||{};s.value=m.dn||3;s.onchange=mpCooks;$("mpc").value=m.cooks||m.dn||3;mpCooks();$("mpc").value=Math.min(m.cooks||(+s.value),+s.value);$("mpb").value=m.bu||500;$("mpn").value=m.n||3;$("mpk").checked=m.km!==false;$("mpg").textContent=mpLbl();if(P.mpl&&P.mpl.blocks){MP=P.mpl;mpSync();mpDraw()}else P.mpl=null}
 $("sort").onchange=$("q").oninput=draw;
 function stat(){var ts=Object.keys(L).map(function(s){return L[s].t}),e=$("stl");if(ts.some(function(t){return!t})){e.textContent="Ukázková data. Skutečné akce se načtou z letáků po prvním běhu aktualizace (potom každé 2 dny).";return}var o=new Date(ts.sort()[0]);e.textContent=(Date.now()-o>2*864e5+36e5?"⚠ Data jsou starší než 2 dny. ":"")+"Poslední aktualizace letáků: "+o.toLocaleString("cs-CZ")+" · další přibližně "+new Date(+o+2*864e5).toLocaleDateString("cs-CZ")}
 var EV=2*864e5,L={Albert:{u:"https://www.albert.cz"},Lidl:{u:"https://www.lidl.cz"},Billa:{u:"https://www.billa.cz"}};
