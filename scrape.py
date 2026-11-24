@@ -425,6 +425,29 @@ def scrape(page, name, cfg):
     return deals[:1000]
 
 
+def update_prices(data, now):
+    """Historie beznych cen (cena pred slevou) z letaku. Appka je pouzije, kdyz zbozi zrovna neni v akci."""
+    hist = {f'{x["s"]}|{x["n"]}': x for x in data.get("prices", [])}
+    day = now.date().isoformat()
+    added = 0
+    for store, st in data["stores"].items():
+        for d in st.get("deals") or []:
+            try:
+                o, p = float(d.get("o") or 0), float(d.get("p") or 0)
+            except (TypeError, ValueError):
+                continue
+            if o <= p or o <= 0 or not d.get("n"):
+                continue
+            key = f'{store}|{d["n"]}'
+            if key not in hist:
+                added += 1
+            hist[key] = {"s": store, "n": d["n"], "p": round(o, 2), "t": day}
+    limit = (now - dt.timedelta(days=150)).date().isoformat()
+    rows = sorted((x for x in hist.values() if x.get("t", "") >= limit), key=lambda x: x["t"], reverse=True)[:4000]
+    data["prices"] = rows
+    print(f"historie beznych cen: {len(rows)} polozek (+{added} novych)")
+
+
 def main():
     force = "--force" in sys.argv
     data = json.loads(OUT.read_text("utf-8")) if OUT.exists() else {"stores": {}}
@@ -456,6 +479,7 @@ def main():
                 old["status"] = "error"
                 data["stores"][name] = old or {"status": "error", "deals": []}
         browser.close()
+    update_prices(data, now)
     if any(s.get("status") == "ok" and s.get("updated") == now.isoformat() for s in data["stores"].values()):
         data["run"] = now.isoformat()      # pri uplnem selhani se zkusi znovu hned dalsi den
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
