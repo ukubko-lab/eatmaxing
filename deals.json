@@ -1,7 +1,7 @@
 {
  "stores": {
   "Albert": {
-   "updated": "2026-11-22T13:12:11.479195+00:00",
+   "updated": "2026-11-24T15:40:37.485581+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -3443,25 +3443,3532 @@
      "v": "do 24.11."
     },
     {
-     "n": "Kofila/Banány v čokoládě 45 g",
-     "e": "🍌",
-     "p": 9.9,
-     "o": 19.9,
-     "v": "do 24.11."
+     "n": "Vepřová kýta bez kosti – v celku 1 kg",
+     "e": "🛒",
+     "p": 54.9,
+     "o": 179.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Máslo 250 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kuře bez drobů a čtvrtky 1 kg",
+     "e": "🍗",
+     "p": 59.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kunín Smetana ke šlehání 31% 200 g",
+     "e": "🥛",
+     "p": 19.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kofola 2 l",
+     "e": "🛒",
+     "p": 21.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Jägermeister 0,7 l",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 569.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kinder Surprise 20 g",
+     "e": "🛒",
+     "p": 17.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Gustona Slunečnicový olej 1 l",
+     "e": "🛒",
+     "p": 25.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nutella 1 kg",
+     "e": "🛒",
+     "p": 179.0,
+     "o": 269.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Milko Řecký jogurt 140 g",
+     "e": "🥛",
+     "p": 14.9,
+     "o": 22.9,
+     "v": "do 1.12."
     },
     {
      "n": "Monte Mléčný dezert 150 g",
      "e": "🛒",
      "p": 19.9,
      "o": 27.9,
-     "v": "do 24.11."
+     "v": "do 1.12."
+    },
+    {
+     "n": "Madeta Jihočeský eidam 30% – plátky 100 g",
+     "e": "🧀",
+     "p": 19.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Perla Máslová příchuť 450 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 54.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pizza Ristorante 365 g",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kofila/Banány v čokoládě 45 g",
+     "e": "🍌",
+     "p": 9.9,
+     "o": 12.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pickwick Ovocný čaj 40 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 45.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Opavia Miňonky 50 g",
+     "e": "🛒",
+     "p": 9.9,
+     "o": 18.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Lay's Chips 130 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 57.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Franz Josef Tuňák – steak 170 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Znojmia Okurky 520 g",
+     "e": "🛒",
+     "p": 27.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Tchibo Gold Selection 200 g",
+     "e": "🛒",
+     "p": 139.9,
+     "o": 269.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Gambrinus Original 0,5 l",
+     "e": "🛒",
+     "p": 12.9,
+     "o": 16.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Svijanský Máz 0,5 l",
+     "e": "🛒",
+     "p": 13.9,
+     "o": 22.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Radegast Ryze hořká 0,5 l",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 25.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Musti Nobilis Prosecco 0,75 l",
+     "e": "🛒",
+     "p": 199.0,
+     "o": 299.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Deka beránek",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 399.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Král Sýrů Hermelín 120 g",
+     "e": "🧀",
+     "p": 29.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hanácká Vodka 0,5 l",
+     "e": "🛒",
+     "p": 119.9,
+     "o": 209.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Kešu natural 500 g",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 199.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Výrobek z mletého masa mix 400 g",
+     "e": "🥩",
+     "p": 54.9,
+     "o": 74.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Coca-Cola 4pack 4× 1,5 l",
+     "e": "🛒",
+     "p": 89.9,
+     "o": 149.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mandarinky balení 2,3 kg 1 kg",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 129.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Milka Kravička z mléčné čokolády 15,8 g",
+     "e": "🍫",
+     "p": 9.9,
+     "o": 14.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Balíček z mléčné čokolády 85 g",
+     "e": "🍫",
+     "p": 34.9,
+     "o": 44.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Milka Sněhulák 50 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Lindt Santa Claus 70 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 119.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Lindt Mini figurky 50 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Orion Arabesky 130 g",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Ferrero/ Raffaello hvězda 40 g",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 74.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Raffaello Pralinky 80 g",
+     "e": "🛒",
+     "p": 74.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Winter minis 400 g",
+     "e": "🛒",
+     "p": 109.9,
+     "o": 139.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Orion Lanýžové a krémové figurky 333 g",
+     "e": "🛒",
+     "p": 139.9,
+     "o": 229.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Zvoneček z mléčné čokolády 20 g",
+     "e": "🍫",
+     "p": 9.9,
+     "o": 12.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Brumík multipack 150 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 57.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mixit Adventní kalendář plný Crème boulí 720 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Podkova zlatá z mléčné čokolády 30 g",
+     "e": "🍫",
+     "p": 29.9,
+     "o": 44.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Zlaté mince v síťce 50 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Milly Adventní kalendář 75 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kinder Duo Sušenky 150 g",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 119.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Lada Mléčné neapolitánky 90 g",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mixit Mandle z adventních trhů s medem a skořicí 60 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mixit Crème boule Cinnamon 30 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Adventní kalendář 240 g",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 399.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Poleva mléčná 100 g",
+     "e": "🛒",
+     "p": 25.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Čokoláda na pečení 46% 150 g",
+     "e": "🍫",
+     "p": 54.9,
+     "o": 74.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Tubičky bílé 76 g",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Perníčky 450 g",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Opavia Piškoty 220 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 43.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schwartau Extra Džem 340 g",
+     "e": "🛒",
+     "p": 54.9,
+     "o": 64.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Zdobení druhy bílé 73 g",
+     "e": "🛒",
+     "p": 54.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Babiččina volba Mouka 1 kg",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 33.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Orion Čokoláda na vaření 90 g",
+     "e": "🍫",
+     "p": 22.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Vlašské ořechy 500 g",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 179.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Kypřicí prášek 12 g",
+     "e": "🛒",
+     "p": 6.0,
+     "o": 9.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Čerstvá vejce",
+     "e": "🥚",
+     "p": 59.9,
+     "o": 76.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Chia semínka 100 g",
+     "e": "🛒",
+     "p": 18.0,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Třtinový cukr 400 g",
+     "e": "🛒",
+     "p": 29.0,
+     "o": 38.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Kokosová mouka 250 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Kokos strouhaný 100 g",
+     "e": "🛒",
+     "p": 15.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Rozinky 150 g",
+     "e": "🛒",
+     "p": 25.9,
+     "o": 32.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Banány 1 kg",
+     "e": "🍌",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Citrony balené 500 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Jablka skládaná 1 kg",
+     "e": "🍎",
+     "p": 39.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Kiwi",
+     "e": "🛒",
+     "p": 9.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Mrkev 750 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Healthy Life Kozí jogurt 150 g",
+     "e": "🥛",
+     "p": 22.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Kids Bio Sýrové tyčinky 4× 20 g",
+     "e": "🧀",
+     "p": 24.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Okurka",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Healthy Life Ovčí jogurt 150 g",
+     "e": "🥛",
+     "p": 22.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Healthy Life Kozí mléko čerstvé 3,2% 500 ml",
+     "e": "🥛",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Jogurt bílý smetanový 150 g",
+     "e": "🥛",
+     "p": 14.9,
+     "o": 18.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Jogurt ochucený 180 g",
+     "e": "🥛",
+     "p": 13.9,
+     "o": 17.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Jogurt bílý 180 g",
+     "e": "🥛",
+     "p": 10.9,
+     "o": 16.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Jogurt ochucený smetanový 150 g",
+     "e": "🥛",
+     "p": 14.9,
+     "o": 18.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Máslo 125 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 47.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Parenica 110 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 44.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Žervé 150 g",
+     "e": "🛒",
+     "p": 27.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Sýr s modrou plísní 115 g",
+     "e": "🧀",
+     "p": 26.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Čerstvé mléko 1,5% 1 l",
+     "e": "🥛",
+     "p": 29.9,
+     "o": 36.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Gouda – plátky 100 g",
+     "e": "🛒",
+     "p": 33.9,
+     "o": 42.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Obalované karbanátky se sýrem 220 g",
+     "e": "🧀",
+     "p": 54.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Obalované masové kuličky se sýrem a špenátem 300 g",
+     "e": "🥩",
+     "p": 59.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Pan Blanco Chléb 250 g",
+     "e": "🍞",
+     "p": 44.9,
+     "o": 57.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Maestro Vital Chléb 350 g",
+     "e": "🍞",
+     "p": 79.9,
+     "o": 96.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Kaiserky 240 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Piškotový dezert 35 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Pain Campagnard Chléb 240 g",
+     "e": "🍞",
+     "p": 68.9,
+     "o": 81.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Muffin 50 g",
+     "e": "🛒",
+     "p": 23.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Sladké rohlíčky 200 g",
+     "e": "🛒",
+     "p": 54.9,
+     "o": 72.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Korpus na pizzu 300 g",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Směs na pečení 1 kg",
+     "e": "🛒",
+     "p": 89.9,
+     "o": 121.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Brownies mix 350 g",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Preclíky 60 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 37.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Lasagne 250 g",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Perníčky 200 g",
+     "e": "🛒",
+     "p": 109.9,
+     "o": 129.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schär Panettone 420 g",
+     "e": "🛒",
+     "p": 169.0,
+     "o": 199.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Knäckebrot 230 g",
+     "e": "🛒",
+     "p": 65.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Křupavé tyčinky 60 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Sušenky s máslovou příchutí 55 g",
+     "e": "🛒",
+     "p": 17.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Věnečky 100 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Bio Tyčinky 45 g",
+     "e": "🛒",
+     "p": 22.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Bio Pohankové vločky 250 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 54.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Chlebíčky rýžovo-kukuřičné 130 g",
+     "e": "🍗",
+     "p": 14.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Bio Plátky 50 g",
+     "e": "🛒",
+     "p": 13.9,
+     "o": 16.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Kukuřičná strouhanka 200 g",
+     "e": "🍗",
+     "p": 16.9,
+     "o": 21.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Müsli 250 g",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Směs na pizzu 500 g",
+     "e": "🛒",
+     "p": 45.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Těstoviny 500 g",
+     "e": "🍝",
+     "p": 38.9,
+     "o": 46.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Veggie Bio Polévka 400 g",
+     "e": "🛒",
+     "p": 64.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Mini cookies s čokoládou 120 g",
+     "e": "🍫",
+     "p": 33.9,
+     "o": 44.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Veggie Bujón 88 g",
+     "e": "🛒",
+     "p": 28.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Veggie Bio Žluté kari 283 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Veggie Bio Pomazánka 235 g",
+     "e": "🛒",
+     "p": 36.9,
+     "o": 46.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Mandlový nápoj 1 l",
+     "e": "🛒",
+     "p": 28.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Veggie Nudličky hrachové 75 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 44.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Cizrnové placičky 250 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 45.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Sójový vanilkový nápoj 1 l",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 33.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Tapiokový sirup 350 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Veggie Bio Pomazánka 150 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 42.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Veggie Bio Pomazánka 125 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Losos uzený – plátky 100 g",
+     "e": "🛒",
+     "p": 89.9,
+     "o": 115.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Veggie Bio Polévka 600 g",
+     "e": "🛒",
+     "p": 54.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Lasagne Bolognese 400 g",
+     "e": "🛒",
+     "p": 89.9,
+     "o": 112.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Salami Milano 70 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 92.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Pancetta 70 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Coppa 70 g",
+     "e": "🛒",
+     "p": 82.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Kids Bio Hruškové sušenky 100 g",
+     "e": "🛒",
+     "p": 35.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Granola 50 g",
+     "e": "🛒",
+     "p": 26.9,
+     "o": 38.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Ovesné lupínky 200 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 41.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Koření 20 g",
+     "e": "🛒",
+     "p": 11.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Quinoa 250 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Tortilla Chips 150 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 42.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Kukuřice 230 g",
+     "e": "🍗",
+     "p": 29.9,
+     "o": 44.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Cizrna 250 g",
+     "e": "🛒",
+     "p": 26.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Cornflakes 300 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 46.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Jablečný protlak 350 g",
+     "e": "🍎",
+     "p": 28.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Rajčatová omáčka 340 g",
+     "e": "🍅",
+     "p": 36.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Hrášek 230 g",
+     "e": "🛒",
+     "p": 33.9,
+     "o": 44.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Passata 690 g",
+     "e": "🛒",
+     "p": 33.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Bylinná směs 27 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 46.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Kokosový olej 200 ml",
+     "e": "🛒",
+     "p": 44.9,
+     "o": 64.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Mini müsli tyčinky sýrové 55 g",
+     "e": "🧀",
+     "p": 15.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Bylinný čaj 40 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 46.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Bulgur 500 g",
+     "e": "🛒",
+     "p": 44.9,
+     "o": 52.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Těstoviny celozrnné 500 g",
+     "e": "🍝",
+     "p": 24.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Těstoviny pšeničné 500 g",
+     "e": "🍝",
+     "p": 25.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Rakytníková šťáva 250 ml",
+     "e": "🛒",
+     "p": 89.9,
+     "o": 119.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Rýžový sirup 250 ml",
+     "e": "🍚",
+     "p": 54.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Free From Bio Mungo 500 g",
+     "e": "🛒",
+     "p": 57.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kaki",
+     "e": "🛒",
+     "p": 10.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Hrozny tmavé bezsemenné 500 g",
+     "e": "🍇",
+     "p": 54.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Borůvky 125 g",
+     "e": "🛒",
+     "p": 44.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Grapefruit červený 1 kg",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Jablka Gala skládaná 1 kg",
+     "e": "🍎",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Salátový mix brokolicový 500 g",
+     "e": "🛒",
+     "p": 63.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Salátový mix 300 g",
+     "e": "🛒",
+     "p": 62.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Salátový mix Caesar 350 g",
+     "e": "🛒",
+     "p": 63.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Bylinky v kořenáči",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Salát Fresco mix 140 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 36.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Brambory konzumní pozdní 5 kg",
+     "e": "🥔",
+     "p": 69.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Salát s mrkví mix 165 g",
+     "e": "🥕",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Baby Špenát 100 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Rukola 100 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "PREMIUM Vepřová šunka* 100 g",
+     "e": "🛒",
+     "p": 22.9,
+     "o": 31.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kuřecí debrecínka 100 g",
+     "e": "🍗",
+     "p": 16.9,
+     "o": 21.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sedlácký salám 100 g",
+     "e": "🛒",
+     "p": 16.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Poličan 100 g",
+     "e": "🛒",
+     "p": 22.9,
+     "o": 32.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Striptýzky 100 g",
+     "e": "🛒",
+     "p": 7.9,
+     "o": 11.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kostelecké uzeniny Poctivá řemeslná šunka 100 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pikantní slanina Delikates 100 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 31.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kostelecké uzeniny Poctivé vídeňské párky 180 g",
+     "e": "🛒",
+     "p": 53.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Schwarzwaldská šunka 80 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Šunka nejvyšší jakosti 200 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 63.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kuřecí prsní řízky 1 kg",
+     "e": "🍗",
+     "p": 129.9,
+     "o": 229.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kuřecí steak mletý 500 g",
+     "e": "🍗",
+     "p": 59.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Tatarský biftek 250 g",
+     "e": "🛒",
+     "p": 94.9,
+     "o": 109.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kuřecí horní a spodní stehna mix 1 kg",
+     "e": "🍗",
+     "p": 89.9,
+     "o": 129.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pstruh kuchaný 100 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 23.3,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hovězí přední s kostí – žebro 1 kg",
+     "e": "🛒",
+     "p": 189.0,
+     "o": 249.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hovězí kulatá plec 1 kg",
+     "e": "🛒",
+     "p": 289.0,
+     "o": 389.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Výrobek z mletého hovězího masa 480 g",
+     "e": "🥩",
+     "p": 109.9,
+     "o": 149.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Bio Kuřecí spodní stehna 450 g",
+     "e": "🍗",
+     "p": 109.9,
+     "o": 139.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vepřový bok bez kosti – plátky 1 kg",
+     "e": "🛒",
+     "p": 119.9,
+     "o": 159.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mistrovský chléb 500 g",
+     "e": "🍞",
+     "p": 28.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Máslový čert 190 g",
+     "e": "🛒",
+     "p": 21.9,
+     "o": 26.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bulka sýrová 65 g",
+     "e": "🧀",
+     "p": 11.9,
+     "o": 14.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kornbageta s kváskem 115 g",
+     "e": "🛒",
+     "p": 9.9,
+     "o": 14.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Burek 79 g",
+     "e": "🛒",
+     "p": 11.9,
+     "o": 14.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Donut s polevou 57 g",
+     "e": "🛒",
+     "p": 11.9,
+     "o": 14.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Závin 400 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 47.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kostka s pudinkem 98 g",
+     "e": "🛒",
+     "p": 15.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Milka Croissant 50 g",
+     "e": "🛒",
+     "p": 16.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Louhovaný preclík 80 g",
+     "e": "🛒",
+     "p": 9.9,
+     "o": 11.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Perníkový sněhulák mini 30 g",
+     "e": "🛒",
+     "p": 21.9,
+     "o": 26.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pan Perníček 75 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Medovníček 10× 22 g",
+     "e": "🛒",
+     "p": 119.9,
+     "o": 149.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Eidam 45% – plátky 200 g",
+     "e": "🧀",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Cheddar 50% 100 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Mozzarella 125 g",
+     "e": "🛒",
+     "p": 16.9,
+     "o": 22.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Císařská niva 45% – výseč 100 g",
+     "e": "🛒",
+     "p": 25.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Balkánský sýr 180 g",
+     "e": "🧀",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Leerdammer – plátky 100 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 51.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Laktos Cottage 200 g",
+     "e": "🛒",
+     "p": 27.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Gervais 80 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Madeta Romadur 100 g",
+     "e": "🛒",
+     "p": 21.9,
+     "o": 32.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Lučina 180 g",
+     "e": "🛒",
+     "p": 44.9,
+     "o": 64.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Apetito Smetanové XXL 187 g",
+     "e": "🥛",
+     "p": 44.9,
+     "o": 72.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Veselá kráva Lahodná 120 g",
+     "e": "🛒",
+     "p": 28.9,
+     "o": 53.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Míša Tvarohový mls 130 g",
+     "e": "🛒",
+     "p": 15.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hollandia Selský jogurt 200 g",
+     "e": "🥛",
+     "p": 9.9,
+     "o": 21.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bobík 130 g",
+     "e": "🛒",
+     "p": 17.9,
+     "o": 27.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Activia bílá 4× 120 g",
+     "e": "🛒",
+     "p": 44.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kostíci 109 g",
+     "e": "🛒",
+     "p": 14.9,
+     "o": 22.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Activia Jogurtový nápoj 280 g",
+     "e": "🥛",
+     "p": 21.9,
+     "o": 32.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Choceňské pomazánkové neochucené 150 g",
+     "e": "🛒",
+     "p": 32.9,
+     "o": 43.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Smetanový jogurt z Valašska 150 g",
+     "e": "🥛",
+     "p": 11.9,
+     "o": 18.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pierot 150 g",
+     "e": "🛒",
+     "p": 12.9,
+     "o": 20.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Olma Klasik bílý 1 kg",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 74.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Milko Tvaroh polotučný 250 g",
+     "e": "🛒",
+     "p": 18.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Česká chuť Trvanlivé mléko 1,5% 1 l",
+     "e": "🥛",
+     "p": 11.9,
+     "o": 21.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pařížský salát 100 g",
+     "e": "🛒",
+     "p": 12.9,
+     "o": 15.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Česneková pomazánka se sýrem 100 g",
+     "e": "🧀",
+     "p": 16.9,
+     "o": 20.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Tuňáková pomazánka se sušenými rajčaty 100 g",
+     "e": "🍅",
+     "p": 21.9,
+     "o": 27.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Camembertová pomazánka 100 g",
+     "e": "🛒",
+     "p": 17.9,
+     "o": 23.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Vejce v aspiku 200 g",
+     "e": "🥚",
+     "p": 26.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Meggle Smetana bezlaktózová 30% 200 ml",
+     "e": "🥛",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Agricol Tatarská omáčka 230 ml",
+     "e": "🛒",
+     "p": 27.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hellmann's Majonéza 100 ml",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Frosta Zelenina do trouby 400 g",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 74.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nowaco Filé 300 g",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 114.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Lurpak Roztíratelný tuk 200 g",
+     "e": "🛒",
+     "p": 64.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nowaco Obalovaný sýr 200 g",
+     "e": "🧀",
+     "p": 49.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nowaco Čínská směs 350 g",
+     "e": "🛒",
+     "p": 32.9,
+     "o": 44.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Farm Frites Vlnky do trouby 450 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Olma Cavalier 130 g",
+     "e": "🛒",
+     "p": 13.9,
+     "o": 18.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Olma Jogurt Tlapková patrola 105 g",
+     "e": "🥛",
+     "p": 11.9,
+     "o": 16.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kunín Termix extra 130 g",
+     "e": "🛒",
+     "p": 15.9,
+     "o": 22.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Milko Zakysaná smetana 15% 175 g",
+     "e": "🥛",
+     "p": 17.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Activia Kefír 280 g",
+     "e": "🛒",
+     "p": 21.9,
+     "o": 32.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Olma Mléko čerstvé 1,5% 1 l",
+     "e": "🥛",
+     "p": 28.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Müllermilch Mléčný nápoj 382 ml",
+     "e": "🛒",
+     "p": 21.9,
+     "o": 31.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Blaťácké zlato – výseč 120 g",
+     "e": "🛒",
+     "p": 32.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Zmrzlina Míša 55 ml",
+     "e": "🛒",
+     "p": 14.9,
+     "o": 25.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "BeBe Sušenky 130 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hašlerky 90 g",
+     "e": "🛒",
+     "p": 15.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Avanti 0,75 l",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Rexona Antiperspirant sprej* 150 ml",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 76.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kláštorná Kalcia 1,5 l",
+     "e": "🛒",
+     "p": 13.9,
+     "o": 18.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dynybyl Gin 0,5 l",
+     "e": "🛒",
+     "p": 179.0,
+     "o": 229.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nescafé Crema Refill 275 g",
+     "e": "🛒",
+     "p": 189.0,
+     "o": 249.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Milka Čokoláda 300 g",
+     "e": "🍫",
+     "p": 69.9,
+     "o": 109.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kit Kat Tabulka 99 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 54.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Toblerone 100 g",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 83.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Toffifee 125 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Manner Oplatky 75 g",
+     "e": "🛒",
+     "p": 16.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Roshen Oplatky 72 g",
+     "e": "🛒",
+     "p": 12.9,
+     "o": 18.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sedita Horalky 50 g",
+     "e": "🛒",
+     "p": 12.9,
+     "o": 18.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kinder Bueno 43 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 26.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Merci Lovelies 185 g",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 139.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nugeta 42 g",
+     "e": "🛒",
+     "p": 9.9,
+     "o": 13.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Fidorka Oplatka 30 g",
+     "e": "🛒",
+     "p": 9.9,
+     "o": 18.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Trolli Želé bonbony 200 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Figaro Čokopiškoty 147 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 44.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mannner Knuspino Oplatky 110 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 33.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Tchibo Exclusive 250 g",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 224.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Emco Sušenky 60 g",
+     "e": "🛒",
+     "p": 13.9,
+     "o": 15.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vitto Tea 45 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Jacobs Káva v sáčcích 126 g",
+     "e": "☕",
+     "p": 49.9,
+     "o": 87.9,
+     "v": "do 1.12."
     },
     {
      "n": "Granko 400 g",
      "e": "🛒",
      "p": 89.9,
      "o": 149.9,
-     "v": "do 24.11."
+     "v": "do 1.12."
+    },
+    {
+     "n": "Emco Mysli 750 g",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 125.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nestlé Dětské cereálie 360 g",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 119.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Fitness Granola 300 g",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pickwick Ranní 175 g",
+     "e": "🛒",
+     "p": 119.9,
+     "o": 149.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Tassimo Kapsle",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 174.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Jihlavanka Espresso 750 g",
+     "e": "🛒",
+     "p": 199.0,
+     "o": 399.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hamé Pomazánka 120 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hamé Paštika 120 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Viva Konzerva s vepřovým masem 400 g",
+     "e": "🛒",
+     "p": 36.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Viva Maďarský guláš 400 g",
+     "e": "🛒",
+     "p": 44.9,
+     "o": 64.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hamé Špagetka 400 g",
+     "e": "🍝",
+     "p": 54.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Heinz Kečup jemný 460 g",
+     "e": "🛒",
+     "p": 46.9,
+     "o": 77.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Seville Olivy bez pecky 350 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 61.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Senf Hořčice plnotučná 900 ml",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Franz Josef Tuňákový salát 160 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nekton Makrela v oleji 240 g",
+     "e": "🛒",
+     "p": 44.9,
+     "o": 57.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Franz Josef Olivový olej extra panenský 500 ml",
+     "e": "🛒",
+     "p": 109.9,
+     "o": 139.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vitana Masox 110 g",
+     "e": "🥩",
+     "p": 19.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Buldak Instantní pálivé ramen nudle 140 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Cukr bílý krupice 1 kg",
+     "e": "🛒",
+     "p": 12.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Santa Maria Tortilla Wrap 371 g",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Adriana Těstoviny 500 g",
+     "e": "🍝",
+     "p": 24.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Ar Rashid Arašídy solené 60 g",
+     "e": "🛒",
+     "p": 14.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pure Beef Omáčka na těstoviny 400 g",
+     "e": "🍝",
+     "p": 64.9,
+     "o": 124.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Avelopa Niťovky 250 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 45.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vitana Rýže loupaná 800 g",
+     "e": "🍚",
+     "p": 44.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Originální hospodské brambůrky 180 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Chio Pom-Bär 50 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "limitovaná edice",
+     "e": "🛒",
+     "p": 54.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Doritos Tortilla chipsy 90 g",
+     "e": "🛒",
+     "p": 36.9,
+     "o": 52.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Big Shock! 0,5 l",
+     "e": "🛒",
+     "p": 26.9,
+     "o": 41.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Tiger 0,5 l",
+     "e": "🛒",
+     "p": 13.9,
+     "o": 32.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hello Džus a nektar 1 l",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "YO Sirup 0,7 l",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 94.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Cappy 1 l",
+     "e": "🛒",
+     "p": 26.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Gemerka Imunita/Vitalita 0,75 l",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Magnesia red 1,5 l",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mattoni Imuno 0,7 l",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Capri-Sun 200 ml",
+     "e": "🛒",
+     "p": 7.0,
+     "o": 13.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Poděbradka Prolinie 1,5 l",
+     "e": "🛒",
+     "p": 11.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Aquila 1,5 l",
+     "e": "🛒",
+     "p": 11.9,
+     "o": 17.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Coca-Cola/ Fanta 2 l",
+     "e": "🛒",
+     "p": 36.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Red Bull 4pack 4× 250 ml",
+     "e": "🛒",
+     "p": 109.9,
+     "o": 129.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Coca-Cola 4pack 4× 330 ml",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 84.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Cool 0,5 l",
+     "e": "🛒",
+     "p": 13.9,
+     "o": 23.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Birell 4pack 4× 0,33 l",
+     "e": "🛒",
+     "p": 54.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Gambrinus Original 6pack 6× 0,5 l",
+     "e": "🛒",
+     "p": 89.9,
+     "o": 134.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Frisco 330 ml",
+     "e": "🛒",
+     "p": 18.9,
+     "o": 25.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Proud 0,33 l",
+     "e": "🛒",
+     "p": 18.9,
+     "o": 23.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Birell 0,5 l",
+     "e": "🛒",
+     "p": 13.9,
+     "o": 20.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Staropramen 6pack 6× 0,5 l",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 129.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Krušovice 0,5 l",
+     "e": "🛒",
+     "p": 15.9,
+     "o": 23.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Braník 0,5 l",
+     "e": "🛒",
+     "p": 14.9,
+     "o": 19.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Lišácké jablko 0,5 l",
+     "e": "🍎",
+     "p": 21.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mustang Hořký 0,5 l",
+     "e": "🛒",
+     "p": 14.9,
+     "o": 21.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Cecilia 0,5 l",
+     "e": "🛒",
+     "p": 18.9,
+     "o": 25.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Zlatopramen 1,5 l",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 54.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "DeAngeli Pinot Grigio 0,75 l",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Butterfly 0,75 l",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 129.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Habánské sklepy 0,75 l",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 119.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mionetto Orange Spritz 0,25 l",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mucha Sekt 0,75 l",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 184.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "El Clásico Salted Caramel 0,5 l",
+     "e": "🛒",
+     "p": 199.0,
+     "o": 249.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "B42V Eccentric Vodka 0,5 l",
+     "e": "🛒",
+     "p": 169.0,
+     "o": 219.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Captain Morgan 0,7 l",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 499.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Moravský košt Švestka 0,5 l",
+     "e": "🛒",
+     "p": 169.0,
+     "o": 219.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "FinlandiaVodka 0,7 l",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 499.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Jean Claude Mas 0,75 l",
+     "e": "🛒",
+     "p": 119.9,
+     "o": 179.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bepin de Eto Prosecco Superiore DOCG Extra Dry 0,75 l",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 399.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Jean Claude Mas Chardonnay 0,75 l",
+     "e": "🛒",
+     "p": 119.9,
+     "o": 179.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Davinus 0,75 l",
+     "e": "🛒",
+     "p": 139.9,
+     "o": 179.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Stará žitná myslivecká 0,5 l",
+     "e": "🛒",
+     "p": 169.0,
+     "o": 209.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Fernet Stock 0,7 l",
+     "e": "🛒",
+     "p": 219.0,
+     "o": 299.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Tullamore D.E.W. 0,7 l",
+     "e": "🛒",
+     "p": 329.0,
+     "o": 599.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Durex Pánská ochrana*",
+     "e": "🛒",
+     "p": 54.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hello Ovocná svačinka 100 g",
+     "e": "🛒",
+     "p": 8.9,
+     "o": 13.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hello XXL Ovocná svačinka 200 g",
+     "e": "🛒",
+     "p": 11.9,
+     "o": 21.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Gerber Junior Ovocné pyré 110 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 38.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "HiPP Bio Masozeleninový příkrm 250 g",
+     "e": "🥩",
+     "p": 69.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Gerber Bio Křupky 35 g",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sunar do ručičky Ovocné pyré 100 g",
+     "e": "🛒",
+     "p": 21.9,
+     "o": 33.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hamánek Ovocné pyré 100 g",
+     "e": "🛒",
+     "p": 14.9,
+     "o": 27.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sunar Masozeleninové pyré 120 g",
+     "e": "🥩",
+     "p": 39.9,
+     "o": 57.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kiddylicious Tyčinky 12 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hami Masozeleninový příkrm 250 g",
+     "e": "🥩",
+     "p": 31.9,
+     "o": 52.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Leros Čaj 20× 2 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 57.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hami Sušenky Safari 180 g",
+     "e": "🛒",
+     "p": 52.9,
+     "o": 72.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sunar Křupky 50 g",
+     "e": "🛒",
+     "p": 27.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "HiPP Bio Ovocná oplatka 23 g",
+     "e": "🛒",
+     "p": 23.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hami Mléčná kaše 210 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 96.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sunar Mléčná kaše 210 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "NUK Mycí prostředek na láhve a savičky* 500 ml",
+     "e": "🛒",
+     "p": 89.9,
+     "o": 119.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "MAM Lahev Anti-Colic* 160 ml",
+     "e": "🛒",
+     "p": 223.0,
+     "o": 279.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "MAM Easy to drink Cup* 290 ml",
+     "e": "🛒",
+     "p": 269.0,
+     "o": 339.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Masozeleninový příkrm 190 g",
+     "e": "🥩",
+     "p": 24.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bio Ovocné pyré 90 g",
+     "e": "🛒",
+     "p": 13.5,
+     "o": 15.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vileda Rainbow Houbičky",
+     "e": "🛒",
+     "p": 32.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Home Kitchen Pytle zatahovací 60 l",
+     "e": "🛒",
+     "p": 28.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pattex Chemoprén 50 ml",
+     "e": "🛒",
+     "p": 64.9,
+     "o": 84.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Ceresit Stop vlhkosti Aero 360° Náhradní tablety* 2× 450 g",
+     "e": "🛒",
+     "p": 229.0,
+     "o": 279.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Loctite Super Bond Control Vteřinové lepidlo* 3 g",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 159.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Zateplené phylony*",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 399.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sada nerezového nádobí Swing",
+     "e": "🛒",
+     "p": 999.0,
+     "o": 1999.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Puzzle Ball Pokémon",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 379.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "v SVC 8726BK",
+     "e": "🛒",
+     "p": 2999.0,
+     "o": 4999.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Olivy zelené s mandlí 355 g",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Gouda mladá 48% 100 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Zaanlander uleželý 48% 100 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 44.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Zaanlander mladý 48% 100 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Zaanlander starý 48% 100 g",
+     "e": "🛒",
+     "p": 44.9,
+     "o": 54.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nabídka na této straně platí do 1. 12.",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sommelier Collection Prosecco DOC 0,75 l",
+     "e": "🛒",
+     "p": 159.0,
+     "o": 249.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Papriková klobása 250 g",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 136.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Chorizo Iberico 200 g",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 119.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Chorizo extra 75 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 47.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Salámky 105 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 62.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Pražská šunka 1 kg",
+     "e": "🛒",
+     "p": 199.0,
+     "o": 249.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Curado Sušená plec na kosti 4 kg",
+     "e": "🛒",
+     "p": 1199.0,
+     "o": 1899.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Vepřové trhané 550 g",
+     "e": "🛒",
+     "p": 109.9,
+     "o": 139.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Vepřová žebra 600 g",
+     "e": "🛒",
+     "p": 139.9,
+     "o": 179.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "PERLA MEDOVNÍK 650 g",
+     "e": "🛒",
+     "p": 199.0,
+     "o": 269.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vánoční andělka",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 139.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sodastream Výrobník Fresh Plus 1 l",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mikina beránek",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 159.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Lamart Pánev Orro",
+     "e": "🛒",
+     "p": 349.0,
+     "o": 469.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Lumpin Králíček Carlo",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 349.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dóza na cukroví 1,2 l",
+     "e": "🛒",
+     "p": 2490.0,
+     "o": 2990.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sencor Horkovzdušná fritéza SFR 8800SS 8 l",
+     "e": "🛒",
+     "p": 1999.0,
+     "o": 2999.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kabriolet s panenkou a pejskem",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 399.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kamion s autíčky v",
+     "e": "🛒",
+     "p": 399.0,
+     "o": 499.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Závodní dron formule v jezdí i létá",
+     "e": "🛒",
+     "p": 749.0,
+     "o": 899.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Woody Dřevěná vlaková dráha – Farma",
+     "e": "🛒",
+     "p": 749.0,
+     "o": 899.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Soubor her",
+     "e": "🛒",
+     "p": 799.0,
+     "o": 999.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "4M KidzLabs Krystaly",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 1199.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pejsek Ťapka interaktivní",
+     "e": "🛒",
+     "p": 699.0,
+     "o": 1090.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Play & Squish Senzorické podložky",
+     "e": "🛒",
+     "p": 499.0,
+     "o": 599.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mini puzzle",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Merkur Dvouplošník",
+     "e": "🛒",
+     "p": 399.0,
+     "o": 499.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Míč s aktivitami",
+     "e": "🛒",
+     "p": 229.0,
+     "o": 299.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "SEQUENCE Junior Tlapková patrola",
+     "e": "🛒",
+     "p": 399.0,
+     "o": 499.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Make It Real – kosmetické studio",
+     "e": "🛒",
+     "p": 499.0,
+     "o": 599.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Motor šroubovací s efekty",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 399.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Panenka Princezna",
+     "e": "🛒",
+     "p": 599.0,
+     "o": 899.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Klikva – brusinka 500 g",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Fíky sušené 200 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Datle sušené 200 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Švestky 500 g",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Emma Baby fíky 150 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 34.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Emma Kešu pražené 250 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 109.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Emma Lísková jádra blanšírovaná 100 g",
+     "e": "🛒",
+     "p": 44.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Emma Mandle v mléčné čokoládě a skořici 200 g",
+     "e": "🍫",
+     "p": 49.9,
+     "o": 69.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Emma Pistácie pražené nesolené 250 g",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 109.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Emma Arašídy pražené neloupané 500 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 55.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Albert Adventní kalendář suché plody 560 g",
+     "e": "🛒",
+     "p": 349.0,
+     "o": 399.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Extrakt Bourbon vanilka Madagaskar 35 ml",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 74.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Barva gelová zelená 10 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 51.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Zdobicí poleva tmavá kakaová 140 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 86.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vanilkový cukr 160 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Vanilkový lusk Bourbon",
+     "e": "🛒",
+     "p": 74.9,
+     "o": 129.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Čokoládové kousky 70 g",
+     "e": "🍫",
+     "p": 34.9,
+     "o": 43.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Fondán 250 g",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker 100% vaječné bílky 15 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 38.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Krémová náplň 65 g",
+     "e": "🛒",
+     "p": 32.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Zdobení bílé 80 g",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 36.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Poleva na vaření 90 g",
+     "e": "🛒",
+     "p": 14.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Kuličky duhové 65 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Dr. Oetker Srdíčka 40 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pâtifu Pomazánka 100 g",
+     "e": "🛒",
+     "p": 26.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bombus Ovocná tyčinka 40 g",
+     "e": "🛒",
+     "p": 25.9,
+     "o": 32.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kukuřičné lupínky 65 g",
+     "e": "🍗",
+     "p": 24.9,
+     "o": 37.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Semix Klíčené ovesné vločky 300 g",
+     "e": "🛒",
+     "p": 36.9,
+     "o": 44.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Schnitzer Bio Bowl 60 g",
+     "e": "🛒",
+     "p": 46.9,
+     "o": 56.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "HealthyCo Bio Kokosová voda 1 l",
+     "e": "🛒",
+     "p": 89.9,
+     "o": 109.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Pandy Želé bonbony 50 g",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bear Ovocné plátky 5× 20 g",
+     "e": "🛒",
+     "p": 69.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "YumEarth Bio Lízátka mix 87 g",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Yfood Nápoj 500 ml",
+     "e": "🛒",
+     "p": 89.9,
+     "o": 119.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "ManaDrink Mark 400 ml",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Mana Powder Mark 430 g",
+     "e": "🛒",
+     "p": 259.0,
+     "o": 329.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Waterdrop",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 189.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Healthy Life Shot 125 ml",
+     "e": "🛒",
+     "p": 29.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Healthy Life Šťáva 500 ml",
+     "e": "🛒",
+     "p": 51.9,
+     "o": 64.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Nature's Promise Healthy Life Smoothie 250 ml",
+     "e": "🛒",
+     "p": 39.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Gerber Cereal Mlíčko s kaší 2× 200 ml",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 74.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sunar Bio Křupky 18 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 29.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "HiPP Bio Kaše na dobrou noc 190 g",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 66.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Gerber Hello Yogo Mléčný dezert 4× 100 g",
+     "e": "🛒",
+     "p": 72.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sunar Ovocná kašička 120 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 39.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Gerber Cereal Mléčná kaše 230 g",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Johnson's Olej 200 ml",
+     "e": "🛒",
+     "p": 84.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Sunar Instantní nápoj 200 g",
+     "e": "🛒",
+     "p": 79.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bepanthen Mast 100 g",
+     "e": "🛒",
+     "p": 259.0,
+     "o": 329.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "TropiCane Třtinový cukr 500 g",
+     "e": "🛒",
+     "p": 24.9,
+     "o": 47.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Zlaté polomáčené 150 g",
+     "e": "🛒",
+     "p": 27.9,
+     "o": 33.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "BeBe Dobré ráno 50 g",
+     "e": "🛒",
+     "p": 9.9,
+     "o": 12.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Papita Tyčinka 33 g",
+     "e": "🛒",
+     "p": 6.9,
+     "o": 10.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Jupí Sirup 0,7 l",
+     "e": "🛒",
+     "p": 31.9,
+     "o": 54.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Original River Tonic 2 l",
+     "e": "🛒",
+     "p": 18.9,
+     "o": 32.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Bask Bramborové knedlíky 400 g",
+     "e": "🥔",
+     "p": 37.9,
+     "o": 54.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Menu Gold Pohanka 450 g",
+     "e": "🛒",
+     "p": 26.9,
+     "o": 46.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Jägermeister Winter 0,7 l",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 569.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Avokádo Pepř barevný celý 20 g",
+     "e": "🛒",
+     "p": 15.9,
+     "o": 24.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kotányi Bobkový list 5 g",
+     "e": "🛒",
+     "p": 15.9,
+     "o": 21.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vitana Čína 97 g",
+     "e": "🛒",
+     "p": 46.9,
+     "o": 56.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vitana MAXI Grilovací koření 90 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 56.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Cibule Bistro Vývar 1 l",
+     "e": "🧅",
+     "p": 84.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vimi Instantní nudlová polévka 50 g",
+     "e": "🛒",
+     "p": 9.9,
+     "o": 15.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vitana Instantní polévka 27 g",
+     "e": "🛒",
+     "p": 9.9,
+     "o": 14.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Vitana Velká rodinná polévka 184 g",
+     "e": "🛒",
+     "p": 34.9,
+     "o": 59.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Exotic Food Sladká chilli omáčka 725 ml",
+     "e": "🛒",
+     "p": 89.9,
+     "o": 119.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "RIO mare Paté 100 g",
+     "e": "🛒",
+     "p": 54.9,
+     "o": 99.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Hellmann's Omáčka k masu 250 ml",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 71.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "L'OR Kapsle",
+     "e": "🛒",
+     "p": 89.9,
+     "o": 129.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Orbit Refresher Žvýkačky dóza 67 g",
+     "e": "🛒",
+     "p": 64.9,
+     "o": 89.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Orbit Žvýkačky 64 g",
+     "e": "🛒",
+     "p": 59.9,
+     "o": 79.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Orbit Žvýkačky sáček 50 g",
+     "e": "🛒",
+     "p": 49.9,
+     "o": 64.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Orbit Refresher Žvýkačky 17,9 g",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 25.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "L'OR 1 kg",
+     "e": "🛒",
+     "p": 499.0,
+     "o": 699.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "L'OR 450 g",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 459.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "L'OR 500 g",
+     "e": "🛒",
+     "p": 299.0,
+     "o": 399.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "L'OR Decafeine 100 g",
+     "e": "🛒",
+     "p": 149.9,
+     "o": 214.0,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Kinder Čokoláda 100 g",
+     "e": "🍫",
+     "p": 29.9,
+     "o": 49.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Losos čerstvý – filet s kůží 100 g",
+     "e": "🛒",
+     "p": 28.9,
+     "o": 53.5,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Excellent Fuet Extra 150 g",
+     "e": "🛒",
+     "p": 36.9,
+     "o": 61.9,
+     "v": "do 1.12."
+    },
+    {
+     "n": "Jihočeské trvanlivé mléko 3,5% 1 l",
+     "e": "🥛",
+     "p": 11.9,
+     "o": 27.9,
+     "v": "do 1.12."
     },
     {
      "n": "Haribo Želé bonbony 100 g",
@@ -3492,1766 +6999,16 @@
      "v": "do 24.11."
     },
     {
-     "n": "Kunín Smetana ke šlehání 31% 200 g",
-     "e": "🥛",
-     "p": 19.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Losos čerstvý – filet s kůží 100 g",
-     "e": "🛒",
-     "p": 28.9,
-     "o": 53.5,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Tchibo Gold Selection 200 g",
-     "e": "🛒",
-     "p": 139.9,
-     "o": 269.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Lada Mléčné neapolitánky 90 g",
-     "e": "🛒",
-     "p": 59.9,
-     "o": 89.9,
-     "v": "do 24.11."
-    },
-    {
      "n": "Vánoční želé polomáčené 235 g",
      "e": "🛒",
      "p": 69.9,
      "o": 99.9,
      "v": "do 24.11."
-    },
-    {
-     "n": "JOJO Vánoční mix 150 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Lindt Santa Claus 70 g",
-     "e": "🛒",
-     "p": 69.9,
-     "o": 89.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Milly Adventní kalendář 75 g",
-     "e": "🛒",
-     "p": 39.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Orion Salonky s perníčkovou příchutí 340 g",
-     "e": "🛒",
-     "p": 129.9,
-     "o": 179.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Orion Krémové figurky 333 g",
-     "e": "🛒",
-     "p": 139.9,
-     "o": 229.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Prasátko s mašlí z mléčné čokolády 40 g",
-     "e": "🍫",
-     "p": 19.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Zvoneček z mléčné čokolády 20 g",
-     "e": "🍫",
-     "p": 9.9,
-     "o": 12.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "4M KidzLabs Krystaly",
-     "e": "🛒",
-     "p": 299.0,
-     "o": 399.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Lindt Mléčná čokoláda vánoční 300 g",
-     "e": "🍫",
-     "p": 199.0,
-     "o": 289.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kinder mix Adventní kalendář 151 g",
-     "e": "🛒",
-     "p": 199.0,
-     "o": 299.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Tatra Tvaroh polotučný 250 g",
-     "e": "🛒",
-     "p": 24.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Emma Vlašské ořechy jádra 200 g",
-     "e": "🛒",
-     "p": 59.9,
-     "o": 79.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Emma Rozinky 200 g",
-     "e": "🛒",
-     "p": 24.9,
-     "o": 27.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Emma Mandle hranolky blanšírované 100 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 41.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Hamé Linecká směs 300 g",
-     "e": "🛒",
-     "p": 39.9,
-     "o": 59.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Orion Čokoláda na vaření 90 g",
-     "e": "🍫",
-     "p": 22.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Dr. Oetker Krémová náplň 65 g",
-     "e": "🛒",
-     "p": 32.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Dr. Oetker Čokoláda na pečení 46% 150 g",
-     "e": "🍫",
-     "p": 54.9,
-     "o": 74.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Dr. Oetker Zdobení druhy zlaté/stříbrné 81 g",
-     "e": "🛒",
-     "p": 54.9,
-     "o": 69.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Dr. Oetker Zdobení bílé 80 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 36.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Dr. Oetker Vanilínový cukr 100 g",
-     "e": "🛒",
-     "p": 13.9,
-     "o": 23.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Dr. Oetker Sněhové vločky 38 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nugeta 340 g",
-     "e": "🛒",
-     "p": 69.9,
-     "o": 99.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Jogurt bílý 150 g",
-     "e": "🥛",
-     "p": 9.9,
-     "o": 11.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Jogurt bílý 400 g",
-     "e": "🥛",
-     "p": 20.9,
-     "o": 26.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Kids Bio Sýrové tyčinky 4× 20 g",
-     "e": "🧀",
-     "p": 24.9,
-     "o": 34.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Gouda 48% – plátky 100 g",
-     "e": "🛒",
-     "p": 33.9,
-     "o": 42.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Vepřová krkovice bez kosti – plátek 250 g",
-     "e": "🛒",
-     "p": 84.9,
-     "o": 119.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Vepřová pečeně bez kosti – plátek 300 g",
-     "e": "🛒",
-     "p": 109.9,
-     "o": 149.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Vánoční štola bez lepku 280 g",
-     "e": "🛒",
-     "p": 64.9,
-     "o": 79.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "jemné kynuté bezlepkové pečivo",
-     "e": "🛒",
-     "p": 54.9,
-     "o": 69.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Obalovaný řízek z pečeně 440 g",
-     "e": "🛒",
-     "p": 59.9,
-     "o": 89.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Marlenka Kuličky bezlepkové 235 g",
-     "e": "🛒",
-     "p": 139.9,
-     "o": 179.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Marlenka bez lepku 800 g",
-     "e": "🛒",
-     "p": 269.0,
-     "o": 349.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Free From Piškoty 120 g",
-     "e": "🛒",
-     "p": 17.9,
-     "o": 21.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Kids Bio Hruškové sušenky 100 g",
-     "e": "🛒",
-     "p": 35.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Free From Těstoviny 500 g",
-     "e": "🍝",
-     "p": 38.9,
-     "o": 46.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Free From Mini müsli tyčinky 55 g",
-     "e": "🛒",
-     "p": 15.9,
-     "o": 19.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Pohanka 500 g",
-     "e": "🛒",
-     "p": 46.9,
-     "o": 59.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Free From Kaše 65 g",
-     "e": "🛒",
-     "p": 10.9,
-     "o": 19.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Bezlepkové Polomáčené sušenky 80 g",
-     "e": "🛒",
-     "p": 22.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Jáhly 500 g",
-     "e": "🛒",
-     "p": 32.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Bezlepková směs na bramborové knedlíky 300 g",
-     "e": "🥔",
-     "p": 34.9,
-     "o": 44.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Müller Riso Protein 180 g",
-     "e": "🛒",
-     "p": 24.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert High Protein Kapsička mix 125 g",
-     "e": "🛒",
-     "p": 16.9,
-     "o": 19.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "High Protein Pudding 200 g",
-     "e": "🛒",
-     "p": 36.9,
-     "o": 53.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Olma Protein pudding 200 g",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Gervais High Protein 100 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Proteinová tyčinka 50 g",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert High Protein Koktejl 30 g",
-     "e": "🛒",
-     "p": 13.9,
-     "o": 23.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "HealthyCo Hazelnut bites 21 g",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 26.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "DayUp Ovocná kapsička s proteinem 100 g",
-     "e": "🛒",
-     "p": 25.9,
-     "o": 32.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Vitamin Well Zero 500 ml",
-     "e": "🛒",
-     "p": 39.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "HealthyCo Proteinella 200 g",
-     "e": "🛒",
-     "p": 99.9,
-     "o": 119.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "4Slim Čekankový topping čokoláda 330 g",
-     "e": "🍫",
-     "p": 129.9,
-     "o": 179.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Yes! Plants Dezert 100 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 43.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Kokosové mléko 400 ml",
-     "e": "🥛",
-     "p": 36.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Rýžové chlebíčky 100 g",
-     "e": "🍚",
-     "p": 33.9,
-     "o": 42.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Čoko kokosky 100 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 42.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Kukuřice 230 g",
-     "e": "🍗",
-     "p": 29.9,
-     "o": 44.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Javorový sirup 250 ml",
-     "e": "🛒",
-     "p": 99.9,
-     "o": 139.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Těstoviny pšeničné 500 g",
-     "e": "🍝",
-     "p": 25.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Čočka červená loupaná 500 g",
-     "e": "🛒",
-     "p": 35.9,
-     "o": 51.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Konzervovaná rajčata 400 g",
-     "e": "🍅",
-     "p": 21.9,
-     "o": 27.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Kečup 530 g",
-     "e": "🛒",
-     "p": 49.9,
-     "o": 74.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Ovesné vločky 500 g",
-     "e": "🛒",
-     "p": 24.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Basmati rýže 500 g",
-     "e": "🍚",
-     "p": 36.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Extra panenský olivový olej 500 ml",
-     "e": "🛒",
-     "p": 129.9,
-     "o": 179.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Borůvky 125 g",
-     "e": "🛒",
-     "p": 39.9,
-     "o": 59.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Hrozny tmavé bezsemenné 500 g",
-     "e": "🍇",
-     "p": 49.9,
-     "o": 69.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Jablka červená 1 kg",
-     "e": "🍎",
-     "p": 19.9,
-     "o": 32.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kaki",
-     "e": "🛒",
-     "p": 11.9,
-     "o": 24.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Meloun vodní mini 1 kg",
-     "e": "🛒",
-     "p": 39.9,
-     "o": 59.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Emma Arašídy pražené loupané 400 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 44.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Emma Pekanové ořechy 150 g",
-     "e": "🛒",
-     "p": 69.9,
-     "o": 89.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Emma Lísková jádra natural 100 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 54.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Emma Kešu natural 200 g",
-     "e": "🛒",
-     "p": 59.9,
-     "o": 79.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Ředkvičky",
-     "e": "🛒",
-     "p": 8.9,
-     "o": 13.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Zázvor 1 kg",
-     "e": "🛒",
-     "p": 99.0,
-     "o": 129.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Cuketa zelená 1 kg",
-     "e": "🛒",
-     "p": 49.9,
-     "o": 59.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "PREMIUM Vepřová šunka* ** 100 g",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 31.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Vepřová euro šunka* 100 g",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 27.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Sedlácký salám* 100 g",
-     "e": "🛒",
-     "p": 16.9,
-     "o": 19.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kladenská pečeně* 100 g",
-     "e": "🛒",
-     "p": 16.9,
-     "o": 22.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kuřecí debrecínka* 100 g",
-     "e": "🍗",
-     "p": 16.9,
-     "o": 21.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Pikantní slanina Delikates* 100 g",
-     "e": "🛒",
-     "p": 24.9,
-     "o": 31.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Královské párky* 100 g",
-     "e": "🛒",
-     "p": 21.9,
-     "o": 26.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Salám Princ* 100 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 43.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kostelecké uzeniny Poctivá šunka od kosti 100 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kostelecké uzeniny Salám Junior 100 g",
-     "e": "🛒",
-     "p": 15.9,
-     "o": 21.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Ponnath Vídeňské minipárečky se sýrem 200 g",
-     "e": "🧀",
-     "p": 44.9,
-     "o": 74.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kuřecí prsní řízky 1 kg",
-     "e": "🍗",
-     "p": 129.9,
-     "o": 229.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kuřecí steak mletý 500 g",
-     "e": "🍗",
-     "p": 69.9,
-     "o": 89.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kuřecí stehna 1 kg",
-     "e": "🍗",
-     "p": 89.9,
-     "o": 119.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Plněná krkovice s rozmarýnem 1 kg",
-     "e": "🛒",
-     "p": 139.9,
-     "o": 219.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Cereální raženka 80 g",
-     "e": "🛒",
-     "p": 6.9,
-     "o": 8.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Pizza 75 g",
-     "e": "🛒",
-     "p": 16.9,
-     "o": 21.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Šnek se skořicí 80 g",
-     "e": "🛒",
-     "p": 13.9,
-     "o": 17.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Duetky 220 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 35.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Toustový chléb 500 g",
-     "e": "🍞",
-     "p": 23.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Madeta Romadur 100 g",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 32.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Eidam 45% 250 g",
-     "e": "🧀",
-     "p": 36.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Císařská niva 45% – výseč 100 g",
-     "e": "🛒",
-     "p": 25.9,
-     "o": 34.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Madetka Tavený sýr 100 g",
-     "e": "🧀",
-     "p": 23.9,
-     "o": 28.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Balkánský sýr 180 g",
-     "e": "🧀",
-     "p": 29.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Liptov – plátky 90 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 44.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Jihočeský cottage 150 g",
-     "e": "🛒",
-     "p": 26.9,
-     "o": 32.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Italat Mozzarella 100 g",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Lučina 100 g",
-     "e": "🛒",
-     "p": 26.9,
-     "o": 31.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Gervais Original 150 g",
-     "e": "🛒",
-     "p": 36.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kiri 100 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 44.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Smetanito 150 g",
-     "e": "🥛",
-     "p": 29.9,
-     "o": 53.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Italat Mascarpone 200 g",
-     "e": "🛒",
-     "p": 54.9,
-     "o": 79.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Sedlčanský Hermelín 100 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 47.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Florian Smetanový jogurt 150 g",
-     "e": "🥛",
-     "p": 9.9,
-     "o": 17.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Lipánek 130 g",
-     "e": "🛒",
-     "p": 16.9,
-     "o": 23.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Milko Můj skyr 130 g",
-     "e": "🛒",
-     "p": 14.9,
-     "o": 21.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Monte Snack 29 g",
-     "e": "🛒",
-     "p": 10.9,
-     "o": 15.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Jogurt z Valašska bílý 150 g",
-     "e": "🥛",
-     "p": 9.9,
-     "o": 15.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Florian Drink 400 g",
-     "e": "🛒",
-     "p": 18.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Olma Mléko čerstvé 1,5% 1 l",
-     "e": "🥛",
-     "p": 28.9,
-     "o": 34.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Choceňské pomazán- kové neochucené 150 g",
-     "e": "🛒",
-     "p": 32.9,
-     "o": 43.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Retro pochoutkový salát 100 g",
-     "e": "🛒",
-     "p": 13.9,
-     "o": 16.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Salát à la krab 100 g",
-     "e": "🛒",
-     "p": 15.9,
-     "o": 21.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Omega 250 g",
-     "e": "🛒",
-     "p": 39.9,
-     "o": 44.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Celerová grónská pomazánka 100 g",
-     "e": "🛒",
-     "p": 14.9,
-     "o": 18.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Agricol Poličanka Majonéza 230 ml",
-     "e": "🛒",
-     "p": 27.9,
-     "o": 34.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Don Peppe Plněné knedlíky 600 g",
-     "e": "🛒",
-     "p": 69.9,
-     "o": 97.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Gustona Špenát sekaný 400 g",
-     "e": "🛒",
-     "p": 22.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Farm Frites Hranolky 600 g",
-     "e": "🛒",
-     "p": 54.9,
-     "o": 72.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Zmrzlina Pegas 100 ml",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Perla Máslová příchuť 450 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 54.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kunín Athentikos Jogurt bílý 400 g",
-     "e": "🥛",
-     "p": 29.9,
-     "o": 41.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Olma Cavalier 130 g",
-     "e": "🛒",
-     "p": 13.9,
-     "o": 18.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Olma Dezert pudingový 200 g",
-     "e": "🛒",
-     "p": 13.9,
-     "o": 19.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kunín Zakysaná smetana 12% 190 g",
-     "e": "🥛",
-     "p": 21.9,
-     "o": 26.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Müllermilch Mléčný nápoj 382 ml",
-     "e": "🛒",
-     "p": 21.9,
-     "o": 31.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Zmrzlina Viennetta 650 ml",
-     "e": "🛒",
-     "p": 76.9,
-     "o": 96.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "BeBe Dobré ráno Naměkko 50 g",
-     "e": "🛒",
-     "p": 13.9,
-     "o": 16.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Milena 32 g",
-     "e": "🛒",
-     "p": 9.9,
-     "o": 17.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kiri a křup 35 g",
-     "e": "🛒",
-     "p": 16.9,
-     "o": 19.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Víno Motýl 0,75 l",
-     "e": "🛒",
-     "p": 69.9,
-     "o": 119.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Caro 200 g",
-     "e": "🛒",
-     "p": 89.9,
-     "o": 169.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nescafé Crema Refill 150 g",
-     "e": "🛒",
-     "p": 109.9,
-     "o": 134.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Gemerka 1,5 l",
-     "e": "🛒",
-     "p": 11.9,
-     "o": 17.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Doritos Tortilla Chips 90 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 52.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Hašlerky 90 g",
-     "e": "🛒",
-     "p": 15.9,
-     "o": 34.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Milka Čokopiškoty 147 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 47.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Božkov Peprmint/ Modrá 0,5 l",
-     "e": "🛒",
-     "p": 129.9,
-     "o": 169.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Tchibo Exclusive 250 g",
-     "e": "🛒",
-     "p": 99.9,
-     "o": 224.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Teekanne Čaj 50 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 44.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Toffifee 125 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 54.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Emco Sušenky 60 g",
-     "e": "🛒",
-     "p": 13.9,
-     "o": 15.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Fitness Granola 300 g",
-     "e": "🛒",
-     "p": 79.9,
-     "o": 99.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nestlé Dětské cereálie 360 g",
-     "e": "🛒",
-     "p": 79.9,
-     "o": 119.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kit Kat Tabulka 99 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 69.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Jihlavanka Espresso 750 g",
-     "e": "🛒",
-     "p": 229.0,
-     "o": 399.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Tassimo Kapsle",
-     "e": "🛒",
-     "p": 129.9,
-     "o": 174.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Franz Josef Olivový olej extra panenský 500 ml",
-     "e": "🛒",
-     "p": 109.9,
-     "o": 139.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Hamé Paštika 48 g",
-     "e": "🛒",
-     "p": 9.9,
-     "o": 19.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Otma Gurmán Kečup 520 g",
-     "e": "🛒",
-     "p": 49.9,
-     "o": 79.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Franz Josef Omáčka na těstoviny 370 ml",
-     "e": "🍝",
-     "p": 39.9,
-     "o": 73.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Adriana Těstoviny 500 g",
-     "e": "🍝",
-     "p": 24.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Zátkovy vaječné těstoviny 500 g",
-     "e": "🍝",
-     "p": 25.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Znojmia Okurky 660 g",
-     "e": "🛒",
-     "p": 39.9,
-     "o": 59.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Santa Maria Tortilla Wrap 371 g",
-     "e": "🛒",
-     "p": 59.9,
-     "o": 99.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Vitana Masox 110 g",
-     "e": "🥩",
-     "p": 19.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Franz Josef Tuňák – steak 80 g",
-     "e": "🛒",
-     "p": 24.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "RIO mare Paté 100 g",
-     "e": "🛒",
-     "p": 54.9,
-     "o": 99.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Lagris Čočka velkozrnná 500 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Vitana Rýže Loupaná 400 g",
-     "e": "🍚",
-     "p": 34.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Živina Teriyaki omáčka 270 g",
-     "e": "🛒",
-     "p": 139.9,
-     "o": 169.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Starobrno Štatl 0,5 l",
-     "e": "🛒",
-     "p": 17.9,
-     "o": 24.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Braník 0,5 l",
-     "e": "🛒",
-     "p": 9.9,
-     "o": 14.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Excelent 0,5 l",
-     "e": "🛒",
-     "p": 11.9,
-     "o": 19.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Velkopopovický Kozel Nealko 0,5 l",
-     "e": "🛒",
-     "p": 17.9,
-     "o": 22.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Bohemia Chips Z pece 100 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Pringles Chips 165 g",
-     "e": "🛒",
-     "p": 59.9,
-     "o": 89.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Bohemia Arašídy 200 g",
-     "e": "🛒",
-     "p": 39.9,
-     "o": 59.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Bohemia Tyčinky 80 g",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Budvar Výčepní 0,5 l",
-     "e": "🛒",
-     "p": 9.9,
-     "o": 17.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Giotti Prosecco Frizzante 0,75 l",
-     "e": "🛒",
-     "p": 99.9,
-     "o": 139.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Asconi Gold 0,75 l",
-     "e": "🛒",
-     "p": 89.9,
-     "o": 109.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Heffron 0,5 l",
-     "e": "🛒",
-     "p": 219.0,
-     "o": 339.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Hanácká Trendy 0,5 l",
-     "e": "🛒",
-     "p": 119.9,
-     "o": 164.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Grant's Triple Wood Whisky 0,5 l",
-     "e": "🛒",
-     "p": 199.0,
-     "o": 329.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Tullamore D.E.W. 0,7 l",
-     "e": "🛒",
-     "p": 329.0,
-     "o": 599.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Templářské sklepy Pouch Up 1,5 l",
-     "e": "🛒",
-     "p": 139.9,
-     "o": 179.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Barton & Guestier Reserve 0,75 l",
-     "e": "🛒",
-     "p": 149.9,
-     "o": 199.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Rodinné vinařství Břeclav 0,75 l",
-     "e": "🛒",
-     "p": 109.9,
-     "o": 199.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Poděbradka Prolinie 1,5 l",
-     "e": "🛒",
-     "p": 13.9,
-     "o": 19.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Tiger 0,5 l",
-     "e": "🛒",
-     "p": 14.9,
-     "o": 32.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Targa/ Royal Crown 1,33 l",
-     "e": "🛒",
-     "p": 26.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kubík Water 0,5 l",
-     "e": "🛒",
-     "p": 11.9,
-     "o": 20.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Party Drink 0,75 l",
-     "e": "🛒",
-     "p": 49.9,
-     "o": 59.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Jupí Sirup 0,7 l",
-     "e": "🛒",
-     "p": 31.9,
-     "o": 54.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Popstar Broskev/ vanilka 1 l",
-     "e": "🛒",
-     "p": 39.9,
-     "o": 49.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Gemerka Imunita 0,75 l",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Ondrášovka 1,5 l",
-     "e": "🛒",
-     "p": 13.9,
-     "o": 19.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Cappy Pulpy 1 l",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 44.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Schweppes 1,5 l",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Mattoni Imuno 0,7 l",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Lactovit Tělové mléko 400 ml",
-     "e": "🥛",
-     "p": 139.9,
-     "o": 189.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Sommelier Collection Ryzlink rýnský 0,75 l",
-     "e": "🛒",
-     "p": 149.9,
-     "o": 219.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Excellent Šunka 100 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 44.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Excellent Speciální paštika 120 g",
-     "e": "🛒",
-     "p": 34.9,
-     "o": 41.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Excellent Salámky 105 g",
-     "e": "🛒",
-     "p": 39.9,
-     "o": 62.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Excellent Makronky mandlové 144 g",
-     "e": "🛒",
-     "p": 99.9,
-     "o": 129.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Excellent Profiteroles/Tiramisu 500 g",
-     "e": "🛒",
-     "p": 89.9,
-     "o": 109.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Excellent Krůtí trhané 350 g",
-     "e": "🛒",
-     "p": 119.9,
-     "o": 149.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Excellent Srnčí guláš 350 g",
-     "e": "🛒",
-     "p": 149.9,
-     "o": 199.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Salát Rodinný mix 500 g",
-     "e": "🛒",
-     "p": 49.9,
-     "o": 59.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Salát Allegra mix 160 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 36.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Zelný salát s křenem 350 g",
-     "e": "🛒",
-     "p": 27.9,
-     "o": 32.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Zelný salát s rajčetem 350 g",
-     "e": "🍅",
-     "p": 27.9,
-     "o": 32.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Salát Vivace mix 180 g",
-     "e": "🛒",
-     "p": 29.9,
-     "o": 36.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Mrkvový salát s ananasem 350 g",
-     "e": "🥕",
-     "p": 27.9,
-     "o": 32.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Albert Zelný salát s červenou řepou 350 g",
-     "e": "🛒",
-     "p": 27.9,
-     "o": 32.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Zmrzlina Mrož 45 ml",
-     "e": "🛒",
-     "p": 15.9,
-     "o": 26.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Zmrzlina Calippo 105 ml",
-     "e": "🛒",
-     "p": 24.9,
-     "o": 33.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Zmrzlina Cornetto multipack 6× 90ml",
-     "e": "🛒",
-     "p": 99.9,
-     "o": 169.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Zmrzlina Solero multipack 6× 50 ml",
-     "e": "🛒",
-     "p": 94.9,
-     "o": 149.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "HiPP Bio Ovocná oplatka 23 g",
-     "e": "🛒",
-     "p": 23.9,
-     "o": 29.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nature's Promise Bio Ovocné pyré 90 g",
-     "e": "🛒",
-     "p": 13.5,
-     "o": 15.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Hello XXL Ovocná svačinka 200 g",
-     "e": "🛒",
-     "p": 11.9,
-     "o": 21.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Hami Masozeleninový příkrm 250 g",
-     "e": "🥩",
-     "p": 31.9,
-     "o": 52.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "M&M's Bonbony 45 g",
-     "e": "🛒",
-     "p": 16.9,
-     "o": 34.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Maltesers 37 g",
-     "e": "🛒",
-     "p": 16.9,
-     "o": 34.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "L'OR Kapsle",
-     "e": "🛒",
-     "p": 89.9,
-     "o": 129.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "L'OR 1 kg",
-     "e": "🛒",
-     "p": 499.0,
-     "o": 699.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nowaco Filé 300 g",
-     "e": "🛒",
-     "p": 79.9,
-     "o": 114.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Vitana Čína 97 g",
-     "e": "🛒",
-     "p": 46.9,
-     "o": 56.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Kotányi Paprika lahůdková mletá 25 g",
-     "e": "🥩",
-     "p": 15.9,
-     "o": 25.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Vitana Koření Špagety 23 g",
-     "e": "🍝",
-     "p": 15.9,
-     "o": 21.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Cibule Bistro Vývar 1 l",
-     "e": "🧅",
-     "p": 84.9,
-     "o": 99.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Vitana Instantní polévka 27 g",
-     "e": "🛒",
-     "p": 9.9,
-     "o": 14.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Vitana Polévka 95 g",
-     "e": "🛒",
-     "p": 26.9,
-     "o": 32.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Buldak Instantní pálivé ramen nudle 140 g",
-     "e": "🛒",
-     "p": 39.9,
-     "o": 59.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Nekton Sardinky MAXI 125 g",
-     "e": "🛒",
-     "p": 24.9,
-     "o": 43.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Giana Uzené šproty v oleji 160 g",
-     "e": "🛒",
-     "p": 36.9,
-     "o": 59.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Bel Vatové tyčinky",
-     "e": "🛒",
-     "p": 27.9,
-     "o": 39.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Bacchini Kuskus 500 g",
-     "e": "🛒",
-     "p": 32.9,
-     "o": 64.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Boneco Hořčice Dijon 260 g",
-     "e": "🛒",
-     "p": 24.9,
-     "o": 27.5,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Exotic Food Sladká chilli omáčka 725 ml",
-     "e": "🛒",
-     "p": 89.9,
-     "o": 119.9,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Ondoliva Extra Virgin Olivový olej 750 ml",
-     "e": "🛒",
-     "p": 199.0,
-     "o": 369.0,
-     "v": "do 24.11."
-    },
-    {
-     "n": "Müller MIX 130 g",
-     "e": "🛒",
-     "p": 12.9,
-     "o": 22.9,
-     "v": "do 24.11."
     }
    ]
   },
   "Lidl": {
-   "updated": "2026-11-22T13:12:11.479195+00:00",
+   "updated": "2026-11-24T15:40:37.485581+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -5263,11 +7020,46 @@
      "img": "https://www.lidl.cz/assets/gcp3664db8b9ca04f0085a65037ecf7bb99.jpg"
     },
     {
+     "n": "SILVERCREST® Strojek na těstoviny",
+     "e": "🍝",
+     "p": 239.9,
+     "o": 299.9,
+     "img": "https://www.lidl.cz/assets/gcpbeb6036603b84ba6a5f31f9ab7280790.jpg"
+    },
+    {
+     "n": "SILVERCREST® Sada rozprašovačů na ocet a olej Premium",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 119.9,
+     "img": "https://www.lidl.cz/assets/gcpd185389ded7f44fb99370f7deadef03f.jpg"
+    },
+    {
+     "n": "SILVERCREST® Elektrický mlýnek na sůl a pepř pastelový",
+     "e": "🛒",
+     "p": 119.9,
+     "o": 149.9,
+     "img": "https://www.lidl.cz/assets/gcp5721e67190314646b6821f67ddd82e6a.jpg"
+    },
+    {
+     "n": "SILVERCREST® Elektrický mlýnek na sůl nebo pepř EDS SME 6 A1",
+     "e": "🛒",
+     "p": 129.9,
+     "o": 149.9,
+     "img": "https://www.lidl.cz/assets/gcp49d99e26627748df9704265e310e37c6.png"
+    },
+    {
      "n": "ESMARA® Dámské vroubkované triko s dlouhými rukávy, 2 kusy",
      "e": "🛒",
      "p": 229.9,
      "o": 269.9,
      "img": "https://www.lidl.cz/assets/gcp0d162e92ddee4090870b0b63e69907b0.png"
+    },
+    {
+     "n": "Elektrický mlýnek na sůl a pepř pastelový",
+     "e": "🛒",
+     "p": 119.9,
+     "o": 149.9,
+     "img": "https://www.lidl.cz/assets/gcp722020830a4048dea481af31f1b10ac8.jpg"
     },
     {
      "n": "Dámské triko s 3/4 rukávy, 2 kusy",
@@ -5277,25 +7069,11 @@
      "img": "https://www.lidl.cz/assets/gcpfcaea0c3a9644cdbb00ed70e1a1727b3.jpg"
     },
     {
-     "n": "Sada rozprašovačů na ocet a olej Premium",
+     "n": "Tavná lepicí pistole / Tavné lepicí tyčinky, Ø 7 mm",
      "e": "🛒",
      "p": 99.9,
-     "o": 119.9,
-     "img": "https://www.lidl.cz/assets/gcp4b7d29bcde6e43b48fd36b38787bccbd.jpg"
-    },
-    {
-     "n": "Dušená šunka nejvyšší jakosti",
-     "e": "🛒",
-     "p": 19.9,
-     "o": 34.9,
-     "img": "https://www.lidl.cz/assets/gcp424e07b3bd9e41dc8d5ba7058e3f9cbe.png"
-    },
-    {
-     "n": "Mandarinky",
-     "e": "🛒",
-     "p": 24.9,
-     "o": 49.9,
-     "img": "https://www.lidl.cz/assets/gcp6f9bfc27abfe49db9e029bbe5c2d807d.png"
+     "o": 129.9,
+     "img": "https://www.lidl.cz/assets/gcp626d293d40f04ff79c51b61460c847d7.png"
     },
     {
      "n": "Nízkoteplotní tavné tyčinky",
@@ -5303,11 +7081,18 @@
      "p": 36.9,
      "o": 79.9,
      "img": "https://www.lidl.cz/assets/gcpb0335cd52a6d4afd8ecd42ba0c909344.jpg"
+    },
+    {
+     "n": "Dámské vroubkované triko s dlouhými rukávy, 2 kusy",
+     "e": "🛒",
+     "p": 229.9,
+     "o": 269.9,
+     "img": "https://www.lidl.cz/assets/gcp9720425553e74cabaef2b9159370942e.png"
     }
    ]
   },
   "Billa": {
-   "updated": "2026-11-22T13:12:11.479195+00:00",
+   "updated": "2026-11-24T15:40:37.485581+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -5389,5 +7174,5 @@
    ]
   }
  },
- "run": "2026-11-22T13:12:11.479195+00:00"
+ "run": "2026-11-24T15:40:37.485581+00:00"
 }
