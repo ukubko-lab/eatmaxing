@@ -1,7 +1,7 @@
 {
  "stores": {
   "Albert": {
-   "updated": "2026-11-26T14:55:16.686770+00:00",
+   "updated": "2026-11-28T14:00:36.501920+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -5986,31 +5986,10 @@
    ]
   },
   "Lidl": {
-   "updated": "2026-11-26T14:55:16.686770+00:00",
+   "updated": "2026-11-28T14:00:36.501920+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
-    {
-     "n": "ESMARA® Dámské triko s 3/4 rukávy, 2 kusy",
-     "e": "🛒",
-     "p": 179.9,
-     "o": 199.9,
-     "img": "https://www.lidl.cz/assets/gcp3664db8b9ca04f0085a65037ecf7bb99.jpg"
-    },
-    {
-     "n": "ESMARA® Dámské vroubkované triko s dlouhými rukávy, 2 kusy",
-     "e": "🛒",
-     "p": 229.9,
-     "o": 269.9,
-     "img": "https://www.lidl.cz/assets/gcp0d162e92ddee4090870b0b63e69907b0.png"
-    },
-    {
-     "n": "SILVERCREST® Strojek na těstoviny",
-     "e": "🍝",
-     "p": 239.9,
-     "o": 299.9,
-     "img": "https://www.lidl.cz/assets/gcpbeb6036603b84ba6a5f31f9ab7280790.jpg"
-    },
     {
      "n": "SILVERCREST® Sada rozprašovačů na ocet a olej Premium",
      "e": "🛒",
@@ -6033,6 +6012,27 @@
      "img": "https://www.lidl.cz/assets/gcp49d99e26627748df9704265e310e37c6.png"
     },
     {
+     "n": "ESMARA® Dámské triko s dlouhými rukávy",
+     "e": "🛒",
+     "p": 99.9,
+     "o": 129.9,
+     "img": "https://www.lidl.cz/assets/gcp1f64ba753d7a40a99dbb1dc7ef1cce78.png"
+    },
+    {
+     "n": "ESMARA® Dámské triko s 3/4 rukávy, 2 kusy",
+     "e": "🛒",
+     "p": 179.9,
+     "o": 199.9,
+     "img": "https://www.lidl.cz/assets/gcp3664db8b9ca04f0085a65037ecf7bb99.jpg"
+    },
+    {
+     "n": "ESMARA® Dámské vroubkované triko s dlouhými rukávy, 2 kusy",
+     "e": "🛒",
+     "p": 229.9,
+     "o": 269.9,
+     "img": "https://www.lidl.cz/assets/gcp0d162e92ddee4090870b0b63e69907b0.png"
+    },
+    {
      "n": "Ořechy (Kešu ořechy)",
      "e": "🛒",
      "p": 49.9,
@@ -6040,23 +6040,30 @@
      "img": "https://www.lidl.cz/assets/gcp189037402cc54fad91643dd093d8f45b.png"
     },
     {
+     "n": "Vařená šunka ve vlastní šťávě",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 32.9,
+     "img": "https://www.lidl.cz/assets/gcp0d44ef52aeb74622a318757a222eefd6.png"
+    },
+    {
+     "n": "Máslo",
+     "e": "🛒",
+     "p": 19.9,
+     "o": 24.9,
+     "img": "https://www.lidl.cz/assets/gcpbccfd84126fd4e55acf02535725e220f.png"
+    },
+    {
      "n": "Elektrický mlýnek na sůl a pepř pastelový",
      "e": "🛒",
      "p": 119.9,
      "o": 149.9,
      "img": "https://www.lidl.cz/assets/gcp722020830a4048dea481af31f1b10ac8.jpg"
-    },
-    {
-     "n": "Nízkoteplotní tavné tyčinky",
-     "e": "🛒",
-     "p": 36.9,
-     "o": 79.9,
-     "img": "https://www.lidl.cz/assets/gcpb0335cd52a6d4afd8ecd42ba0c909344.jpg"
     }
    ]
   },
   "Billa": {
-   "updated": "2026-11-26T14:55:16.686770+00:00",
+   "updated": "2026-11-28T14:00:36.501920+00:00",
    "valid": "aktuální",
    "status": "ok",
    "deals": [
@@ -6120,5143 +6127,5245 @@
    ]
   }
  },
- "run": "2026-11-26T14:55:16.686770+00:00",
+ "run": "2026-11-28T14:00:36.501920+00:00",
  "prices": [
   {
    "s": "Albert",
    "n": "Vepřová kýta bez kosti – v celku 1 kg",
    "p": 179.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Máslo 250 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kuře bez drobů a čtvrtky 1 kg",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pomeranče volné 1 kg",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kunín Smetana ke šlehání 31% 200 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kofola 2 l",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jägermeister 0,7 l",
    "p": 569.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kinder Surprise 20 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gustona Slunečnicový olej 1 l",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nutella 1 kg",
    "p": 269.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Milko Řecký jogurt 140 g",
    "p": 22.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Monte Mléčný dezert 150 g",
    "p": 27.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Madeta Jihočeský eidam 30% – plátky 100 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Perla Máslová příchuť 450 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pizza Ristorante 365 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kofila/Banány v čokoládě 45 g",
    "p": 12.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pickwick Ovocný čaj 40 g",
    "p": 45.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Opavia Miňonky 50 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lay's Chips 130 g",
    "p": 57.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Franz Josef Tuňák – steak 170 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Znojmia Okurky 520 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tchibo Gold Selection 200 g",
    "p": 269.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gambrinus Original 0,5 l",
    "p": 16.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Svijanský Máz 0,5 l",
    "p": 22.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dobrá voda 1,5 l",
    "p": 20.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Radegast Ryze hořká 0,5 l",
    "p": 25.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Viña Tarapacá 0,75 l",
    "p": 209.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Musti Nobilis Prosecco 0,75 l",
    "p": 299.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Deka beránek",
    "p": 399.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Král Sýrů Hermelín 120 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Velkopopovický Kozel 0,5 l",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hera 500 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hanácká Vodka 0,5 l",
    "p": 209.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Kešu natural 500 g",
    "p": 199.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Vejce z podestýlky M",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Výrobek z mletého masa mix 400 g",
    "p": 74.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lindt Zlatý medvídek 100 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Coca-Cola 4pack 4× 1,5 l",
    "p": 149.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Figaro Čokoláda na vaření 90 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mandarinky balení 2,3 kg 1 kg",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Okurka salátová hadovka",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Milka Kravička z mléčné čokolády 15,8 g",
    "p": 14.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Balíček z mléčné čokolády 85 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Milka Sněhulák 50 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lindt Santa Claus 70 g",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lindt Mini figurky 50 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Orion Arabesky 130 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Ferrero/ Raffaello hvězda 40 g",
    "p": 74.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Raffaello Pralinky 80 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Winter minis 400 g",
    "p": 139.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Orion Lanýžové a krémové figurky 333 g",
    "p": 229.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Zvoneček z mléčné čokolády 20 g",
    "p": 12.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Brumík multipack 150 g",
    "p": 57.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mixit Adventní kalendář plný Crème boulí 720 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Podkova zlatá z mléčné čokolády 30 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Zlaté mince v síťce 50 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Milly Adventní kalendář 75 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kinder Duo Sušenky 150 g",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lada Mléčné neapolitánky 90 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mixit Mandle z adventních trhů s medem a skořicí 60 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mixit Crème boule Cinnamon 30 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Adventní kalendář 240 g",
    "p": 399.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Droždí čerstvé 100 g",
    "p": 11.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Poleva mléčná 100 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Čokoláda na pečení 46% 150 g",
    "p": 74.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Tubičky bílé 76 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tatra Salko tradiční 397 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Perníčky 450 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Opavia Piškoty 220 g",
    "p": 43.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schwartau Extra Džem 340 g",
    "p": 64.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Zdobení druhy bílé 73 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Babiččina volba Mouka 1 kg",
    "p": 33.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Orion Čokoláda na vaření 90 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Vlašské ořechy 500 g",
    "p": 179.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Božkov Na pečení 0,5 l",
    "p": 169.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Máslo 82% 125 g",
    "p": 46.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Zakysaná smetana 15% 175 g",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Kypřicí prášek 12 g",
    "p": 9.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Čerstvá vejce",
    "p": 76.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Chia semínka 100 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Třtinový cukr 400 g",
    "p": 38.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Kokosová mouka 250 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Kokos strouhaný 100 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Rozinky 150 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Ghee 400 ml",
    "p": 229.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Banány 1 kg",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Citrony balené 500 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Jablka skládaná 1 kg",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Kiwi",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Mrkev 750 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Healthy Life Kozí jogurt 150 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Kids Bio Sýrové tyčinky 4× 20 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Mozzarella 125 g",
    "p": 37.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Okurka",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Eidam 30% – plátky 100 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Healthy Life Ovčí jogurt 150 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Healthy Life Kozí mléko čerstvé 3,2% 500 ml",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Camembert 120 g",
    "p": 42.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Jogurt bílý smetanový 150 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Jogurt ochucený 180 g",
    "p": 17.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Jogurt bílý 180 g",
    "p": 16.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Jogurt ochucený smetanový 150 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Máslo 125 g",
    "p": 47.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Tvaroh polotučný 250 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Parenica 110 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Žervé 150 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Zakysaná smetana 15% 180 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Sýr s modrou plísní 115 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Čerstvé mléko 1,5% 1 l",
    "p": 36.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Gouda – plátky 100 g",
    "p": 42.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Smetana 30% 200 ml",
    "p": 36.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Obalované karbanátky se sýrem 220 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Obalované masové kuličky se sýrem a špenátem 300 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Pan Blanco Chléb 250 g",
    "p": 57.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Maestro Vital Chléb 350 g",
    "p": 96.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Kaiserky 240 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Piškotový dezert 35 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Pain Campagnard Chléb 240 g",
    "p": 81.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Muffin 50 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Sladké rohlíčky 200 g",
    "p": 72.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Korpus na pizzu 300 g",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Směs na pečení 1 kg",
    "p": 121.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Brownies mix 350 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Preclíky 60 g",
    "p": 37.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Lasagne 250 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Perníčky 200 g",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Panettone 420 g",
    "p": 199.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Knäckebrot 230 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Křupavé tyčinky 60 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Sušenky s máslovou příchutí 55 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Věnečky 100 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Bio Tyčinky 45 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Bio Pohankové vločky 250 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Chlebíčky rýžovo-kukuřičné 130 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Bio Plátky 50 g",
    "p": 16.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Kukuřičná strouhanka 200 g",
    "p": 21.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Müsli 250 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Směs na pizzu 500 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Těstoviny 500 g",
    "p": 46.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Veggie Bio Polévka 400 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Kids Ovocné Gummies 35 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Mini cookies s čokoládou 120 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Veggie Bujón 88 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Veggie Bio Žluté kari 283 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Veggie Bio Pomazánka 235 g",
    "p": 46.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Mandlový nápoj 1 l",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Veggie Nudličky hrachové 75 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Cizrnové placičky 250 g",
    "p": 45.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Sójový vanilkový nápoj 1 l",
    "p": 33.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Tapiokový sirup 350 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Veggie Bio Pomazánka 150 g",
    "p": 42.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Veggie Bio Pomazánka 125 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Losos uzený – plátky 100 g",
    "p": 115.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Veggie Bio Polévka 600 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Lasagne Bolognese 400 g",
    "p": 112.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Salami Milano 70 g",
    "p": 92.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Pancetta 70 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Coppa 70 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Kids Bio Hruškové sušenky 100 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Veggie Bio Kimchi natur 350 g",
    "p": 199.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Granola 50 g",
    "p": 38.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Ovesné lupínky 200 g",
    "p": 41.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Koření 20 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Quinoa 250 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Tortilla Chips 150 g",
    "p": 42.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Kukuřice 230 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Cizrna 250 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Cornflakes 300 g",
    "p": 46.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Jablečný protlak 350 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Rajčatová omáčka 340 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Hrášek 230 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Passata 690 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Bylinná směs 27 g",
    "p": 46.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Kokosový olej 200 ml",
    "p": 64.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Mini müsli tyčinky sýrové 55 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Bylinný čaj 40 g",
    "p": 46.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Bulgur 500 g",
    "p": 52.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Těstoviny celozrnné 500 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Těstoviny pšeničné 500 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Rakytníková šťáva 250 ml",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Rýžový sirup 250 ml",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Bio Mungo 500 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kaki",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Hrozny tmavé bezsemenné 500 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Borůvky 125 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kiwi",
    "p": 13.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Grapefruit červený 1 kg",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jablka Gala skládaná 1 kg",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Salátový mix brokolicový 500 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Salátový mix 300 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Salátový mix Caesar 350 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Bylinky v kořenáči",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Salát Fresco mix 140 g",
    "p": 36.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Paprika sladká",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kedlubna bílá",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Brambory konzumní pozdní 5 kg",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Salát s mrkví mix 165 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Baby Špenát 100 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Rukola 100 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "PREMIUM Vepřová šunka* 100 g",
    "p": 31.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kladenská pečeně 100 g",
    "p": 27.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kuřecí debrecínka 100 g",
    "p": 21.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sedlácký salám 100 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Poličan 100 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Striptýzky 100 g",
    "p": 11.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kostelecké uzeniny Poctivá řemeslná šunka 100 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pikantní slanina Delikates 100 g",
    "p": 31.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kostelecké uzeniny Poctivé vídeňské párky 180 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Schwarzwaldská šunka 80 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Šunka nejvyšší jakosti 200 g",
    "p": 63.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sládkův salám 100 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kuřecí prsní řízky 1 kg",
    "p": 229.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kuřecí steak mletý 500 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tatarský biftek 250 g",
    "p": 109.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kuřecí horní a spodní stehna mix 1 kg",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pstruh kuchaný 100 g",
    "p": 23.3,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hovězí přední s kostí – žebro 1 kg",
    "p": 249.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hovězí kulatá plec 1 kg",
    "p": 389.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Výrobek z mletého hovězího masa 480 g",
    "p": 149.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Kuřecí spodní stehna 450 g",
    "p": 139.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vepřový bok bez kosti – plátky 1 kg",
    "p": 159.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mistrovský chléb 500 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Máslový čert 190 g",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bulka sýrová 65 g",
    "p": 14.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kornbageta s kváskem 115 g",
    "p": 14.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Burek 79 g",
    "p": 14.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Donut s polevou 57 g",
    "p": 14.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Závin 400 g",
    "p": 47.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kostka s pudinkem 98 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Milka Croissant 50 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Louhovaný preclík 80 g",
    "p": 11.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Ovocný medovník 70 g",
    "p": 12.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Perníkový sněhulák mini 30 g",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pan Perníček 75 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Medovníček 10× 22 g",
    "p": 149.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Eidam 45% – plátky 200 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Cheddar 50% 100 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Mozzarella 125 g",
    "p": 22.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Císařská niva 45% – výseč 100 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Balkánský sýr 180 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Leerdammer – plátky 100 g",
    "p": 51.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Laktos Cottage 200 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gervais 80 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Madeta Romadur 100 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Grana Padano DOP 32% 100 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lučina 180 g",
    "p": 64.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Apetito Smetanové XXL 187 g",
    "p": 72.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Veselá kráva Lahodná 120 g",
    "p": 53.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Míša Tvarohový mls 130 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hollandia Selský jogurt 200 g",
    "p": 21.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bobík 130 g",
    "p": 27.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Activia bílá 4× 120 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kostíci 109 g",
    "p": 22.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Activia Jogurtový nápoj 280 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Choceňské pomazánkové neochucené 150 g",
    "p": 43.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Smetanový jogurt z Valašska 150 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pierot 150 g",
    "p": 20.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Olma Klasik bílý 1 kg",
    "p": 74.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kunín Oveska 150 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Milko Tvaroh polotučný 250 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Česká chuť Trvanlivé mléko 1,5% 1 l",
    "p": 21.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pařížský salát 100 g",
    "p": 15.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Česneková pomazánka se sýrem 100 g",
    "p": 20.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tuňáková pomazánka se sušenými rajčaty 100 g",
    "p": 27.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Camembertová pomazánka 100 g",
    "p": 23.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Vejce v aspiku 200 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Meggle Smetana bezlaktózová 30% 200 ml",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Agricol Tatarská omáčka 230 ml",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hellmann's Majonéza 100 ml",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Frosta Zelenina do trouby 400 g",
    "p": 74.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nowaco Filé 300 g",
    "p": 114.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lurpak Roztíratelný tuk 200 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nowaco Obalovaný sýr 200 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nowaco Čínská směs 350 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Farm Frites Vlnky do trouby 450 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Hotová jídla 400 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Olma Cavalier 130 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Olma Jogurt Tlapková patrola 105 g",
    "p": 16.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kunín Termix extra 130 g",
    "p": 22.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Milko Zakysaná smetana 15% 175 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Activia Kefír 280 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Olma Mléko čerstvé 1,5% 1 l",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Müllermilch Mléčný nápoj 382 ml",
    "p": 31.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Blaťácké zlato – výseč 120 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Zmrzlina Míša 55 ml",
    "p": 25.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "BeBe Sušenky 130 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hašlerky 90 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Margot Tyčinka 80 g",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Avanti 0,75 l",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Rexona Antiperspirant sprej* 150 ml",
    "p": 76.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kláštorná Kalcia 1,5 l",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dynybyl Gin 0,5 l",
    "p": 229.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nescafé Crema Refill 275 g",
    "p": 249.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Milka Čokoláda 300 g",
    "p": 109.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kit Kat Tabulka 99 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Toblerone 100 g",
    "p": 83.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Toffifee 125 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Manner Oplatky 75 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Roshen Oplatky 72 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sedita Horalky 50 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kinder Bueno 43 g",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mila Oplatka 50 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Marilky 33 g",
    "p": 10.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Merci Lovelies 185 g",
    "p": 139.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nugeta 42 g",
    "p": 13.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Fidorka Oplatka 30 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "JOJO Želé bonbony 80 g",
    "p": 16.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Trolli Želé bonbony 200 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Figaro Čokopiškoty 147 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mannner Knuspino Oplatky 110 g",
    "p": 33.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dolce Gusto Kapsle",
    "p": 149.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tchibo Exclusive 250 g",
    "p": 224.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emco Sušenky 60 g",
    "p": 15.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vitto Tea 45 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jacobs Káva v sáčcích 126 g",
    "p": 87.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Granko 400 g",
    "p": 149.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emco Mysli 750 g",
    "p": 125.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nestlé Dětské cereálie 360 g",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Fitness Granola 300 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Fit Tyčinka 35 g",
    "p": 12.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tchibo Barista 1 kg",
    "p": 799.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pickwick Ranní 175 g",
    "p": 149.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tassimo Kapsle",
    "p": 174.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jihlavanka Espresso 750 g",
    "p": 399.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bonduelle Zlatá kukuřice 340 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "RIO mare Insalatissime 160 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hamé Pomazánka 120 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hamé Paštika 120 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Viva Konzerva s vepřovým masem 400 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Viva Maďarský guláš 400 g",
    "p": 64.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Giana Rajčata krájená 400 g",
    "p": 36.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Giana Jahodový kompot 400 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hamé Špagetka 400 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Heinz Kečup jemný 460 g",
    "p": 77.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Seville Olivy bez pecky 350 g",
    "p": 61.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Senf Hořčice plnotučná 900 ml",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Franz Josef Tuňákový salát 160 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nekton Makrela v oleji 240 g",
    "p": 57.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Franz Josef Olivový olej extra panenský 500 ml",
    "p": 139.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Knorr Jíška 250 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vitana Masox 110 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Buldak Instantní pálivé ramen nudle 140 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Cukr bílý krupice 1 kg",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Santa Maria Tortilla Wrap 371 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Adriana Těstoviny 500 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Ar Rashid Arašídy solené 60 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pure Beef Omáčka na těstoviny 400 g",
    "p": 124.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Avelopa Niťovky 250 g",
    "p": 45.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vitana Rýže loupaná 800 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Originální hospodské brambůrky 180 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Chio Pom-Bär 50 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "limitovaná edice",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Doritos Tortilla chipsy 90 g",
    "p": 52.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Živina Pad Thai omáčka 370 g",
    "p": 169.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mattoni 1,5 l",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Big Shock! 0,5 l",
    "p": 41.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tiger 0,5 l",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hello Džus a nektar 1 l",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "YO Sirup 0,7 l",
    "p": 94.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Cappy 1 l",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gemerka Imunita/Vitalita 0,75 l",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Magnesia red 1,5 l",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mattoni Imuno 0,7 l",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Capri-Sun 200 ml",
    "p": 13.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Poděbradka Prolinie 1,5 l",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Aquila 1,5 l",
    "p": 17.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Coca-Cola/ Fanta 2 l",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pepsi 1,5 l",
    "p": 38.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Red Bull 4pack 4× 250 ml",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Coca-Cola 4pack 4× 330 ml",
    "p": 84.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gambrinus Patron 0,5 l",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Cool 0,5 l",
    "p": 23.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Birell 4pack 4× 0,33 l",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gambrinus Original 6pack 6× 0,5 l",
    "p": 134.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Frisco 330 ml",
    "p": 25.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Proud 0,33 l",
    "p": 23.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Birell 0,5 l",
    "p": 20.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Staropramen 6pack 6× 0,5 l",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Krušovice 0,5 l",
    "p": 23.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Braník 0,5 l",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lišácké jablko 0,5 l",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mustang Hořký 0,5 l",
    "p": 21.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Cecilia 0,5 l",
    "p": 25.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Zlatopramen 1,5 l",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Braník 2 l",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "DeAngeli Pinot Grigio 0,75 l",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Butterfly 0,75 l",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Habánské sklepy 0,75 l",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mionetto Orange Spritz 0,25 l",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mucha Sekt 0,75 l",
    "p": 184.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Solicello Prosecco Frizzante DOC 0,75 l",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "El Clásico Salted Caramel 0,5 l",
    "p": 249.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "B42V Eccentric Vodka 0,5 l",
    "p": 219.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Captain Morgan 0,7 l",
    "p": 499.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Moravský košt Švestka 0,5 l",
    "p": 219.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "FinlandiaVodka 0,7 l",
    "p": 499.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jean Claude Mas 0,75 l",
    "p": 179.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bepin de Eto Prosecco Superiore DOCG Extra Dry 0,75 l",
    "p": 399.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jean Claude Mas Chardonnay 0,75 l",
    "p": 179.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Davinus 0,75 l",
    "p": 179.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Stará žitná myslivecká 0,5 l",
    "p": 209.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Fernet Stock 0,7 l",
    "p": 299.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Republica Exclusive 0,5 l",
    "p": 199.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tullamore D.E.W. 0,7 l",
    "p": 599.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Durex Pánská ochrana*",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hello Ovocná svačinka 100 g",
    "p": 13.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hello XXL Ovocná svačinka 200 g",
    "p": 21.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gerber Junior Ovocné pyré 110 g",
    "p": 38.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "HiPP Bio Masozeleninový příkrm 250 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gerber Bio Křupky 35 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sunar do ručičky Ovocné pyré 100 g",
    "p": 33.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hamánek Ovocné pyré 100 g",
    "p": 27.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sunar Masozeleninové pyré 120 g",
    "p": 57.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kiddylicious Tyčinky 12 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hami Masozeleninový příkrm 250 g",
    "p": 52.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hello Ovocná svačinka 190 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Leros Čaj 20× 2 g",
    "p": 57.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hami Sušenky Safari 180 g",
    "p": 72.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sunar Křupky 50 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "HiPP Bio Ovocná oplatka 23 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hami Mléčná kaše 210 g",
    "p": 96.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sunar Mléčná kaše 210 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "NUK Mycí prostředek na láhve a savičky* 500 ml",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "MAM Lahev Anti-Colic* 160 ml",
    "p": 279.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "MAM Easy to drink Cup* 290 ml",
    "p": 339.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Masozeleninový příkrm 190 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Ovocné pyré 90 g",
    "p": 15.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vileda Rainbow Houbičky",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Savo Original 1,2 l",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Home Kitchen Pytle zatahovací 60 l",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pattex Chemoprén 50 ml",
    "p": 84.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Ceresit Stop vlhkosti Aero 360° Náhradní tablety* 2× 450 g",
    "p": 279.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Loctite Super Bond Control Vteřinové lepidlo* 3 g",
    "p": 159.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Zateplené phylony*",
    "p": 399.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sada nerezového nádobí Swing",
    "p": 1999.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Puzzle Ball Pokémon",
    "p": 379.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "v SVC 8726BK",
    "p": 4999.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Olivy zelené s mandlí 355 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Gouda mladá 48% 100 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Zaanlander uleželý 48% 100 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Zaanlander mladý 48% 100 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Zaanlander starý 48% 100 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nabídka na této straně platí do 1. 12.",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sommelier Collection Prosecco DOC 0,75 l",
    "p": 249.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Papriková klobása 250 g",
    "p": 136.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Chorizo Iberico 200 g",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Chorizo extra 75 g",
    "p": 47.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Salámky 105 g",
    "p": 62.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Pražská šunka 1 kg",
    "p": 249.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Curado Sušená plec na kosti 4 kg",
    "p": 1899.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Profiteroles/Tiramisu 2× 90 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Losos 125 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Obložený chlebíček 125 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "World's Market Gnocchi 500 g",
    "p": 35.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Panna Cotta 2× 110 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Vepřové trhané 550 g",
    "p": 139.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Vepřová žebra 600 g",
    "p": 179.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "PERLA MEDOVNÍK 650 g",
    "p": 269.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vánoční andělka",
    "p": 139.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sodastream Výrobník Fresh Plus 1 l",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mikina beránek",
    "p": 159.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lamart Pánev Orro",
    "p": 469.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lumpin Králíček Carlo",
    "p": 349.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dóza na cukroví 1,2 l",
    "p": 2990.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sencor Horkovzdušná fritéza SFR 8800SS 8 l",
    "p": 2999.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kabriolet s panenkou a pejskem",
    "p": 399.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kamion s autíčky v",
    "p": 499.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Závodní dron formule v jezdí i létá",
    "p": 899.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Woody Dřevěná vlaková dráha – Farma",
    "p": 899.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Soubor her",
    "p": 999.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "4M KidzLabs Krystaly",
    "p": 1199.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pejsek Ťapka interaktivní",
    "p": 1090.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Play & Squish Senzorické podložky",
    "p": 599.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mini puzzle",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Merkur Dvouplošník",
    "p": 499.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Míč s aktivitami",
    "p": 299.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "SEQUENCE Junior Tlapková patrola",
    "p": 499.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Make It Real – kosmetické studio",
    "p": 599.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Motor šroubovací s efekty",
    "p": 399.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Panenka Princezna",
    "p": 899.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Klikva – brusinka 500 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Fíky sušené 200 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Datle sušené 200 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Švestky 500 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emma Baby fíky 150 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emma Kešu pražené 250 g",
    "p": 109.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emma Lísková jádra blanšírovaná 100 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emma Mandle v mléčné čokoládě a skořici 200 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emma Pistácie pražené nesolené 250 g",
    "p": 109.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emma Arašídy pražené neloupané 500 g",
    "p": 55.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Adventní kalendář suché plody 560 g",
    "p": 399.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Extrakt Bourbon vanilka Madagaskar 35 ml",
    "p": 74.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Barva gelová zelená 10 g",
    "p": 51.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Zdobicí poleva tmavá kakaová 140 g",
    "p": 86.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vanilkový cukr 160 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Vanilkový lusk Bourbon",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Čokoládové kousky 70 g",
    "p": 43.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Fondán 250 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker 100% vaječné bílky 15 g",
    "p": 38.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Krémová náplň 65 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Zdobení bílé 80 g",
    "p": 36.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Poleva na vaření 90 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Kuličky duhové 65 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Srdíčka 40 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pâtifu Pomazánka 100 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bombus Ovocná tyčinka 40 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kukuřičné lupínky 65 g",
    "p": 37.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Semix Klíčené ovesné vločky 300 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schnitzer Bio Bowl 60 g",
    "p": 56.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "HealthyCo Bio Kokosová voda 1 l",
    "p": 109.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pandy Želé bonbony 50 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bear Ovocné plátky 5× 20 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "YumEarth Bio Lízátka mix 87 g",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Yfood Nápoj 500 ml",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "ManaDrink Mark 400 ml",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mana Powder Mark 430 g",
    "p": 329.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Waterdrop",
    "p": 189.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Healthy Life Shot 125 ml",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Healthy Life Šťáva 500 ml",
    "p": 64.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Healthy Life Smoothie 250 ml",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gerber Cereal Mlíčko s kaší 2× 200 ml",
    "p": 74.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sunar Bio Křupky 18 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "HiPP Bio Kaše na dobrou noc 190 g",
    "p": 66.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gerber Hello Yogo Mléčný dezert 4× 100 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sunar Ovocná kašička 120 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gerber Cereal Mléčná kaše 230 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Johnson's Olej 200 ml",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sunar Instantní nápoj 200 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bepanthen Mast 100 g",
    "p": 329.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "TropiCane Třtinový cukr 500 g",
    "p": 47.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Zlaté polomáčené 150 g",
    "p": 33.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "BeBe Dobré ráno 50 g",
    "p": 12.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Papita Tyčinka 33 g",
    "p": 10.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mattoni Vision 0,7 l",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jupí Sirup 0,7 l",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Original River Tonic 2 l",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bask Bramborové knedlíky 400 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Menu Gold Pohanka 450 g",
    "p": 46.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jägermeister Winter 0,7 l",
    "p": 569.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Avokádo Pepř barevný celý 20 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kotányi Bobkový list 5 g",
    "p": 21.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vitana Čína 97 g",
    "p": 56.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vitana MAXI Grilovací koření 90 g",
    "p": 56.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Cibule Bistro Vývar 1 l",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vimi Instantní nudlová polévka 50 g",
    "p": 15.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vitana Instantní polévka 27 g",
    "p": 14.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vitana Velká rodinná polévka 184 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Exotic Food Sladká chilli omáčka 725 ml",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vi Huong Instantní nudle 300 g",
    "p": 55.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "RIO mare Paté 100 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hellmann's Omáčka k masu 250 ml",
    "p": 71.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "L'OR Kapsle",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Orbit Refresher Žvýkačky dóza 67 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Orbit Žvýkačky 64 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Orbit Žvýkačky sáček 50 g",
    "p": 64.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Orbit Refresher Žvýkačky 17,9 g",
    "p": 25.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "L'OR 1 kg",
    "p": 699.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "L'OR 450 g",
    "p": 459.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "L'OR 500 g",
    "p": 399.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "L'OR Decafeine 100 g",
    "p": 214.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kinder Čokoláda 100 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Losos čerstvý – filet s kůží 100 g",
    "p": 53.5,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Fuet Extra 150 g",
    "p": 61.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jihočeské trvanlivé mléko 3,5% 1 l",
    "p": 27.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emma Lísková jádra 500 g",
    "p": 179.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nescafé Crema 200 g",
    "p": 239.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vitana Poctivá Majonéza/ Tatarská omáčka 425 ml",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bonavita Müsli 750 g",
    "p": 104.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kit Kat Mikuláš 29 g",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Makarena Želé 200 g",
    "p": 74.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Milka Oreo Rounds 86 g",
    "p": 74.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vánoční balíček Mikuláš 62,5 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mixit Crème boule Cinammon chocolate 30 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mixit Andělské nadělení do kapsy 65 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Ferrero Rocher 100 g",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lumpin MUFU plyš",
    "p": 279.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kolekce Zasněžená vesnice 400 g",
    "p": 289.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Kids Adventní kalendář 240 g",
    "p": 399.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emma Rozinky sultánky 200 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Zdobení druhy zlaté/stříbrné 81 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emma Mandle blanšírované 100 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Holandské kakao 100 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lipánek Mléko ochucené 250 ml",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Olma Klasik 400 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kunín Pohár Mléčný dezert 150 g",
    "p": 20.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Madeta Jihočeská zakysaná smetana 11% 180 g",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Zmrzlina Magnum 110 ml",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pribináček Tyčinka s tvarohem 38 g",
    "p": 16.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kaštany Tyčinka 45 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Caro 200 g",
    "p": 169.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Fernet Stock 0,5 l",
    "p": 209.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Jogurt ochucený 150 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Cottage 150 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Camembert 120 g",
    "p": 37.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Mozzarella 120 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Eidam 45% – plátky 100 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Celer řapíkatý 350 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Paprika sladká",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Salát ledový",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Healthy Life Kozí jogurt bílý 150 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Healthy Life Ovčí jogurt bílý 150 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Maestro Cereální chléb 300 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Gris & Ciocc Tyčinky 52 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Mix B 1 kg",
    "p": 121.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Schär Pan Rustico Chléb 250 g",
    "p": 67.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Kečup 530 g",
    "p": 74.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Free From Piškoty 120 g",
    "p": 21.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Rýžová mouka 500 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Bezlepková směs na perník 400 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Bezlepková jíška světlá 250 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Bezlepkové Polomáčené sušenky 80 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Bezlepková směs na bramborové knedlíky 300 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Datlový sirup 250 ml",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Celozrnná oplatka 30 g",
    "p": 23.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Rýžové chlebíčky 100 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Čaj 28 g",
    "p": 46.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Agávový sirup 250 ml",
    "p": 64.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Delfínci 50 g",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Kuskus celozrnný 500 g",
    "p": 48.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Cizrna 250 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Kokosové mléko 400 ml",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Mandlová mouka 250 g",
    "p": 149.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Čoko kokosky 100 g",
    "p": 42.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Müsli 350 g",
    "p": 74.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Javorový sirup 250 ml",
    "p": 139.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Rajčata krájená 400 g",
    "p": 27.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Kukuřice 230 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Čočka červená loupaná 500 g",
    "p": 51.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Ovesné vločky 500 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Basmati rýže 500 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Těstoviny 500 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Extra panenský olivový olej 500 ml",
    "p": 179.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Vejce čerstvá",
    "p": 76.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nature's Promise Bio Hotové jídlo 400 g",
    "p": 112.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Coppa Organic tray 70 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Salame Milano 70 g",
    "p": 92.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pro!Brands Creatine Soft Tyčinka 40 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bombus Raw Proteinová tyčinka 50 g",
    "p": 36.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "DayUp Ovocná kapsička s proteinem 100 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Maxsport Proteinová tyčinka 60 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Barebells Proteinová Tyčinka 55 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vilgain Double Trouble Proteinová tyčinka Crispy Choconut Cream 55 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bombus Proteinová tyčinka 50 g",
    "p": 36.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Clear protein soda 330 ml",
    "p": 42.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gam's Proteinové bonbony 70 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mixitka Brownie & Protein 43 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Avokádo",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jablka Crimson Snow 1 kg",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pomelo",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert 100% šťáva 750 ml",
    "p": 84.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Hrozny bílé bezsemenné 500 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Borůvky 250 g",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Rajčata cherry oválná 500 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Brokolice",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert PETRŽEL 350 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Paprika mix 500 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Salát Little Gem",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Batáty 1 kg",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Le & Co Šunka nejvyšší jakosti* 100 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Herkules* 100 g",
    "p": 27.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vepřová šunka dušená Idema* 100 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kladenská pečeně* 100 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Anglická slanina* 100 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Javořické párky* 100 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Ponnath Kapiový salám 100 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kostelecké uzeniny Kostelecký uherák 100 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Šunka dušená výběrová 100 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kovářský salám 500 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kuřecí prsa s kostí 1 kg",
    "p": 189.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kuřecí křídla 1 kg",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vodňanská kachna 1 kg",
    "p": 165.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hovězí přední bez kosti – kližka 1 kg",
    "p": 299.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Královské Kuřecí prsní řízky 600 g",
    "p": 199.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vepřová krkovice s kostí – plátky 1 kg",
    "p": 179.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Česnekový chléb z kamenné pece 405 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bulka sýrová 75g",
    "p": 14.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Rolka gouda 92 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hot Dog s vepřovým párkem 99 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Gouda 48% 250 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Président Camembert 90 g",
    "p": 47.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jihočeská niva 45% – porce 100 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Président Balkánský sýr 250 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sedlčanský Hermelín duopack 2× 100 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dairly Cottage Cheese 200 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Mozzarella třešinky 120 g",
    "p": 31.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lučina 120 g",
    "p": 46.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Milko Žervé 80 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Apetito 140 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sýr a křup 35 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Liptov Bryndza 100 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gervais de la Crème 180 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Madeta Jihočeský syreček 90 g",
    "p": 32.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Madeta Jihočeský eidam 45% – plátky 100 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Florian Lahodný jogurt 150 g",
    "p": 15.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Choceňský smetanový jogurt bílý 150 g",
    "p": 17.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jihočeský Tvaroh & jogurt 130 g",
    "p": 14.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Carte d'Or Dezert 140 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Fantasia 118 g",
    "p": 22.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jaroměřické tradiční pomazánkové 150 g",
    "p": 41.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bohemilk Olešnický tvaroh jemný 300 g",
    "p": 64.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kunín Šlehačka de luxe 40% 200 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jaroměřický tvaroh 250 g",
    "p": 47.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Starbucks White Chocolate Mocha 220 ml",
    "p": 78.8,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Olma Smetana na vaření 12% 200 g",
    "p": 28.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pribináček 125 g",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kunín Kefírové mléko 300 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kunín Čerstvé mléko 1,5% 1 l",
    "p": 38.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Hotové jídlo 400 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Retro pochoutkový salát 100 g",
    "p": 16.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Zavináče 100 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Linco Roztíratelný tuk 500 ml",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Omega 250 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Albert Lasagne MAXI 1 kg",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Flora 400 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Alpro Sójový nápoj 1 l",
    "p": 77.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hellmann's Tatarská omáčka/ Majonéza 100 ml",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nowaco Zelenina pod svíčkovou 350 g",
    "p": 35.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Zmrzlina Magnum pinta 440 ml",
    "p": 199.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pizza Guseppe 425 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nowaco Obalovaný květák 400 g",
    "p": 68.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Nowaco Vlnky do trouby 750 g",
    "p": 77.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mylord Krevety 187,5 g",
    "p": 159.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Raffaello 150 g",
    "p": 155.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kinder Cards 128 g",
    "p": 82.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Studentská pečeť 170 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Papita 33 g",
    "p": 10.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Knuspino Oplatky 110 g",
    "p": 33.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Manner Snack multipack 125 g",
    "p": 53.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Brumík 30 g",
    "p": 13.5,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Snickers Tyčinka 50 g",
    "p": 28.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Oreo Sušenky 176 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "JOJO Želé bonbony 170 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Mamba Karamelky 106 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pedro Želé bonbony 80 g",
    "p": 23.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tic Tac Two 38,5 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lexus 500 g",
    "p": 174.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Douwe Egberts 250 g",
    "p": 149.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Cafissimo Kapsle",
    "p": 129.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Loyd Pyramidový čaj 40 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pigi Černý čaj 37,5 g",
    "p": 17.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Emco Ovesná kaše 55 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Ovocná pomazánka 230 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pickwick Zelený čaj 40 g",
    "p": 45.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Corny BIG 50 g",
    "p": 22.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jacobs Velvet Refill 180 g",
    "p": 189.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Jacobs Velvet 1 kg",
    "p": 499.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "PERLA ORIGINS 500 g",
    "p": 239.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Giana Uzené šproty v oleji 160 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Franz Josef Sardelová očka 45 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Franz Josef Tuňák – steak 2× 80 g",
    "p": 82.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Giana Rajčata loupaná 500 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Giana Fazole 400 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bonduelle Zlatá kukuřice 170 g",
    "p": 41.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hamé Moravanka 330 g",
    "p": 47.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Efko Stříbřité cibulky 330 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hamé Trenčanské párky s fazolí 400 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Giana Okurky sterilované 670 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Viva Utopenci 670 g",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Barilla Těstoviny 500 g",
    "p": 64.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vitana Poctivá polévka 134 g",
    "p": 43.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "YumYum Instantní nudlová polévka 70 g",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vitana Grilovací koření 28 g",
    "p": 20.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Knorr Bohatý bujón 112 g",
    "p": 57.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Barilla Omáčka na těstoviny 400 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Manka Řepkový olej 1 l",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kotányi Mlýnek Pepř čtyřbarevný 35 g",
    "p": 87.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lagris Rýže parboiled 400 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Magnesia 1,5 l",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Monster 0,5 l",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kubík Water 0,5 l",
    "p": 20.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Korunní 1,5 l",
    "p": 19.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Coca-Cola/Fanta 2 l",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Hello Multivitamin 1 l",
    "p": 43.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Relax Džus 100% jablko 1 l",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lipton Ledový čaj 1,5 l",
    "p": 41.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pepsi/Mirinda 2,25 l",
    "p": 47.2,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Velkopopovický Kozel 6pack 6× 0,5 l",
    "p": 147.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Radegast Ratar 0,5 l",
    "p": 29.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lobkowicz Premium 0,5 l",
    "p": 21.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Starobrno Medium 0,5 l",
    "p": 23.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Zlatý Bažant 0,5 l",
    "p": 23.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Staropramen 0,5 l",
    "p": 16.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "TUC Bake Rolls 80 g",
    "p": 28.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Arašídy pražené solené 100 g",
    "p": 15.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Krušovice Ležák 1,5 l",
    "p": 58.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Cheetos Křupky 85 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Zámecké vinařství Bzenec 0,75 l",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Château Valtice 0,75 l",
    "p": 109.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "J.P. Chenet 0,75 l",
    "p": 119.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Brise de France 0,75 l",
    "p": 124.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Fantasy 1 l",
    "p": 169.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Cielo Prosecco Frizzante DOC 0,75 l",
    "p": 189.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Rodinné vinařství Břeclav 0,75 l",
    "p": 199.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Roche Mazet 0,75 l",
    "p": 189.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tini 3 l",
    "p": 229.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "DeAngeli Prosecco DOC Millesimato Brut 0,75 l",
    "p": 189.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Cavatina Prosecco 0,75 l",
    "p": 299.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Cinzano 0,75 l",
    "p": 299.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "La Bohéma Vaječný likér 0,5 l",
    "p": 109.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Pražská Jemná 0,5 l",
    "p": 179.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Becherovka 0,5 l",
    "p": 249.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Moravská Švestka 0,5 l",
    "p": 229.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Finlandia Vodka 0,7 l",
    "p": 499.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Gordon's Gin 0,7 l",
    "p": 489.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Limoncè Aperitivo 0,7 l",
    "p": 279.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Grant's Triple Wood Whisky 0,7 l",
    "p": 489.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Tullamore D.E.W. 0,5 l",
    "p": 449.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Baileys Irish Cream 0,7 l",
    "p": 529.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kubík Ovocná svačinka 100 g",
    "p": 17.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "v Tablety",
    "p": 299.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "robot Gustus V Vario",
    "p": 7999.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Farmbrie 50% 100 g",
    "p": 44.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Tenký uherský salám 200 g",
    "p": 139.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Pekelný salám s chilli 75 g",
    "p": 54.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Fuet Iberico 150 g",
    "p": 89.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Spianata Romana 80 g",
    "p": 66.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Mortadella 80 g",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Holandské kakao 100 g",
    "p": 49.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Smeta-fix 10 g",
    "p": 5.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Zdobení pestré 80 g",
    "p": 38.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Barva gelová 10 g",
    "p": 51.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Sněhové vločky 38 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Tubičky 76 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Vanilínový cukr 100 g",
    "p": 23.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Dr. Oetker Marcipán 200 g",
    "p": 79.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Puzzle",
    "p": 99.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Sada sklenic na bílé/ červené víno 580 ml",
    "p": 479.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "ETA Elektrický pečicí hrnec Pečenka Ceramic 4,3 l",
    "p": 479.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Závodní formule",
    "p": 199.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Norské ponožky se vzorem",
    "p": 449.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Panenka Anežka",
    "p": 349.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Menu inspirace Zelené fazolky 300 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Menu inspirace Brokolice 300 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Menu inspirace Květák 400 g",
    "p": 59.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Menu inspirace Mix coleslaw 250 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Menu inspirace Brambory mini s kořením 425 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Menu inspirace Bramborové hranolky 1 kg",
    "p": 69.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Moravské uzené 100 g",
    "p": 34.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Kuřecí párky 200 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Métská čajovka 140 g",
    "p": 36.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lovecký salám 75 g",
    "p": 24.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Vysočina 300 g",
    "p": 73.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Anglická slanina 400 g",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Essa Čočka červená 500 g",
    "p": 37.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Maggi Polévka 83 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Starbucks Kapsle",
    "p": 124.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Lavazza Caffé Espresso 250 g",
    "p": 229.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Davidoff 100 g",
    "p": 259.0,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Ovocné pyré s vločkami 90 g",
    "p": 21.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Kukuřičné tyčinky 60 g",
    "p": 39.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Nápoj 260 ml",
    "p": 36.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Ovocná tyčinka 25 g",
    "p": 18.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Bio Ovocná přesnídávka 190 g",
    "p": 26.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Albert",
    "n": "Excellent Fuet 150 g",
    "p": 61.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Lidl",
    "n": "ESMARA® Dámské triko s 3/4 rukávy, 2 kusy",
    "p": 199.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
   },
   {
    "s": "Lidl",
    "n": "ESMARA® Dámské vroubkované triko s dlouhými rukávy, 2 kusy",
    "p": 269.9,
-   "t": "2026-11-26"
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Lidl",
+   "n": "SILVERCREST® Sada rozprašovačů na ocet a olej Premium",
+   "p": 119.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Lidl",
+   "n": "SILVERCREST® Elektrický mlýnek na sůl a pepř pastelový",
+   "p": 149.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Lidl",
+   "n": "SILVERCREST® Elektrický mlýnek na sůl nebo pepř EDS SME 6 A1",
+   "p": 149.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Lidl",
+   "n": "Ořechy (Kešu ořechy)",
+   "p": 79.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Lidl",
+   "n": "Elektrický mlýnek na sůl a pepř pastelový",
+   "p": 149.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Billa",
+   "n": "Bon Via Rajče cherry oválné 250g, vanička",
+   "p": 32.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Billa",
+   "n": "Šunka Marina nejvyšší jakosti",
+   "p": 32.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Billa",
+   "n": "GHI - přepuštěné máslo 420 ml",
+   "p": 299.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Billa",
+   "n": "Medokom Med květový 900g",
+   "p": 149.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Billa",
+   "n": "Kvasko škvarkový chléb 505g",
+   "p": 59.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Billa",
+   "n": "Kobliha Berliner s meruňkovou náplní a práškovým posypem 65g",
+   "p": 9.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Billa",
+   "n": "Máslový croissant",
+   "p": 11.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Billa",
+   "n": "Rohlík Vita selský 60g",
+   "p": 6.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Billa",
+   "n": "Chléb konzumní s kmínem",
+   "p": 25.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Lidl",
+   "n": "ESMARA® Dámské triko s dlouhými rukávy",
+   "p": 129.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Lidl",
+   "n": "Vařená šunka ve vlastní šťávě",
+   "p": 32.9,
+   "t": "2026-11-28"
+  },
+  {
+   "s": "Lidl",
+   "n": "Máslo",
+   "p": 24.9,
+   "t": "2026-11-28"
   },
   {
    "s": "Lidl",
@@ -11266,92 +11375,8 @@
   },
   {
    "s": "Lidl",
-   "n": "SILVERCREST® Sada rozprašovačů na ocet a olej Premium",
-   "p": 119.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Lidl",
-   "n": "SILVERCREST® Elektrický mlýnek na sůl a pepř pastelový",
-   "p": 149.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Lidl",
-   "n": "SILVERCREST® Elektrický mlýnek na sůl nebo pepř EDS SME 6 A1",
-   "p": 149.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Lidl",
-   "n": "Ořechy (Kešu ořechy)",
-   "p": 79.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Lidl",
-   "n": "Elektrický mlýnek na sůl a pepř pastelový",
-   "p": 149.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Lidl",
    "n": "Nízkoteplotní tavné tyčinky",
    "p": 79.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Billa",
-   "n": "Bon Via Rajče cherry oválné 250g, vanička",
-   "p": 32.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Billa",
-   "n": "Šunka Marina nejvyšší jakosti",
-   "p": 32.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Billa",
-   "n": "GHI - přepuštěné máslo 420 ml",
-   "p": 299.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Billa",
-   "n": "Medokom Med květový 900g",
-   "p": 149.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Billa",
-   "n": "Kvasko škvarkový chléb 505g",
-   "p": 59.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Billa",
-   "n": "Kobliha Berliner s meruňkovou náplní a práškovým posypem 65g",
-   "p": 9.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Billa",
-   "n": "Máslový croissant",
-   "p": 11.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Billa",
-   "n": "Rohlík Vita selský 60g",
-   "p": 6.9,
-   "t": "2026-11-26"
-  },
-  {
-   "s": "Billa",
-   "n": "Chléb konzumní s kmínem",
-   "p": 25.9,
    "t": "2026-11-26"
   }
  ]
